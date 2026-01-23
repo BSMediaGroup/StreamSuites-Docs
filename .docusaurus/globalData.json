@@ -1,0 +1,128 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "creator-guide/automation-basics",
+              "path": "/creator-guide/automation-basics.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "creator-guide/clips-scoreboards",
+              "path": "/creator-guide/clips-scoreboards.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "creator-guide/creator-dashboard",
+              "path": "/creator-guide/creator-dashboard.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/account-types",
+              "path": "/getting-started/account-types.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/first-run",
+              "path": "/getting-started/first-run.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/getting-started/installation.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/creator-workspace",
+              "path": "/guides/creator-workspace.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/getting-started",
+              "path": "/guides/getting-started.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "index",
+              "path": "/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "integrations/discord",
+              "path": "/integrations/discord.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "integrations/rumble",
+              "path": "/integrations/rumble.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "integrations/twitch",
+              "path": "/integrations/twitch.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "integrations/youtube",
+              "path": "/integrations/youtube.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "reference/runtime-overview",
+              "path": "/reference/runtime-overview.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "runtime/automation-states",
+              "path": "/runtime/automation-states.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "runtime/exports-and-versioning",
+              "path": "/runtime/exports-and-versioning.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "runtime/runtime-overview",
+              "path": "/runtime/runtime-overview.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "support/faq",
+              "path": "/support/faq.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "support/support-model",
+              "path": "/support/support-model.html",
+              "sidebar": "docs"
+            },
+            {
+              "id": "support/troubleshooting",
+              "path": "/support/troubleshooting.html",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

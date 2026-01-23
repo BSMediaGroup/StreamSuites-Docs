@@ -1,0 +1,26 @@
+{
+  "id": "creator-guide/clips-scoreboards",
+  "title": "Clips and scoreboards",
+  "description": "Creator guide",
+  "source": "@site/docs/creator-guide/clips-scoreboards.md",
+  "sourceDirName": "creator-guide",
+  "slug": "/creator-guide/clips-scoreboards.html",
+  "permalink": "/creator-guide/clips-scoreboards.html",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Clips and scoreboards",
+    "slug": "/creator-guide/clips-scoreboards.html"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Automation basics",
+    "permalink": "/creator-guide/automation-basics.html"
+  },
+  "next": {
+    "title": "Runtime overview",
+    "permalink": "/runtime/runtime-overview.html"
+  }
+}

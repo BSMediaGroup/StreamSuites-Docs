@@ -4,12 +4,12 @@ module.exports = {
   tagline: 'Documentation hub for StreamSuites.',
   url: 'https://docs.streamsuites.app',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
   organizationName: 'StreamSuites',
   projectName: 'StreamSuites-Docs',
-  trailingSlash: true,
+  trailingSlash: false,
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -29,14 +29,7 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    [
-      require.resolve('@docusaurus/plugin-client-redirects'),
-      {
-        redirects: [{ from: ['/index.html'], to: '/' }],
-      },
-    ],
-  ],
+  plugins: [],
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',

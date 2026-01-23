@@ -1,0 +1,26 @@
+{
+  "id": "support/troubleshooting",
+  "title": "Troubleshooting",
+  "description": "Support",
+  "source": "@site/docs/support/troubleshooting.md",
+  "sourceDirName": "support",
+  "slug": "/support/troubleshooting.html",
+  "permalink": "/support/troubleshooting.html",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Troubleshooting",
+    "slug": "/support/troubleshooting.html"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "FAQ",
+    "permalink": "/support/faq.html"
+  },
+  "next": {
+    "title": "Support model",
+    "permalink": "/support/support-model.html"
+  }
+}

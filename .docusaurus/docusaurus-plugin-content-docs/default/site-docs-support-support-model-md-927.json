@@ -1,0 +1,22 @@
+{
+  "id": "support/support-model",
+  "title": "Support model",
+  "description": "Support",
+  "source": "@site/docs/support/support-model.md",
+  "sourceDirName": "support",
+  "slug": "/support/support-model.html",
+  "permalink": "/support/support-model.html",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Support model",
+    "slug": "/support/support-model.html"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Troubleshooting",
+    "permalink": "/support/troubleshooting.html"
+  }
+}

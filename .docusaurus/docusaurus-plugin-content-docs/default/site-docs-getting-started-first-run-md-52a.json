@@ -1,0 +1,26 @@
+{
+  "id": "getting-started/first-run",
+  "title": "First run",
+  "description": "Getting started",
+  "source": "@site/docs/getting-started/first-run.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/first-run.html",
+  "permalink": "/getting-started/first-run.html",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "First run",
+    "slug": "/getting-started/first-run.html"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/getting-started/installation.html"
+  },
+  "next": {
+    "title": "Account types",
+    "permalink": "/getting-started/account-types.html"
+  }
+}

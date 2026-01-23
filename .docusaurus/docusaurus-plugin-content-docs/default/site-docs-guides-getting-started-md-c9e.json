@@ -1,0 +1,26 @@
+{
+  "id": "guides/getting-started",
+  "title": "Getting started",
+  "description": "Guides",
+  "source": "@site/docs/guides/getting-started.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/getting-started.html",
+  "permalink": "/guides/getting-started.html",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Getting started",
+    "slug": "/guides/getting-started.html"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Account types",
+    "permalink": "/getting-started/account-types.html"
+  },
+  "next": {
+    "title": "Creator workspace",
+    "permalink": "/guides/creator-workspace.html"
+  }
+}

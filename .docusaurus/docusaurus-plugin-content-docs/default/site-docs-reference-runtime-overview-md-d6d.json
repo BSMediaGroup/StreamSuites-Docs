@@ -1,0 +1,26 @@
+{
+  "id": "reference/runtime-overview",
+  "title": "Runtime overview",
+  "description": "Reference",
+  "source": "@site/docs/reference/runtime-overview.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/runtime-overview.html",
+  "permalink": "/reference/runtime-overview.html",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Runtime overview",
+    "slug": "/reference/runtime-overview.html"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Discord",
+    "permalink": "/integrations/discord.html"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/support/faq.html"
+  }
+}

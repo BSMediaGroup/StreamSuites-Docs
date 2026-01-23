@@ -1,0 +1,26 @@
+{
+  "id": "runtime/exports-and-versioning",
+  "title": "Exports and versioning",
+  "description": "Runtime",
+  "source": "@site/docs/runtime/exports-and-versioning.md",
+  "sourceDirName": "runtime",
+  "slug": "/runtime/exports-and-versioning.html",
+  "permalink": "/runtime/exports-and-versioning.html",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Exports and versioning",
+    "slug": "/runtime/exports-and-versioning.html"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Runtime overview",
+    "permalink": "/runtime/runtime-overview.html"
+  },
+  "next": {
+    "title": "Automation states",
+    "permalink": "/runtime/automation-states.html"
+  }
+}

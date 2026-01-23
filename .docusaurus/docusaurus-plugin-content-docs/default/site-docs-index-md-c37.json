@@ -1,0 +1,22 @@
+{
+  "id": "index",
+  "title": "StreamSuites™ Documentation",
+  "description": "Documentation hub",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "StreamSuites™ Documentation",
+    "slug": "/"
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Installation",
+    "permalink": "/getting-started/installation.html"
+  }
+}

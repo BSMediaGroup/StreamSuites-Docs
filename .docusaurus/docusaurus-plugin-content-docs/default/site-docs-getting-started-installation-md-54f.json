@@ -1,0 +1,26 @@
+{
+  "id": "getting-started/installation",
+  "title": "Installation",
+  "description": "Getting started",
+  "source": "@site/docs/getting-started/installation.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/installation.html",
+  "permalink": "/getting-started/installation.html",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Installation",
+    "slug": "/getting-started/installation.html"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "StreamSuites™ Documentation",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "First run",
+    "permalink": "/getting-started/first-run.html"
+  }
+}

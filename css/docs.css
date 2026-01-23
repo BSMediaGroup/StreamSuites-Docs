@@ -225,7 +225,8 @@ img {
   display: flex;
   align-items: center;
   -webkit-tap-highlight-color: transparent;
-  font-size: 0.5rem;
+  transform: scale(0.5);
+  transform-origin: top right;
   line-height: 1;
 }
 
@@ -256,10 +257,11 @@ img {
 
 .theme__icon {
   display: block;
-  top: 0.5em;
-  left: 0.5em;
+  top: 50%;
+  left: 0.75em;
   width: 1.5em;
   height: 1.5em;
+  transform: translateY(-50%);
 }
 
 .theme__icon-part {
@@ -357,7 +359,7 @@ img {
 
 .theme__toggle:checked:before,
 .theme__toggle:checked ~ .theme__icon {
-  transform: translateX(3em);
+  transform: translate(3em, -50%);
 }
 
 .theme__toggle:checked:before {

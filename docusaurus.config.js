@@ -35,8 +35,9 @@ module.exports = {
       {
         hashed: true,
         indexDocs: true,
-        indexPages: false,
+        indexPages: true,
         indexBlog: false,
+        docsRouteBasePath: ['/'],
       },
     ],
   ],

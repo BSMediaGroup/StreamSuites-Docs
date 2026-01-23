@@ -1,6 +1,8 @@
 export default {
+  "138e0e15": [() => import(/* webpackChunkName: "138e0e15" */ "@generated/@easyops-cn/docusaurus-search-local/default/__plugin.json"), "@generated/@easyops-cn/docusaurus-search-local/default/__plugin.json", require.resolveWeak("@generated/@easyops-cn/docusaurus-search-local/default/__plugin.json")],
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   "190a27a8": [() => import(/* webpackChunkName: "190a27a8" */ "@site/docs/support/troubleshooting.md"), "@site/docs/support/troubleshooting.md", require.resolveWeak("@site/docs/support/troubleshooting.md")],
+  "1a4e3797": [() => import(/* webpackChunkName: "1a4e3797" */ "@theme/SearchPage"), "@theme/SearchPage", require.resolveWeak("@theme/SearchPage")],
   "22dd74f7": [() => import(/* webpackChunkName: "22dd74f7" */ "@generated/docusaurus-plugin-content-docs/default/p/index-466.json"), "@generated/docusaurus-plugin-content-docs/default/p/index-466.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/index-466.json")],
   "2a8058e6": [() => import(/* webpackChunkName: "2a8058e6" */ "@site/docs/creator-guide/automation-basics.md"), "@site/docs/creator-guide/automation-basics.md", require.resolveWeak("@site/docs/creator-guide/automation-basics.md")],
   "2acb21c5": [() => import(/* webpackChunkName: "2acb21c5" */ "@site/docs/runtime/exports-and-versioning.md"), "@site/docs/runtime/exports-and-versioning.md", require.resolveWeak("@site/docs/runtime/exports-and-versioning.md")],

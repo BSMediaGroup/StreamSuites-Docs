@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "StreamSuites Documentation",
+  "title": "StreamSuites™",
   "tagline": "Documentation hub for StreamSuites.",
   "url": "https://docs.streamsuites.app",
   "baseUrl": "/",
@@ -36,7 +36,20 @@ export default {
       }
     ]
   ],
-  "plugins": [],
+  "plugins": [
+    [
+      "C:\\NEPTUNE LOCAL\\GIT\\StreamSuites-Docs\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
+      {
+        "hashed": true,
+        "indexDocs": true,
+        "indexPages": true,
+        "indexBlog": false,
+        "docsRouteBasePath": [
+          "/"
+        ]
+      }
+    ]
+  ],
   "themeConfig": {
     "colorMode": {
       "defaultMode": "dark",
@@ -44,7 +57,7 @@ export default {
       "respectPrefersColorScheme": false
     },
     "navbar": {
-      "title": "StreamSuites",
+      "title": "StreamSuites™",
       "logo": {
         "alt": "StreamSuites",
         "src": "assets/logos/logoshield-white.png",

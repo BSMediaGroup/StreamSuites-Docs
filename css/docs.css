@@ -830,6 +830,21 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
 }
 
 .pagefind-search .pagefind-ui__search-input {
+  font-size: 0.625rem !important;
+  line-height: 1.1 !important;
+}
+
+.pagefind-search .pagefind-ui__search-input::placeholder {
+  font-size: 0.625rem !important;
+  line-height: 1.1 !important;
+}
+
+.pagefind-search .pagefind-ui__search-clear {
+  top: 7px !important;
+  transform: none !important;
+}
+
+.pagefind-search .pagefind-ui__search-input {
   font-size: 0.5rem !important;
   line-height: 1.1 !important;
   padding-right: 28px !important;
@@ -865,4 +880,25 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
 .pagefind-search .pagefind-ui__search-clear:hover,
 .pagefind-search .pagefind-ui__search-clear:focus {
   color: var(--search-text) !important;
+}
+
+.pagefind-search .pagefind-ui__form {
+  position: relative;
+}
+
+.pagefind-search .pagefind-ui__search-input {
+  font-size: 0.625rem !important;
+  padding-right: 36px !important;
+}
+
+.pagefind-search .pagefind-ui__search-input::placeholder {
+  font-size: inherit !important;
+}
+
+.pagefind-search .pagefind-ui__search-clear {
+  position: absolute !important;
+  top: 50% !important;
+  right: 10px !important;
+  transform: translateY(-50%) !important;
+  width: auto !important;
 }

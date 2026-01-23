@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "docusaurus start",
-    "build": "docusaurus build && node -e \"const fs=require('fs');const path=require('path');const indexPath=path.join(__dirname,'build','search-index.json');try{if(fs.existsSync(indexPath)){console.log('[search-index] found',path.relative(__dirname,indexPath));}else{console.warn('[search-index] missing build/search-index.json');}}catch(err){console.warn('[search-index] check failed:',err.message);}\"",
+    "build": "docusaurus build",
     "serve": "docusaurus serve",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"

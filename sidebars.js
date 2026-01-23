@@ -26,7 +26,6 @@ module.exports = {
       label: 'Creator guide',
       items: [
         'creator-guide/creator-dashboard',
-        'creator-guide/billing',
         'creator-guide/automation-basics',
         'creator-guide/clips-scoreboards',
       ],
@@ -62,12 +61,6 @@ module.exports = {
       type: 'category',
       label: 'Support',
       items: [
-        { type: 'doc', id: 'support/faq', label: 'Billing FAQ' },
-        {
-          type: 'doc',
-          id: 'support/troubleshooting',
-          label: 'Billing & Payments Troubleshooting',
-        },
         'support/support-model',
       ],
     },

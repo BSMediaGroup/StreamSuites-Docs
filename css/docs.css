@@ -13,6 +13,7 @@
 :root {
   color-scheme: dark;
   --bg: #0e0f12;
+  --surface: rgba(11, 13, 17, 0.76);
   --bg-deep: #0b0d11;
   --panel: rgba(20, 22, 27, 0.78);
   --panel-strong: rgba(24, 28, 35, 0.9);
@@ -22,6 +23,50 @@
   --accent: #8cc736;
   --accent-warm: #f49900;
   --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f3f5f8;
+  --surface: rgba(255, 255, 255, 0.9);
+  --bg-deep: #e3e7ee;
+  --panel: rgba(255, 255, 255, 0.86);
+  --panel-strong: rgba(255, 255, 255, 0.96);
+  --border: rgba(10, 14, 20, 0.14);
+  --text: #121417;
+  --muted: #4a515c;
+  --accent: #6faa23;
+  --accent-warm: #d47900;
+  --shadow: 0 22px 50px rgba(15, 18, 22, 0.18);
+}
+
+[data-theme="light"] .backdrop {
+  background-image: linear-gradient(rgba(15, 18, 22, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 18, 22, 0.05) 1px, transparent 1px);
+  opacity: 0.35;
+}
+
+[data-theme="light"] .nav a:hover,
+[data-theme="light"] .nav a:focus {
+  background: rgba(15, 18, 22, 0.06);
+}
+
+[data-theme="light"] .pagefind-ui__search-input,
+[data-theme="light"] .search input {
+  border-color: rgba(15, 18, 22, 0.18);
+}
+
+[data-theme="light"] .pagefind-ui__search-input::placeholder,
+[data-theme="light"] .search input::placeholder {
+  color: rgba(18, 21, 26, 0.45);
+}
+
+[data-theme="light"] .meta-pill {
+  border-color: rgba(15, 18, 22, 0.14);
+}
+
+[data-theme="light"] .link-list a {
+  background: rgba(15, 18, 22, 0.04);
 }
 
 * {
@@ -166,6 +211,53 @@ img {
   margin-left: auto;
 }
 
+.site-header {
+  position: relative;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.theme-toggle .switch {
+  position: relative;
+  width: 28px;
+  height: 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.theme-toggle .switch::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  top: 1px;
+  left: 1px;
+  transition: left 0.2s ease;
+  background: linear-gradient(135deg, var(--accent), var(--accent-warm));
+}
+
+[data-theme="light"] .theme-toggle .switch::after {
+  left: 13px;
+}
+
 .pagefind-ui__form {
   display: flex;
   gap: 12px;
@@ -178,7 +270,7 @@ img {
   padding: 14px 16px;
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(11, 13, 17, 0.76);
+  background: var(--surface);
   color: var(--text);
   font-size: 1rem;
 }
@@ -192,7 +284,7 @@ img {
   border-radius: 14px;
   border: 1px solid rgba(140, 199, 54, 0.6);
   background: linear-gradient(120deg, rgba(140, 199, 54, 0.45), rgba(244, 153, 0, 0.3));
-  color: #0b1205;
+  color: var(--bg);
   font-weight: 700;
   cursor: pointer;
 }
@@ -242,7 +334,7 @@ img {
   padding: 14px 16px;
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(11, 13, 17, 0.76);
+  background: var(--surface);
   color: var(--text);
   font-size: 1rem;
 }
@@ -256,7 +348,7 @@ img {
   border-radius: 14px;
   border: 1px solid rgba(140, 199, 54, 0.6);
   background: linear-gradient(120deg, rgba(140, 199, 54, 0.45), rgba(244, 153, 0, 0.3));
-  color: #0b1205;
+  color: var(--bg);
   font-weight: 700;
   cursor: not-allowed;
   opacity: 0.7;

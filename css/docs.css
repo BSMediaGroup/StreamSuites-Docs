@@ -149,7 +149,7 @@ img {
 .nav {
   display: flex;
   gap: 12px;
-  font-size: 0.75rem;
+  font-size: 1rem;
   align-items: center;
   color: var(--muted);
 }

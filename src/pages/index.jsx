@@ -38,7 +38,7 @@ const cards = [
   {
     title: 'Legal / EULA',
     description: 'Review licensing terms, usage rights, and commercial notices.',
-    href: '/EULA.md',
+    href: '/docs/legal/eula',
     cta: 'Read EULA',
   },
 ];

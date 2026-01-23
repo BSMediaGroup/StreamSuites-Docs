@@ -90,7 +90,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: '/EULA.md',
+          href: '/docs/legal/eula',
           label: 'EULA',
           position: 'right',
         },

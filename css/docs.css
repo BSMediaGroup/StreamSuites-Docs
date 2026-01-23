@@ -225,8 +225,6 @@ img {
   display: flex;
   align-items: center;
   -webkit-tap-highlight-color: transparent;
-  transform: scale(0.5);
-  transform-origin: top right;
   line-height: 1;
 }
 
@@ -257,11 +255,10 @@ img {
 
 .theme__icon {
   display: block;
-  top: 50%;
-  left: 0.75em;
+  top: 0.5em;
+  left: 0.5em;
   width: 1.5em;
   height: 1.5em;
-  transform: translateY(-50%);
 }
 
 .theme__icon-part {
@@ -359,7 +356,7 @@ img {
 
 .theme__toggle:checked:before,
 .theme__toggle:checked ~ .theme__icon {
-  transform: translate(3em, -50%);
+  transform: translateX(3em);
 }
 
 .theme__toggle:checked:before {
@@ -415,6 +412,7 @@ img {
 
 .theme__toggle-wrap {
   margin: 0 0.75em;
+  font-size: 0.5rem;
 }
 
 @supports selector(:focus-visible) {

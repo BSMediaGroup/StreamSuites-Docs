@@ -148,13 +148,13 @@ img {
 
 .nav {
   display: flex;
-  gap: 18px;
-  font-size: 0.95rem;
+  gap: 14px;
+  font-size: 0.76rem;
   color: var(--muted);
 }
 
 .nav a {
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: 999px;
   transition: background 0.2s ease, color 0.2s ease;
 }
@@ -219,11 +219,16 @@ img {
 }
 
 .themeToggle {
-  position: absolute;
-  top: 6px;
-  right: 0;
+  position: relative;
+  top: auto;
+  right: auto;
+  align-self: center;
   color: #bbb;
   width: 1.5em;
+}
+
+.nav .themeToggle {
+  margin-left: 6px;
 }
 
 .st-sunMoonThemeToggleBtn {

@@ -27,12 +27,6 @@ module.exports = {
               label: 'current',
               path: '',
             },
-            'v1.x': {
-              label: 'v1.x',
-            },
-            'v0.x': {
-              label: 'v0.x',
-            },
           },
         },
         blog: false,

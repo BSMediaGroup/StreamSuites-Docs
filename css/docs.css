@@ -57,11 +57,23 @@
 [data-theme="light"] .pagefind-ui__search-input,
 [data-theme="light"] .search input {
   border-color: rgba(15, 18, 22, 0.18);
+  background: #ffffff !important;
+  color: #121417 !important;
 }
 
 [data-theme="light"] .pagefind-ui__search-input::placeholder,
 [data-theme="light"] .search input::placeholder {
   color: rgba(18, 21, 26, 0.45);
+}
+
+[data-theme="light"] .pagefind-ui__search-clear {
+  background: #ffffff;
+  border-color: rgba(15, 18, 22, 0.18);
+  color: #121417;
+}
+
+[data-theme="light"] .pagefind-ui__message {
+  color: rgba(18, 21, 26, 0.6);
 }
 
 [data-theme="light"] .meta-pill {
@@ -356,20 +368,21 @@ img {
 }
 
 .pagefind-ui__form {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  flex-wrap: wrap;
+  position: relative;
+  display: block;
 }
 
 .pagefind-ui__search-input {
-  flex: 1 1 260px;
-  padding: 14px 16px;
-  border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: var(--surface);
-  color: var(--text);
-  font-size: 1rem;
+  width: 100%;
+  min-width: 0;
+  padding: 8px 44px 8px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.4) !important;
+  color: #e6e8eb !important;
+  font-family: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  height: 32px;
 }
 
 .pagefind-ui__search-input::placeholder {
@@ -377,27 +390,37 @@ img {
 }
 
 .pagefind-ui__search-clear {
-  padding: 14px 22px;
-  border-radius: 14px;
-  border: 1px solid rgba(140, 199, 54, 0.6);
-  background: linear-gradient(120deg, rgba(140, 199, 54, 0.45), rgba(244, 153, 0, 0.3));
-  color: var(--bg);
-  font-weight: 700;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  height: 24px;
+  padding: 0 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.35);
+  color: #e6e8eb;
+  font-family: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
   cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
 }
 
 .pagefind-ui__results {
-  margin-top: 18px;
+  margin-top: 12px;
   display: grid;
-  gap: 12px;
+  gap: 14px;
+  width: 100%;
 }
 
 .pagefind-ui__result {
-  padding: 18px;
+  padding: 16px 18px;
   border-radius: 18px;
   border: 1px solid var(--border);
   background: var(--panel-strong);
   box-shadow: var(--shadow);
+  font-family: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 .pagefind-ui__result-title {
@@ -412,11 +435,18 @@ img {
 
 .pagefind-ui__result-excerpt {
   color: var(--muted);
+  font-family: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
   line-height: 1.6;
 }
 
 .pagefind-ui__message {
-  color: var(--muted);
+  margin-top: 6px;
+  font-family: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.75rem;
+  color: rgba(231, 237, 245, 0.7);
+  margin-left: 0;
+  display: block;
+  width: 100%;
 }
 
 .pagefind-ui__result-mark {

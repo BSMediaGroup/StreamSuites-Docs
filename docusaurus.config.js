@@ -50,11 +50,14 @@ module.exports = {
         indexDocs: true,
         indexPages: true,
         indexBlog: false,
-        docsRouteBasePath: ['/docs'],
+        docsRouteBasePath: '/docs',
       },
     ],
   ],
   themeConfig: {
+    docs: {
+      versionPersistence: 'none',
+    },
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,

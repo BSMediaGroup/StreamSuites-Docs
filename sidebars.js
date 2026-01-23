@@ -56,7 +56,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Legal',
-      items: ['legal/license'],
+      items: [
+        'legal/eula',
+        'legal/commercial-license-notice',
+        'legal/license',
+      ],
     },
   ],
 };

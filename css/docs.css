@@ -220,10 +220,10 @@ img {
 
 .themeToggle {
   position: absolute;
-  top: 0;
+  top: 6px;
   right: 0;
   color: #bbb;
-  width: 3em;
+  width: 1.5em;
 }
 
 .st-sunMoonThemeToggleBtn {

@@ -21,6 +21,19 @@ module.exports = {
         docs: {
           routeBasePath: '/docs',
           sidebarPath: require.resolve('./sidebars.js'),
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: 'current',
+              path: '',
+            },
+            'v1.x': {
+              label: 'v1.x',
+            },
+            'v0.x': {
+              label: 'v0.x',
+            },
+          },
         },
         blog: false,
         theme: {
@@ -87,6 +100,10 @@ module.exports = {
         },
         {
           type: 'search',
+          position: 'right',
+        },
+        {
+          type: 'docsVersionDropdown',
           position: 'right',
         },
         {

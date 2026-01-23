@@ -32,6 +32,8 @@ module.exports = {
         'runtime/runtime-overview',
         'runtime/exports-and-versioning',
         'runtime/automation-states',
+        'runtime/api-authentication',
+        'runtime/api-keys',
       ],
     },
     {

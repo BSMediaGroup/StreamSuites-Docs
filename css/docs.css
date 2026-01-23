@@ -104,14 +104,28 @@
   padding: 0;
 }
 
+html,
+body {
+  background: transparent;
+}
+
 body {
   font-family: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, rgba(140, 199, 54, 0.14), transparent 45%),
-    radial-gradient(circle at 20% 20%, rgba(244, 153, 0, 0.12), transparent 45%),
-    linear-gradient(180deg, var(--bg), var(--bg-deep));
   color: var(--text);
   min-height: 100vh;
   overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(140, 199, 54, 0.14), transparent 45%),
+    radial-gradient(circle at 20% 20%, rgba(244, 153, 0, 0.12), transparent 45%),
+    linear-gradient(180deg, var(--bg), var(--bg-deep));
+  z-index: -1;
+  pointer-events: none;
 }
 
 a {
@@ -133,6 +147,14 @@ img {
   opacity: 0.18;
   pointer-events: none;
   z-index: 0;
+}
+
+.main-wrapper,
+.theme-doc-sidebar-container,
+.theme-doc-toc-desktop,
+.navbar,
+.footer {
+  background: transparent;
 }
 
 .wrapper {

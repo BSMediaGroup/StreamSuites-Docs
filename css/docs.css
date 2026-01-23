@@ -978,3 +978,23 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
+
+/* ============================================================
+   DARK MODE ONLY — SEARCH INPUT IDLE BORDER TWEAK
+   ============================================================ */
+
+/* Default idle state (no hover, no focus) */
+html[data-theme="dark"] .pagefind-ui__search-input {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* Preserve existing hover behavior */
+html[data-theme="dark"] .pagefind-ui__search-input:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* Preserve existing focus / active behavior */
+html[data-theme="dark"] .pagefind-ui__search-input:focus,
+html[data-theme="dark"] .pagefind-ui__search-input:focus-visible {
+  border-color: rgba(255, 255, 255, 0.55);
+}

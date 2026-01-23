@@ -161,3 +161,7 @@ a {
 .navbar__search-input {
   font-family: var(--ifm-font-family-base);
 }
+
+[data-theme='dark'] .navbar__search-input {
+  background-color: rgba(0, 0, 0, 0.4);
+}

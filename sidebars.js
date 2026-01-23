@@ -42,6 +42,7 @@ module.exports = {
         'integrations/rumble',
         'integrations/twitch',
         'integrations/discord',
+        { type: 'doc', id: 'integrations/stripe', label: 'Stripe & Billing' },
       ],
     },
     {
@@ -52,7 +53,15 @@ module.exports = {
     {
       type: 'category',
       label: 'Support',
-      items: ['support/faq', 'support/troubleshooting', 'support/support-model'],
+      items: [
+        { type: 'doc', id: 'support/faq', label: 'Billing FAQ' },
+        {
+          type: 'doc',
+          id: 'support/troubleshooting',
+          label: 'Billing & Payments Troubleshooting',
+        },
+        'support/support-model',
+      ],
     },
     {
       type: 'category',

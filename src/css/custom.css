@@ -33,6 +33,7 @@
   --ifm-font-family-base: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
   --ifm-heading-font-family: "RechargeBd", "SuiGenerisRg", system-ui, sans-serif;
   --ifm-background-color: var(--bg);
+  --ifm-background-surface-color: var(--panel);
   --ifm-navbar-background-color: var(--panel);
   --ifm-footer-background-color: var(--panel);
   --ifm-card-background-color: var(--panel);
@@ -43,6 +44,24 @@
   --ifm-color-primary-lighter: #86cb32;
   --ifm-font-color-base: var(--text);
   --ifm-color-content-secondary: var(--muted);
+  --ifm-color-emphasis-100: rgba(15, 18, 22, 0.04);
+  --ifm-color-emphasis-200: rgba(15, 18, 22, 0.08);
+  --ifm-color-emphasis-300: var(--border);
+  --ifm-color-emphasis-700: var(--muted);
+  --ifm-color-emphasis-900: var(--text);
+  --ifm-link-color: var(--accent);
+  --ifm-link-hover-color: var(--accent-warm);
+  --ifm-navbar-link-color: var(--text);
+  --ifm-navbar-link-hover-color: var(--accent-warm);
+  --ifm-menu-color: var(--text);
+  --ifm-menu-color-active: var(--accent);
+  --ifm-toc-link-color: var(--muted);
+  --ifm-toc-link-color-active: var(--accent-warm);
+  --ifm-breadcrumb-color-active: var(--text);
+  --ifm-code-background: var(--surface);
+  --ifm-pre-background: var(--panel-strong);
+  --ifm-hr-background-color: var(--border);
+  --ifm-toc-border-color: var(--border);
 }
 
 [data-theme='dark'] {
@@ -62,6 +81,7 @@
   --primaryT: rgba(140, 199, 54, 0.45);
 
   --ifm-background-color: var(--bg);
+  --ifm-background-surface-color: var(--panel);
   --ifm-navbar-background-color: var(--panel);
   --ifm-footer-background-color: var(--panel);
   --ifm-card-background-color: var(--panel);
@@ -72,6 +92,24 @@
   --ifm-color-primary-lighter: #a3da62;
   --ifm-font-color-base: var(--text);
   --ifm-color-content-secondary: var(--muted);
+  --ifm-color-emphasis-100: rgba(255, 255, 255, 0.04);
+  --ifm-color-emphasis-200: rgba(255, 255, 255, 0.08);
+  --ifm-color-emphasis-300: var(--border);
+  --ifm-color-emphasis-700: var(--muted);
+  --ifm-color-emphasis-900: var(--text);
+  --ifm-link-color: var(--accent);
+  --ifm-link-hover-color: var(--accent-warm);
+  --ifm-navbar-link-color: var(--text);
+  --ifm-navbar-link-hover-color: var(--accent-warm);
+  --ifm-menu-color: var(--text);
+  --ifm-menu-color-active: var(--accent);
+  --ifm-toc-link-color: var(--muted);
+  --ifm-toc-link-color-active: var(--accent-warm);
+  --ifm-breadcrumb-color-active: var(--text);
+  --ifm-code-background: rgba(11, 13, 17, 0.7);
+  --ifm-pre-background: var(--panel-strong);
+  --ifm-hr-background-color: var(--border);
+  --ifm-toc-border-color: var(--border);
 }
 
 body {
@@ -88,6 +126,11 @@ body {
 
 .footer {
   border-top: 1px solid var(--border);
+}
+
+.navbar__link:hover,
+.navbar__link:focus {
+  color: var(--accent-warm);
 }
 
 a {

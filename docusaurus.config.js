@@ -93,6 +93,10 @@ module.exports = {
           position: 'left',
         },
         {
+          type: 'colorMode',
+          position: 'right',
+        },
+        {
           href: '/EULA.md',
           label: 'EULA',
           position: 'right',

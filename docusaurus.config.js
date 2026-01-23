@@ -1,6 +1,6 @@
 
 module.exports = {
-  title: 'StreamSuites Documentation',
+  title: 'StreamSuites™',
   tagline: 'Documentation hub for StreamSuites.',
   url: 'https://docs.streamsuites.app',
   baseUrl: '/',
@@ -37,7 +37,7 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'StreamSuites',
+      title: 'StreamSuites™',
       logo: {
         alt: 'StreamSuites',
         src: 'assets/logos/logoshield-white.png',

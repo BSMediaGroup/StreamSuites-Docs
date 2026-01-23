@@ -99,7 +99,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: 'StreamSuites documentation hub for docs.streamsuites.app.',
+      copyright: 'StreamSuites™ Documentation Hub',
     },
   },
 };

@@ -139,7 +139,10 @@ body::before {
 }
 
 .footer {
-  border-top: 1px solid var(--border);
+  background-color: #0b0d11;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(230, 232, 235, 0.72);
+  padding: 0.75rem 0;
 }
 
 .navbar__link:hover,

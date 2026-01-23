@@ -29,7 +29,17 @@ module.exports = {
       },
     ],
   ],
-  plugins: [],
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexPages: false,
+        indexBlog: false,
+      },
+    ],
+  ],
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',

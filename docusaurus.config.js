@@ -102,9 +102,5 @@ module.exports = {
       links: [],
       copyright: 'StreamSuites documentation hub for docs.streamsuites.app.',
     },
-    prism: {
-      theme: require('@docusaurus/theme-classic/prism-themes/github'),
-      darkTheme: require('@docusaurus/theme-classic/prism-themes/dracula'),
-    },
   },
 };

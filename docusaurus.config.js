@@ -19,7 +19,7 @@ module.exports = {
       'classic',
       {
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/docs',
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: false,
@@ -37,7 +37,7 @@ module.exports = {
         indexDocs: true,
         indexPages: true,
         indexBlog: false,
-        docsRouteBasePath: ['/'],
+        docsRouteBasePath: ['/docs'],
       },
     ],
   ],

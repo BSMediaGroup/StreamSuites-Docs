@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "RechargeBd";
+  src: url("/assets/fonts/Recharge-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SuiGenerisRg";
+  src: url("/assets/fonts/SuiGeneris-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --bg: #f3f5f8;
+  --surface: rgba(255, 255, 255, 0.9);
+  --bg-deep: #e3e7ee;
+  --panel: rgba(255, 255, 255, 0.86);
+  --panel-strong: rgba(255, 255, 255, 0.96);
+  --border: rgba(10, 14, 20, 0.14);
+  --text: #121417;
+  --muted: #4a515c;
+  --accent: #6faa23;
+  --accent-warm: #d47900;
+  --shadow: 0 22px 50px rgba(15, 18, 22, 0.18);
+  --primary: #6faa23;
+  --primaryT: rgba(111, 170, 35, 0.45);
+
+  --ifm-font-family-base: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ifm-heading-font-family: "RechargeBd", "SuiGenerisRg", system-ui, sans-serif;
+  --ifm-background-color: var(--bg);
+  --ifm-navbar-background-color: var(--panel);
+  --ifm-footer-background-color: var(--panel);
+  --ifm-card-background-color: var(--panel);
+  --ifm-color-primary: #6faa23;
+  --ifm-color-primary-dark: #5b8f1d;
+  --ifm-color-primary-darker: #527f1a;
+  --ifm-color-primary-light: #79bf2a;
+  --ifm-color-primary-lighter: #86cb32;
+  --ifm-font-color-base: var(--text);
+  --ifm-color-content-secondary: var(--muted);
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0e0f12;
+  --surface: rgba(11, 13, 17, 0.76);
+  --bg-deep: #0b0d11;
+  --panel: rgba(20, 22, 27, 0.78);
+  --panel-strong: rgba(24, 28, 35, 0.9);
+  --border: rgba(255, 255, 255, 0.12);
+  --text: #e6e8eb;
+  --muted: #a9adb5;
+  --accent: #8cc736;
+  --accent-warm: #f49900;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  --primary: #8cc736;
+  --primaryT: rgba(140, 199, 54, 0.45);
+
+  --ifm-background-color: var(--bg);
+  --ifm-navbar-background-color: var(--panel);
+  --ifm-footer-background-color: var(--panel);
+  --ifm-card-background-color: var(--panel);
+  --ifm-color-primary: #8cc736;
+  --ifm-color-primary-dark: #7bb82f;
+  --ifm-color-primary-darker: #6fa52a;
+  --ifm-color-primary-light: #98d44f;
+  --ifm-color-primary-lighter: #a3da62;
+  --ifm-font-color-base: var(--text);
+  --ifm-color-content-secondary: var(--muted);
+}
+
+body {
+  background: radial-gradient(circle at top, rgba(140, 199, 54, 0.14), transparent 45%),
+    radial-gradient(circle at 20% 20%, rgba(244, 153, 0, 0.12), transparent 45%),
+    linear-gradient(180deg, var(--bg), var(--bg-deep));
+  color: var(--text);
+}
+
+.navbar {
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--border);
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+}
+
+a {
+  text-decoration: none;
+}
+
+.theme-toggle {
+  color: var(--accent-warm);
+}

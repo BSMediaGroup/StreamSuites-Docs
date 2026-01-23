@@ -747,3 +747,43 @@ img {
     width: 100%;
   }
 }
+
+.pagefind-ui__search-input {
+  font-size: 0.62rem;
+}
+
+.pagefind-ui__search-input::placeholder {
+  font-size: 0.62rem;
+}
+
+.search input {
+  font-size: 0.8rem;
+}
+
+.search input::placeholder {
+  font-size: 0.8rem;
+}
+
+.pagefind-ui__search-clear {
+  height: 32px;
+  min-height: 32px;
+  top: 0;
+  line-height: 1;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html:not([data-theme="light"]) .pagefind-ui__search-clear {
+  background: var(--search-bg) !important;
+}
+
+.pagefind-ui__results,
+.pagefind-ui__message {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box;
+}

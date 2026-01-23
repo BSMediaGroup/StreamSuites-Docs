@@ -268,6 +268,24 @@ img {
   margin-bottom: 24px;
 }
 
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.breadcrumbs a {
+  color: var(--accent-warm);
+}
+
+.breadcrumbs span {
+  color: rgba(231, 237, 245, 0.4);
+}
+
 .page-header h1 {
   font-family: "RechargeBd", sans-serif;
   font-size: clamp(2rem, 3.2vw, 2.8rem);
@@ -278,6 +296,10 @@ img {
   padding: 28px;
   display: grid;
   gap: 12px;
+}
+
+.home-section {
+  margin-top: 24px;
 }
 
 .placeholder ul {

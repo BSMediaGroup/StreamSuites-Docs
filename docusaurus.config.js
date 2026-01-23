@@ -1,5 +1,3 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
   title: 'StreamSuites Documentation',
@@ -109,8 +107,8 @@ module.exports = {
       copyright: 'StreamSuites documentation hub for docs.streamsuites.app.',
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      theme: 'github',
+      darkTheme: 'dracula',
     },
   },
 };

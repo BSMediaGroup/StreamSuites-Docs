@@ -20,6 +20,7 @@ module.exports = {
       label: 'Creator guide',
       items: [
         'creator-guide/creator-dashboard',
+        'creator-guide/billing',
         'creator-guide/automation-basics',
         'creator-guide/clips-scoreboards',
       ],

@@ -56,11 +56,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Legal',
-      items: [
-        'legal/eula',
-        'legal/commercial-license-notice',
-        { type: 'link', label: 'OSS License', href: '/LICENSE' },
-      ],
+      items: ['legal/license'],
     },
   ],
 };

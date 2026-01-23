@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "docusaurus start",
-    "build": "docusaurus build && node -e \"const fs=require('fs');const path=require('path');const root=path.join(__dirname,'build');const hits=[];const walk=(dir)=>{for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,entry.name);if(entry.isDirectory()){walk(p);}else if(entry.name.includes('search-index')&&entry.name.endsWith('.json')){hits.push(path.relative(root,p));}}};try{if(fs.existsSync(root)){walk(root);console.log('[search-index]',hits.length?hits.join(', '):'not found');}else{console.log('[search-index] build/ missing');}}catch(err){console.log('[search-index] scan failed:',err.message);}\"",
+    "build": "docusaurus build && node -e \"const fs=require('fs');const path=require('path');const indexPath=path.join(__dirname,'build','search-index.json');try{if(fs.existsSync(indexPath)){console.log('[search-index] found',path.relative(__dirname,indexPath));}else{console.warn('[search-index] missing build/search-index.json');}}catch(err){console.warn('[search-index] check failed:',err.message);}\"",
     "serve": "docusaurus serve",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"

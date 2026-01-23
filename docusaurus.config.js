@@ -87,10 +87,6 @@ module.exports = {
           position: 'left',
         },
         {
-          type: 'colorMode',
-          position: 'right',
-        },
-        {
           type: 'search',
           position: 'right',
         },

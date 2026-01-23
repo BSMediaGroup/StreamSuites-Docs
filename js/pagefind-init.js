@@ -71,3 +71,49 @@
     init();
   }
 })();
+
+(() => {
+  const injectDarkBorderOverride = () => {
+    const head = document.head;
+    if (!head) {
+      return;
+    }
+
+    if (head.querySelector("style[data-pagefind-dark-border-override]")) {
+      return;
+    }
+
+    const style = document.createElement("style");
+    style.setAttribute("data-pagefind-dark-border-override", "true");
+    style.textContent =
+      '[data-theme="dark"] .pagefind-ui__search-input {\\n' +
+      "  border-color: rgba(255, 255, 255, 0.18);\\n" +
+      "}\\n\\n" +
+      '[data-theme="dark"] .pagefind-ui__search-input:hover {\\n' +
+      "  border-color: rgba(255, 255, 255, 0.35);\\n" +
+      "}\\n\\n" +
+      '[data-theme="dark"] .pagefind-ui__search-input:focus,\\n' +
+      '[data-theme="dark"] .pagefind-ui__search-input:focus-visible {\\n' +
+      "  border-color: rgba(255, 255, 255, 0.55);\\n" +
+      "}\\n";
+
+    const styles = head.querySelectorAll("style");
+    if (styles.length > 0) {
+      styles[styles.length - 1].after(style);
+    } else {
+      head.appendChild(style);
+    }
+  };
+
+  const onReady = () => {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(injectDarkBorderOverride);
+    });
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", onReady);
+  } else {
+    onReady();
+  }
+})();

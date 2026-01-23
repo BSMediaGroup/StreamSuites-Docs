@@ -149,13 +149,13 @@ img {
 .nav {
   display: flex;
   gap: 12px;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   align-items: center;
   color: var(--muted);
 }
 
 .nav a {
-  padding: 5px 9px;
+  padding: 6px 10px;
   border-radius: 999px;
   transition: background 0.2s ease, color 0.2s ease;
 }

@@ -114,18 +114,20 @@ export default function Home() {
         </section>
 
         <section className={styles.quicklinks} aria-label="Platform quicklinks">
-          <div className={styles.quicklinksInner}>
-            {quicklinks.map((link) => (
-              <Link className={styles.quicklink} to={link.href} key={link.label}>
-                <img
-                  className={styles.quicklinkIcon}
-                  src={useBaseUrl(link.icon)}
-                  alt=""
-                  aria-hidden="true"
-                />
-                <span>{link.label}</span>
-              </Link>
-            ))}
+          <div className={styles.quicklinksCard}>
+            <div className={styles.quicklinksInner}>
+              {quicklinks.map((link) => (
+                <Link className={styles.quicklink} to={link.href} key={link.label}>
+                  <img
+                    className={styles.quicklinkIcon}
+                    src={useBaseUrl(link.icon)}
+                    alt=""
+                    aria-hidden="true"
+                  />
+                  <span>{link.label}</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

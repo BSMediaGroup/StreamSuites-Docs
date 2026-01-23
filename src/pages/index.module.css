@@ -28,6 +28,15 @@
   margin: 0 0 32px;
 }
 
+.quicklinksCard {
+  padding: 30px 36px 26px;
+  border-radius: 24px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
 .quicklinksInner {
   display: flex;
   align-items: center;
@@ -277,6 +286,10 @@
     justify-content: center;
   }
 
+  .quicklinksCard {
+    padding: 24px 26px 22px;
+  }
+
   .heroCard {
     padding: 34px 30px;
   }
@@ -293,6 +306,10 @@
 
   .quicklinksInner {
     gap: 12px 16px;
+  }
+
+  .quicklinksCard {
+    padding: 20px 22px 18px;
   }
 
   .quicklink {

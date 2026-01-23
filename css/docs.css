@@ -892,3 +892,9 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
   top: 50% !important;
   transform: translateY(-50%) !important;
 }
+
+.pagefind-ui__results > .pagefind-ui__result {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box;
+}

@@ -33,15 +33,6 @@ module.exports = {
   ],
   plugins: [
     [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: true,
-        indexDocs: true,
-        indexPages: true,
-        docsRouteBasePath: '/',
-      },
-    ],
-    [
       require.resolve('@docusaurus/plugin-client-redirects'),
       {
         redirects: [{ from: ['/index.html'], to: '/' }],
@@ -53,6 +44,11 @@ module.exports = {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: false,
+    },
+    algolia: {
+      appId: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: process.env.ALGOLIA_INDEX_NAME,
     },
     navbar: {
       title: 'StreamSuites',
@@ -94,6 +90,10 @@ module.exports = {
         },
         {
           type: 'colorMode',
+          position: 'right',
+        },
+        {
+          type: 'search',
           position: 'right',
         },
         {

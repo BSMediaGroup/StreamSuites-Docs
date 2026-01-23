@@ -55,12 +55,25 @@
 
 .title {
   font-family: var(--ifm-heading-font-family);
-  font-size: clamp(2.4rem, 4.2vw, 3.6rem);
+  font-size: clamp(1.9rem, 3.35vw, 2.9rem);
   line-height: 1.05;
   letter-spacing: 0.04em;
   margin-bottom: 16px;
   position: relative;
   z-index: 1;
+}
+
+.titleLine {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.titleLogo {
+  height: 0.85em;
+  width: auto;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 .description {
@@ -228,7 +241,7 @@
 
 @media (max-width: 600px) {
   .title {
-    font-size: clamp(2rem, 8vw, 2.6rem);
+    font-size: clamp(1.6rem, 6.4vw, 2.1rem);
   }
 
   .heroCard {

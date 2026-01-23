@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 
 const cards = [
@@ -43,6 +44,8 @@ const cards = [
 ];
 
 export default function Home() {
+  const logoSrc = useBaseUrl('assets/logos/logoshield-white.png');
+
   return (
     <Layout
       title="StreamSuites Documentation"
@@ -53,7 +56,17 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.heroCard}>
             <p className={styles.eyebrow}>StreamSuites Docs Hub</p>
-            <h1 className={styles.title}>StreamSuites{'\u2122'} Documentation</h1>
+            <h1 className={styles.title}>
+              <span className={styles.titleLine}>
+                <img
+                  className={styles.titleLogo}
+                  src={logoSrc}
+                  alt="StreamSuites"
+                  aria-hidden="true"
+                />
+                <span>StreamSuites{'\u2122'} Documentation</span>
+              </span>
+            </h1>
             <p className={styles.description}>
               Everything you need to stand up StreamSuites, craft creator-ready workspaces,
               and understand the runtime surface area. Start here and drill into the guides

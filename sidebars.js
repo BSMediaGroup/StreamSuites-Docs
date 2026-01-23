@@ -1,6 +1,12 @@
 module.exports = {
+  // All new docs pages must be added here.
   docs: [
     'index',
+    {
+      type: 'category',
+      label: 'Changelog',
+      items: ['changelog/index', 'changelog/v0.3'],
+    },
     {
       type: 'category',
       label: 'Getting started',

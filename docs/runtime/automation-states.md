@@ -1,6 +1,6 @@
 ---
 title: Automation states
-slug: /runtime/automation-states.html
+slug: /runtime/automation-states
 ---
 
 Runtime

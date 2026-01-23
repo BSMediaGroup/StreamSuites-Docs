@@ -1,6 +1,6 @@
 ---
 title: YouTube
-slug: /integrations/youtube.html
+slug: /integrations/youtube
 ---
 
 Integrations

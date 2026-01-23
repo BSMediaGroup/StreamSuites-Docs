@@ -1,6 +1,6 @@
 ---
 title: Rumble
-slug: /integrations/rumble.html
+slug: /integrations/rumble
 ---
 
 Integrations

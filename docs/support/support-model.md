@@ -1,6 +1,6 @@
 ---
 title: Support model
-slug: /support/support-model.html
+slug: /support/support-model
 ---
 
 Support

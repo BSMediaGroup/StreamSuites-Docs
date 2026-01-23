@@ -1,6 +1,6 @@
 ---
 title: Creator workspace
-slug: /guides/creator-workspace.html
+slug: /guides/creator-workspace
 ---
 
 Guides

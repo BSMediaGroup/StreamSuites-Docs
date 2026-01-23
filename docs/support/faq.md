@@ -1,6 +1,6 @@
 ---
 title: FAQ
-slug: /support/faq.html
+slug: /support/faq
 ---
 
 Support

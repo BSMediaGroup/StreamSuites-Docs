@@ -1,113 +1,113 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/docs",
           "mainDocId": "index",
           "docs": [
             {
               "id": "creator-guide/automation-basics",
-              "path": "/creator-guide/automation-basics.html",
+              "path": "/docs/creator-guide/automation-basics",
               "sidebar": "docs"
             },
             {
               "id": "creator-guide/clips-scoreboards",
-              "path": "/creator-guide/clips-scoreboards.html",
+              "path": "/docs/creator-guide/clips-scoreboards",
               "sidebar": "docs"
             },
             {
               "id": "creator-guide/creator-dashboard",
-              "path": "/creator-guide/creator-dashboard.html",
+              "path": "/docs/creator-guide/creator-dashboard",
               "sidebar": "docs"
             },
             {
               "id": "getting-started/account-types",
-              "path": "/getting-started/account-types.html",
+              "path": "/docs/getting-started/account-types",
               "sidebar": "docs"
             },
             {
               "id": "getting-started/first-run",
-              "path": "/getting-started/first-run.html",
+              "path": "/docs/getting-started/first-run",
               "sidebar": "docs"
             },
             {
               "id": "getting-started/installation",
-              "path": "/getting-started/installation.html",
+              "path": "/docs/getting-started/installation",
               "sidebar": "docs"
             },
             {
               "id": "guides/creator-workspace",
-              "path": "/guides/creator-workspace.html",
+              "path": "/docs/guides/creator-workspace",
               "sidebar": "docs"
             },
             {
               "id": "guides/getting-started",
-              "path": "/guides/getting-started.html",
+              "path": "/docs/guides/getting-started",
               "sidebar": "docs"
             },
             {
               "id": "index",
-              "path": "/",
+              "path": "/docs/",
               "sidebar": "docs"
             },
             {
               "id": "integrations/discord",
-              "path": "/integrations/discord.html",
+              "path": "/docs/integrations/discord",
               "sidebar": "docs"
             },
             {
               "id": "integrations/rumble",
-              "path": "/integrations/rumble.html",
+              "path": "/docs/integrations/rumble",
               "sidebar": "docs"
             },
             {
               "id": "integrations/twitch",
-              "path": "/integrations/twitch.html",
+              "path": "/docs/integrations/twitch",
               "sidebar": "docs"
             },
             {
               "id": "integrations/youtube",
-              "path": "/integrations/youtube.html",
+              "path": "/docs/integrations/youtube",
               "sidebar": "docs"
             },
             {
               "id": "reference/runtime-overview",
-              "path": "/reference/runtime-overview.html",
+              "path": "/docs/reference/runtime-overview",
               "sidebar": "docs"
             },
             {
               "id": "runtime/automation-states",
-              "path": "/runtime/automation-states.html",
+              "path": "/docs/runtime/automation-states",
               "sidebar": "docs"
             },
             {
               "id": "runtime/exports-and-versioning",
-              "path": "/runtime/exports-and-versioning.html",
+              "path": "/docs/runtime/exports-and-versioning",
               "sidebar": "docs"
             },
             {
               "id": "runtime/runtime-overview",
-              "path": "/runtime/runtime-overview.html",
+              "path": "/docs/runtime/runtime-overview",
               "sidebar": "docs"
             },
             {
               "id": "support/faq",
-              "path": "/support/faq.html",
+              "path": "/docs/support/faq",
               "sidebar": "docs"
             },
             {
               "id": "support/support-model",
-              "path": "/support/support-model.html",
+              "path": "/docs/support/support-model",
               "sidebar": "docs"
             },
             {
               "id": "support/troubleshooting",
-              "path": "/support/troubleshooting.html",
+              "path": "/docs/support/troubleshooting",
               "sidebar": "docs"
             }
           ],
@@ -115,7 +115,7 @@
           "sidebars": {
             "docs": {
               "link": {
-                "path": "/",
+                "path": "/docs/",
                 "label": "index"
               }
             }

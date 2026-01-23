@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-slug: /support/troubleshooting.html
+slug: /support/troubleshooting
 ---
 
 Support

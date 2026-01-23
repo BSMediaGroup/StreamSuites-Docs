@@ -8,134 +8,134 @@ export default [
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '61e'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '7d1'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '925'),
+        path: '/docs',
+        component: ComponentCreator('/docs', 'bba'),
         routes: [
           {
-            path: '/',
-            component: ComponentCreator('/', '241'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '18c'),
             routes: [
               {
-                path: '/creator-guide/automation-basics.html',
-                component: ComponentCreator('/creator-guide/automation-basics.html', 'b95'),
+                path: '/docs',
+                component: ComponentCreator('/docs', 'd78'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/creator-guide/clips-scoreboards.html',
-                component: ComponentCreator('/creator-guide/clips-scoreboards.html', 'f72'),
+                path: '/docs/creator-guide/automation-basics',
+                component: ComponentCreator('/docs/creator-guide/automation-basics', '9cd'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/creator-guide/creator-dashboard.html',
-                component: ComponentCreator('/creator-guide/creator-dashboard.html', '49e'),
+                path: '/docs/creator-guide/clips-scoreboards',
+                component: ComponentCreator('/docs/creator-guide/clips-scoreboards', '3a9'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/getting-started/account-types.html',
-                component: ComponentCreator('/getting-started/account-types.html', 'b3d'),
+                path: '/docs/creator-guide/creator-dashboard',
+                component: ComponentCreator('/docs/creator-guide/creator-dashboard', '3bc'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/getting-started/first-run.html',
-                component: ComponentCreator('/getting-started/first-run.html', '75e'),
+                path: '/docs/getting-started/account-types',
+                component: ComponentCreator('/docs/getting-started/account-types', '74a'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/getting-started/installation.html',
-                component: ComponentCreator('/getting-started/installation.html', '117'),
+                path: '/docs/getting-started/first-run',
+                component: ComponentCreator('/docs/getting-started/first-run', 'ff4'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/guides/creator-workspace.html',
-                component: ComponentCreator('/guides/creator-workspace.html', '1f8'),
+                path: '/docs/getting-started/installation',
+                component: ComponentCreator('/docs/getting-started/installation', '71d'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/guides/getting-started.html',
-                component: ComponentCreator('/guides/getting-started.html', '59c'),
+                path: '/docs/guides/creator-workspace',
+                component: ComponentCreator('/docs/guides/creator-workspace', '5da'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/integrations/discord.html',
-                component: ComponentCreator('/integrations/discord.html', 'e91'),
+                path: '/docs/guides/getting-started',
+                component: ComponentCreator('/docs/guides/getting-started', '5be'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/integrations/rumble.html',
-                component: ComponentCreator('/integrations/rumble.html', '33d'),
+                path: '/docs/integrations/discord',
+                component: ComponentCreator('/docs/integrations/discord', 'c2b'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/integrations/twitch.html',
-                component: ComponentCreator('/integrations/twitch.html', '702'),
+                path: '/docs/integrations/rumble',
+                component: ComponentCreator('/docs/integrations/rumble', 'c8e'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/integrations/youtube.html',
-                component: ComponentCreator('/integrations/youtube.html', 'a0f'),
+                path: '/docs/integrations/twitch',
+                component: ComponentCreator('/docs/integrations/twitch', '198'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/reference/runtime-overview.html',
-                component: ComponentCreator('/reference/runtime-overview.html', '5fa'),
+                path: '/docs/integrations/youtube',
+                component: ComponentCreator('/docs/integrations/youtube', '0cd'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/runtime/automation-states.html',
-                component: ComponentCreator('/runtime/automation-states.html', 'd9f'),
+                path: '/docs/reference/runtime-overview',
+                component: ComponentCreator('/docs/reference/runtime-overview', '05f'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/runtime/exports-and-versioning.html',
-                component: ComponentCreator('/runtime/exports-and-versioning.html', '358'),
+                path: '/docs/runtime/automation-states',
+                component: ComponentCreator('/docs/runtime/automation-states', 'bcc'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/runtime/runtime-overview.html',
-                component: ComponentCreator('/runtime/runtime-overview.html', 'dd1'),
+                path: '/docs/runtime/exports-and-versioning',
+                component: ComponentCreator('/docs/runtime/exports-and-versioning', '782'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/support/faq.html',
-                component: ComponentCreator('/support/faq.html', 'ca1'),
+                path: '/docs/runtime/runtime-overview',
+                component: ComponentCreator('/docs/runtime/runtime-overview', '4d9'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/support/support-model.html',
-                component: ComponentCreator('/support/support-model.html', '954'),
+                path: '/docs/support/faq',
+                component: ComponentCreator('/docs/support/faq', 'e64'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/support/troubleshooting.html',
-                component: ComponentCreator('/support/troubleshooting.html', '01e'),
+                path: '/docs/support/support-model',
+                component: ComponentCreator('/docs/support/support-model', '02f'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/',
-                component: ComponentCreator('/', 'bea'),
+                path: '/docs/support/troubleshooting',
+                component: ComponentCreator('/docs/support/troubleshooting', 'a51'),
                 exact: true,
                 sidebar: "docs"
               }
@@ -144,6 +144,11 @@ export default [
         ]
       }
     ]
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', '070'),
+    exact: true
   },
   {
     path: '*',

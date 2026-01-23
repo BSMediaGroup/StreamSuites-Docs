@@ -4,23 +4,23 @@
   "description": "Reference",
   "source": "@site/docs/reference/runtime-overview.md",
   "sourceDirName": "reference",
-  "slug": "/reference/runtime-overview.html",
-  "permalink": "/reference/runtime-overview.html",
+  "slug": "/reference/runtime-overview",
+  "permalink": "/docs/reference/runtime-overview",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {
     "title": "Runtime overview",
-    "slug": "/reference/runtime-overview.html"
+    "slug": "/reference/runtime-overview"
   },
   "sidebar": "docs",
   "previous": {
     "title": "Discord",
-    "permalink": "/integrations/discord.html"
+    "permalink": "/docs/integrations/discord"
   },
   "next": {
     "title": "FAQ",
-    "permalink": "/support/faq.html"
+    "permalink": "/docs/support/faq"
   }
 }

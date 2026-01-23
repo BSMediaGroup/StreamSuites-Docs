@@ -4,23 +4,23 @@
   "description": "Creator guide",
   "source": "@site/docs/creator-guide/creator-dashboard.md",
   "sourceDirName": "creator-guide",
-  "slug": "/creator-guide/creator-dashboard.html",
-  "permalink": "/creator-guide/creator-dashboard.html",
+  "slug": "/creator-guide/creator-dashboard",
+  "permalink": "/docs/creator-guide/creator-dashboard",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {
     "title": "Creator dashboard",
-    "slug": "/creator-guide/creator-dashboard.html"
+    "slug": "/creator-guide/creator-dashboard"
   },
   "sidebar": "docs",
   "previous": {
     "title": "Creator workspace",
-    "permalink": "/guides/creator-workspace.html"
+    "permalink": "/docs/guides/creator-workspace"
   },
   "next": {
     "title": "Automation basics",
-    "permalink": "/creator-guide/automation-basics.html"
+    "permalink": "/docs/creator-guide/automation-basics"
   }
 }

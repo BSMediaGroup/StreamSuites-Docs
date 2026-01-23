@@ -1,6 +1,6 @@
 ---
 title: Discord
-slug: /integrations/discord.html
+slug: /integrations/discord
 ---
 
 Integrations

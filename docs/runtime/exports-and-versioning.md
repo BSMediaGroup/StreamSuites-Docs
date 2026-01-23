@@ -1,6 +1,6 @@
 ---
 title: Exports and versioning
-slug: /runtime/exports-and-versioning.html
+slug: /runtime/exports-and-versioning
 ---
 
 Runtime

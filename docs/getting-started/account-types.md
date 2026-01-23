@@ -1,6 +1,6 @@
 ---
 title: Account types
-slug: /getting-started/account-types.html
+slug: /getting-started/account-types
 ---
 
 Getting started

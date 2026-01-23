@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "routeBasePath": "/",
+          "routeBasePath": "/docs",
           "sidebarPath": "C:\\NEPTUNE LOCAL\\GIT\\StreamSuites-Docs\\sidebars.js"
         },
         "blog": false,
@@ -45,7 +45,7 @@ export default {
         "indexPages": true,
         "indexBlog": false,
         "docsRouteBasePath": [
-          "/"
+          "/docs"
         ]
       }
     ]

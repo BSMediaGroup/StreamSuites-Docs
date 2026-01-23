@@ -4,23 +4,23 @@
   "description": "Runtime",
   "source": "@site/docs/runtime/automation-states.md",
   "sourceDirName": "runtime",
-  "slug": "/runtime/automation-states.html",
-  "permalink": "/runtime/automation-states.html",
+  "slug": "/runtime/automation-states",
+  "permalink": "/docs/runtime/automation-states",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {
     "title": "Automation states",
-    "slug": "/runtime/automation-states.html"
+    "slug": "/runtime/automation-states"
   },
   "sidebar": "docs",
   "previous": {
     "title": "Exports and versioning",
-    "permalink": "/runtime/exports-and-versioning.html"
+    "permalink": "/docs/runtime/exports-and-versioning"
   },
   "next": {
     "title": "YouTube",
-    "permalink": "/integrations/youtube.html"
+    "permalink": "/docs/integrations/youtube"
   }
 }

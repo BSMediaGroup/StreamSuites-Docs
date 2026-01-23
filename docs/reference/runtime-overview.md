@@ -1,6 +1,6 @@
 ---
 title: Runtime overview
-slug: /reference/runtime-overview.html
+slug: /reference/runtime-overview
 ---
 
 Reference

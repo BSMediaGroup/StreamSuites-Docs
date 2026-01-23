@@ -4,23 +4,23 @@
   "description": "Support",
   "source": "@site/docs/support/faq.md",
   "sourceDirName": "support",
-  "slug": "/support/faq.html",
-  "permalink": "/support/faq.html",
+  "slug": "/support/faq",
+  "permalink": "/docs/support/faq",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {
     "title": "FAQ",
-    "slug": "/support/faq.html"
+    "slug": "/support/faq"
   },
   "sidebar": "docs",
   "previous": {
     "title": "Runtime overview",
-    "permalink": "/reference/runtime-overview.html"
+    "permalink": "/docs/reference/runtime-overview"
   },
   "next": {
     "title": "Troubleshooting",
-    "permalink": "/support/troubleshooting.html"
+    "permalink": "/docs/support/troubleshooting"
   }
 }

@@ -1,6 +1,6 @@
 ---
 title: Automation basics
-slug: /creator-guide/automation-basics.html
+slug: /creator-guide/automation-basics
 ---
 
 Creator guide

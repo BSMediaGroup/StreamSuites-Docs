@@ -1,6 +1,6 @@
 ---
 title: Getting started
-slug: /guides/getting-started.html
+slug: /guides/getting-started
 ---
 
 Guides

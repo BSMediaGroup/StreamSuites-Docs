@@ -4,23 +4,23 @@
   "description": "Guides",
   "source": "@site/docs/guides/creator-workspace.md",
   "sourceDirName": "guides",
-  "slug": "/guides/creator-workspace.html",
-  "permalink": "/guides/creator-workspace.html",
+  "slug": "/guides/creator-workspace",
+  "permalink": "/docs/guides/creator-workspace",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {
     "title": "Creator workspace",
-    "slug": "/guides/creator-workspace.html"
+    "slug": "/guides/creator-workspace"
   },
   "sidebar": "docs",
   "previous": {
     "title": "Getting started",
-    "permalink": "/guides/getting-started.html"
+    "permalink": "/docs/guides/getting-started"
   },
   "next": {
     "title": "Creator dashboard",
-    "permalink": "/creator-guide/creator-dashboard.html"
+    "permalink": "/docs/creator-guide/creator-dashboard"
   }
 }

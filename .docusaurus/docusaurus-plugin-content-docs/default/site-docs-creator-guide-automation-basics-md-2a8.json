@@ -4,23 +4,23 @@
   "description": "Creator guide",
   "source": "@site/docs/creator-guide/automation-basics.md",
   "sourceDirName": "creator-guide",
-  "slug": "/creator-guide/automation-basics.html",
-  "permalink": "/creator-guide/automation-basics.html",
+  "slug": "/creator-guide/automation-basics",
+  "permalink": "/docs/creator-guide/automation-basics",
   "draft": false,
   "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {
     "title": "Automation basics",
-    "slug": "/creator-guide/automation-basics.html"
+    "slug": "/creator-guide/automation-basics"
   },
   "sidebar": "docs",
   "previous": {
     "title": "Creator dashboard",
-    "permalink": "/creator-guide/creator-dashboard.html"
+    "permalink": "/docs/creator-guide/creator-dashboard"
   },
   "next": {
     "title": "Clips and scoreboards",
-    "permalink": "/creator-guide/clips-scoreboards.html"
+    "permalink": "/docs/creator-guide/clips-scoreboards"
   }
 }

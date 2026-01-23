@@ -1,6 +1,6 @@
 ---
 title: Installation
-slug: /getting-started/installation.html
+slug: /getting-started/installation
 ---
 
 Getting started

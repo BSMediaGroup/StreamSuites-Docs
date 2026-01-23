@@ -1,6 +1,6 @@
 ---
 title: Creator dashboard
-slug: /creator-guide/creator-dashboard.html
+slug: /creator-guide/creator-dashboard
 ---
 
 Creator guide

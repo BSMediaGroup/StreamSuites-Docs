@@ -1,6 +1,6 @@
 ---
 title: Clips and scoreboards
-slug: /creator-guide/clips-scoreboards.html
+slug: /creator-guide/clips-scoreboards
 ---
 
 Creator guide

@@ -1,6 +1,6 @@
 ---
 title: Twitch
-slug: /integrations/twitch.html
+slug: /integrations/twitch
 ---
 
 Integrations

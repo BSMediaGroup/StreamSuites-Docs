@@ -1,6 +1,6 @@
 ---
 title: First run
-slug: /getting-started/first-run.html
+slug: /getting-started/first-run
 ---
 
 Getting started

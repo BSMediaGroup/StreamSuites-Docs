@@ -225,6 +225,8 @@ img {
   display: flex;
   align-items: center;
   -webkit-tap-highlight-color: transparent;
+  font-size: 0.5rem;
+  line-height: 1;
 }
 
 .theme__fill,
@@ -314,6 +316,11 @@ img {
 .theme__toggle,
 .theme__toggle:before {
   display: block;
+}
+
+.theme__toggle-wrap,
+.theme__toggle {
+  position: relative;
 }
 
 .theme__toggle {

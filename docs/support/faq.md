@@ -7,10 +7,19 @@ Support
 
 Quick answers to common StreamSuites questions.
 
-## Coming soon
+This page will be expanded.
 
-This page is a placeholder for the full FAQ documentation.
+## Account and licensing
 
-* Licensing, updates, and release cadence.
-* Getting help with onboarding and setup.
-* Data retention and account management.
+* Plan differences and renewal timing.
+* Seat management and admin roles.
+
+## Updates and maintenance
+
+* Release cadence and update windows.
+* Backup and rollback expectations.
+
+## Data and privacy
+
+* Retention timelines and export options.
+* Account closure and data removal.

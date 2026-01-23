@@ -43,6 +43,39 @@ const cards = [
   },
 ];
 
+const quicklinks = [
+  {
+    label: 'Rumble',
+    href: '/docs/integrations/rumble',
+    icon: 'assets/icons/rumble.svg',
+  },
+  {
+    label: 'YouTube',
+    href: '/docs/integrations/youtube',
+    icon: 'assets/icons/youtube.svg',
+  },
+  {
+    label: 'Twitch',
+    href: '/docs/integrations/twitch',
+    icon: 'assets/icons/twitch.svg',
+  },
+  {
+    label: 'Kick',
+    href: '/docs/integrations/kick',
+    icon: 'assets/icons/kick.svg',
+  },
+  {
+    label: 'Pilled',
+    href: '/docs/integrations/pilled',
+    icon: 'assets/icons/pilled.svg',
+  },
+  {
+    label: 'Discord',
+    href: '/docs/integrations/discord',
+    icon: 'assets/icons/discord.svg',
+  },
+];
+
 export default function Home() {
   const logoSrc = useBaseUrl('assets/logos/logoshield-white.png');
 
@@ -77,6 +110,22 @@ export default function Home() {
               <span className={styles.metaPill}>Runtime automation</span>
               <span className={styles.metaPill}>Platform integrations</span>
             </div>
+          </div>
+        </section>
+
+        <section className={styles.quicklinks} aria-label="Platform quicklinks">
+          <div className={styles.quicklinksInner}>
+            {quicklinks.map((link) => (
+              <Link className={styles.quicklink} to={link.href} key={link.label}>
+                <img
+                  className={styles.quicklinkIcon}
+                  src={useBaseUrl(link.icon)}
+                  alt=""
+                  aria-hidden="true"
+                />
+                <span>{link.label}</span>
+              </Link>
+            ))}
           </div>
         </section>
 

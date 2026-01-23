@@ -6,6 +6,7 @@
     <title>Getting Started | StreamSuites Documentation</title>
     <meta http-equiv="refresh" content="0; url=../getting-started/installation.html" />
     <link rel="icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../pagefind/pagefind-ui.css" />
     <link rel="stylesheet" href="../css/docs.css" />
     <script>
       window.location.replace("../getting-started/installation.html");
@@ -27,9 +28,12 @@
           <a href="../support/faq.html">Support</a>
           <a href="../EULA.md">EULA</a>
         </nav>
+        <div class="search pagefind-search" data-pagefind-ignore>
+          <div id="pagefind-search"></div>
+        </div>
       </header>
 
-      <main>
+      <main data-pagefind-body>
         <nav class="breadcrumbs" aria-label="Breadcrumb">
           <a href="../index.html">Docs home</a>
           <span>/</span>
@@ -72,5 +76,8 @@
         <a href="../index.html">Back to documentation hub</a>
       </footer>
     </div>
+    <script src="../pagefind/pagefind-ui.js" defer></script>
+    <script src="../js/pagefind-init.js" defer></script>
+
   </body>
 </html>

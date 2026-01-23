@@ -53,5 +53,18 @@ module.exports = {
       label: 'Support',
       items: ['support/faq', 'support/troubleshooting', 'support/support-model'],
     },
+    {
+      type: 'category',
+      label: 'Legal',
+      items: [
+        { type: 'link', label: 'EULA', href: '/EULA.md' },
+        {
+          type: 'link',
+          label: 'Commercial License Notice',
+          href: '/COMMERCIAL-LICENSE-NOTICE.md',
+        },
+        { type: 'link', label: 'OSS License', href: '/LICENSE' },
+      ],
+    },
   ],
 };

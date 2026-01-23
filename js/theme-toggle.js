@@ -1,17 +1,16 @@
 (function () {
   var storageKey = "docs-theme";
   var root = document.documentElement;
-  var toggle = document.querySelector(".theme-toggle");
+  var toggle = document.querySelector(".theme__toggle");
 
   if (!toggle) {
     return;
   }
 
   function applyTheme(theme) {
-    var isLight = theme === "light";
-    root.setAttribute("data-theme", isLight ? "light" : "dark");
-    toggle.setAttribute("aria-pressed", isLight ? "true" : "false");
-    toggle.setAttribute("aria-label", isLight ? "Switch to dark theme" : "Switch to light theme");
+    var isDark = theme === "dark";
+    root.setAttribute("data-theme", isDark ? "dark" : "light");
+    toggle.checked = isDark;
   }
 
   var storedTheme = localStorage.getItem(storageKey);
@@ -21,8 +20,8 @@
     applyTheme("dark");
   }
 
-  toggle.addEventListener("click", function () {
-    var nextTheme = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+  toggle.addEventListener("change", function () {
+    var nextTheme = toggle.checked ? "dark" : "light";
     applyTheme(nextTheme);
     localStorage.setItem(storageKey, nextTheme);
   });

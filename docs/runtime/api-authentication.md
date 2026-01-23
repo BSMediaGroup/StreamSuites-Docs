@@ -5,6 +5,8 @@ slug: /runtime/api-authentication
 
 Runtime
 
+<span class="version-badge">Applies to StreamSuites v0.3+</span>
+
 Authenticate API clients and secure runtime access.
 
 This page will be expanded.

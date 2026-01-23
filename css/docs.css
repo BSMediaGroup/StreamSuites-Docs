@@ -608,6 +608,20 @@ img {
   letter-spacing: 0.04em;
 }
 
+.version-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(140, 199, 54, 0.12);
+  color: var(--accent);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+}
+
 .sections {
   margin-top: 32px;
   display: grid;

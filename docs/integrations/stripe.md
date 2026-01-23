@@ -5,6 +5,8 @@ slug: /integrations/stripe
 
 Integrations
 
+<span class="version-badge">Applies to StreamSuites v0.3+</span>
+
 Connect StreamSuites to Stripe for payments and entitlements.
 
 This page will be expanded.

@@ -395,7 +395,6 @@ img {
   background: rgba(0, 0, 0, 0.4) !important;
   color: #e6e8eb !important;
   font-family: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
-  font-size: 0.78rem;
   height: 32px;
 }
 
@@ -487,14 +486,12 @@ img {
   border: 1px solid var(--search-border);
   background: var(--search-bg) !important;
   color: var(--search-text) !important;
-  font-size: 0.5rem;
   height: 32px;
   transition: background var(--transDur) ease, border-color var(--transDur) ease, color var(--transDur) ease;
 }
 
 .pagefind-ui__search-input::placeholder {
   color: var(--search-muted);
-  font-size: 1rem;
 }
 
 .pagefind-ui__search-input:hover,
@@ -557,7 +554,6 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.12);
   background: var(--surface);
   color: var(--text);
-  font-size: 1rem;
 }
 
 .search input::placeholder {
@@ -748,22 +744,6 @@ img {
   }
 }
 
-.pagefind-ui__search-input {
-  font-size: 0.62rem;
-}
-
-.pagefind-ui__search-input::placeholder {
-  font-size: 0.62rem;
-}
-
-.search input {
-  font-size: 0.8rem;
-}
-
-.search input::placeholder {
-  font-size: 0.8rem;
-}
-
 .pagefind-ui__search-clear {
   height: 32px;
   min-height: 32px;
@@ -789,22 +769,18 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
 }
 
 .pagefind-ui__search-input {
-  font-size: 0.62rem !important;
   line-height: 1.1;
 }
 
 .pagefind-ui__search-input::placeholder {
-  font-size: 0.62rem !important;
   line-height: 1.1;
 }
 
 .search input {
-  font-size: 0.8rem !important;
   line-height: 1.1;
 }
 
 .search input::placeholder {
-  font-size: 0.8rem !important;
   line-height: 1.1;
 }
 
@@ -830,12 +806,10 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
 }
 
 .pagefind-search .pagefind-ui__search-input {
-  font-size: 0.625rem !important;
   line-height: 1.1 !important;
 }
 
 .pagefind-search .pagefind-ui__search-input::placeholder {
-  font-size: 0.625rem !important;
   line-height: 1.1 !important;
 }
 
@@ -845,13 +819,11 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
 }
 
 .pagefind-search .pagefind-ui__search-input {
-  font-size: 0.5rem !important;
   line-height: 1.1 !important;
   padding-right: 28px !important;
 }
 
 .pagefind-search .pagefind-ui__search-input::placeholder {
-  font-size: 0.5rem !important;
   line-height: 1.1 !important;
 }
 
@@ -887,12 +859,7 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
 }
 
 .pagefind-search .pagefind-ui__search-input {
-  font-size: 0.625rem !important;
   padding-right: 36px !important;
-}
-
-.pagefind-search .pagefind-ui__search-input::placeholder {
-  font-size: inherit !important;
 }
 
 .pagefind-search .pagefind-ui__search-clear {
@@ -901,4 +868,27 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
   right: 10px !important;
   transform: translateY(-50%) !important;
   width: auto !important;
+}
+
+.pagefind-search .pagefind-ui__search-wrap {
+  position: relative !important;
+  width: 100%;
+}
+
+.pagefind-search .pagefind-ui__search-wrap .pagefind-ui__search-input {
+  font-size: 0.8rem !important;
+  line-height: 1.2 !important;
+  padding-right: 44px !important;
+}
+
+.pagefind-search .pagefind-ui__search-wrap .pagefind-ui__search-input::placeholder {
+  font-size: 0.8rem !important;
+  line-height: 1.2 !important;
+}
+
+.pagefind-search .pagefind-ui__search-wrap .pagefind-ui__search-clear {
+  position: absolute !important;
+  right: 12px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
 }

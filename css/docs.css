@@ -26,6 +26,11 @@
   --primary: #8cc736;
   --primaryT: rgba(140, 199, 54, 0.45);
   --transDur: 0.3s;
+  --search-bg: rgba(0, 0, 0, 0.4);
+  --search-border: rgba(255, 255, 255, 0.18);
+  --search-text: #e6e8eb;
+  --search-muted: rgba(231, 237, 245, 0.55);
+  --search-hover-bg: rgba(36, 36, 36, 0.55);
 }
 
 [data-theme="light"] {
@@ -41,6 +46,11 @@
   --accent: #6faa23;
   --accent-warm: #d47900;
   --shadow: 0 22px 50px rgba(15, 18, 22, 0.18);
+  --search-bg: rgba(255, 255, 255, 0.4);
+  --search-border: rgba(15, 18, 22, 0.16);
+  --search-text: #121417;
+  --search-muted: rgba(18, 21, 26, 0.45);
+  --search-hover-bg: rgba(18, 21, 26, 0.06);
 }
 
 [data-theme="light"] .backdrop {
@@ -454,6 +464,79 @@ img {
   color: var(--text);
   border-radius: 6px;
   padding: 0 4px;
+}
+
+.pagefind-search {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pagefind-ui__form {
+  width: 100%;
+  max-width: 560px;
+}
+
+.pagefind-ui__search-input {
+  padding: 6px 40px 6px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--search-border);
+  background: var(--search-bg) !important;
+  color: var(--search-text) !important;
+  font-size: 0.65rem;
+  height: 32px;
+  transition: background var(--transDur) ease, border-color var(--transDur) ease, color var(--transDur) ease;
+}
+
+.pagefind-ui__search-input::placeholder {
+  color: var(--search-muted);
+  font-size: 0.65rem;
+}
+
+.pagefind-ui__search-input:hover,
+.pagefind-ui__search-input:focus {
+  background: var(--search-hover-bg) !important;
+}
+
+.pagefind-ui__search-clear {
+  right: 6px;
+  top: 5px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 6px;
+  border: 1px solid var(--search-border);
+  background: var(--search-hover-bg);
+  color: var(--search-muted);
+  font-size: 0.65rem;
+  transition: background var(--transDur) ease, color var(--transDur) ease, border-color var(--transDur) ease;
+}
+
+.pagefind-ui__search-clear:hover,
+.pagefind-ui__search-clear:focus {
+  background: var(--search-bg);
+  color: var(--search-text);
+}
+
+.pagefind-ui__results {
+  margin-top: 10px;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 12px;
+}
+
+.pagefind-ui__result {
+  padding: 16px;
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: none;
+}
+
+.pagefind-ui__message {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 12px;
 }
 
 .search input {

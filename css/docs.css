@@ -898,3 +898,83 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
   padding-right: 24px !important;
   box-sizing: border-box;
 }
+
+/* ============================================================
+   PAGEFIND — HARD LAYOUT OVERRIDES (DO NOT TOUCH ABOVE)
+   ============================================================ */
+
+/* 1. Freeze the form layout so children cannot drift */
+.pagefind-ui__form {
+  position: relative !important;
+  display: block !important;
+  width: 100%;
+  max-width: 720px; /* or whatever your docs header width is */
+  margin-inline: auto;
+}
+
+/* 2. Lock input sizing and reserve space for the X */
+.pagefind-ui__search-input {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding-right: 2.5rem !important; /* HARD RESERVE FOR X */
+  font-size: 0.9rem !important;     /* your agreed final size */
+}
+
+/* 3. COMPLETELY REMOVE clear button from document flow */
+.pagefind-ui__search-clear {
+  position: absolute !important;
+  top: 50% !important;
+  right: 0.75rem !important;
+  transform: translateY(-50%) !important;
+
+  /* kill layout participation */
+  float: none !important;
+  margin: 0 !important;
+
+  /* visual reset */
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+
+  /* make it an icon, not a button */
+  font-size: 0 !important;
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+}
+
+/* 4. Replace "Clear" text with an X icon */
+.pagefind-ui__search-clear::before {
+  content: "×";
+  font-size: 1.25rem;
+  line-height: 1;
+  color: currentColor;
+  opacity: 0.6;
+}
+
+.pagefind-ui__search-clear:hover::before {
+  opacity: 1;
+}
+
+/* ============================================================
+   PAGEFIND RESULTS — FORCE SIDE PADDING (CARD LEVEL)
+   ============================================================ */
+
+/* 5. Ensure results container doesn't collapse padding */
+.pagefind-ui__results {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 6. FORCE padding INSIDE each result card */
+.pagefind-ui__result-inner {
+  box-sizing: border-box !important;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+}
+
+/* Optional: vertical breathing room */
+.pagefind-ui__result-inner {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}

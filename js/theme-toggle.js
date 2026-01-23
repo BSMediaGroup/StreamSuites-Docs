@@ -1,16 +1,16 @@
 (function () {
   var storageKey = "docs-theme";
   var root = document.documentElement;
-  var toggle = document.querySelector(".theme__toggle");
+  var toggle = document.querySelector(".themeToggleInput");
 
   if (!toggle) {
     return;
   }
 
   function applyTheme(theme) {
-    var isDark = theme === "dark";
-    root.setAttribute("data-theme", isDark ? "dark" : "light");
-    toggle.checked = isDark;
+    var isLight = theme === "light";
+    root.setAttribute("data-theme", isLight ? "light" : "dark");
+    toggle.checked = isLight;
   }
 
   var storedTheme = localStorage.getItem(storageKey);
@@ -21,7 +21,7 @@
   }
 
   toggle.addEventListener("change", function () {
-    var nextTheme = toggle.checked ? "dark" : "light";
+    var nextTheme = toggle.checked ? "light" : "dark";
     applyTheme(nextTheme);
     localStorage.setItem(storageKey, nextTheme);
   });

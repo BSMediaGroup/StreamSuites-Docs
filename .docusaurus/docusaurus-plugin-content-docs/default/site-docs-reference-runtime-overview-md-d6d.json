@@ -16,11 +16,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Discord",
-    "permalink": "/docs/integrations/discord"
+    "title": "Stripe & Billing",
+    "permalink": "/docs/integrations/stripe"
   },
   "next": {
-    "title": "FAQ",
-    "permalink": "/docs/support/faq"
+    "title": "Support model",
+    "permalink": "/docs/support/support-model"
   }
 }

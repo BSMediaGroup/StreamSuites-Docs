@@ -9,19 +9,31 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7d1'),
+    component: ComponentCreator('/docs', 'f98'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'bba'),
+        component: ComponentCreator('/docs', '98e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '18c'),
+            component: ComponentCreator('/docs', '24d'),
             routes: [
               {
                 path: '/docs',
                 component: ComponentCreator('/docs', 'd78'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/changelog',
+                component: ComponentCreator('/docs/changelog', '7b8'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/changelog/v0.3',
+                component: ComponentCreator('/docs/changelog/v0.3', '9bf'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -80,8 +92,24 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/integrations/kick',
+                component: ComponentCreator('/docs/integrations/kick', 'a4c'),
+                exact: true
+              },
+              {
+                path: '/docs/integrations/pilled',
+                component: ComponentCreator('/docs/integrations/pilled', 'cb4'),
+                exact: true
+              },
+              {
                 path: '/docs/integrations/rumble',
                 component: ComponentCreator('/docs/integrations/rumble', 'c8e'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/integrations/stripe',
+                component: ComponentCreator('/docs/integrations/stripe', '1f2'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -98,8 +126,38 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/legal/commercial-license',
+                component: ComponentCreator('/docs/legal/commercial-license', 'fc2'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/legal/eula',
+                component: ComponentCreator('/docs/legal/eula', '8aa'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/legal/license',
+                component: ComponentCreator('/docs/legal/license', 'c0f'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/reference/runtime-overview',
                 component: ComponentCreator('/docs/reference/runtime-overview', '05f'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/runtime/api-authentication',
+                component: ComponentCreator('/docs/runtime/api-authentication', 'c75'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/runtime/api-keys',
+                component: ComponentCreator('/docs/runtime/api-keys', '7c6'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -123,9 +181,8 @@ export default [
               },
               {
                 path: '/docs/support/faq',
-                component: ComponentCreator('/docs/support/faq', 'e64'),
-                exact: true,
-                sidebar: "docs"
+                component: ComponentCreator('/docs/support/faq', 'c84'),
+                exact: true
               },
               {
                 path: '/docs/support/support-model',
@@ -135,9 +192,8 @@ export default [
               },
               {
                 path: '/docs/support/troubleshooting',
-                component: ComponentCreator('/docs/support/troubleshooting', 'a51'),
-                exact: true,
-                sidebar: "docs"
+                component: ComponentCreator('/docs/support/troubleshooting', '368'),
+                exact: true
               }
             ]
           }

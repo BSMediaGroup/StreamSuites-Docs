@@ -1,0 +1,27 @@
+{
+  "id": "legal/eula",
+  "title": "End User License Agreement",
+  "description": "StreamSuites™",
+  "source": "@site/docs/legal/eula.md",
+  "sourceDirName": "legal",
+  "slug": "/legal/eula",
+  "permalink": "/docs/legal/eula",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "End User License Agreement",
+    "sidebar_label": "EULA",
+    "slug": "/legal/eula"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Support model",
+    "permalink": "/docs/support/support-model"
+  },
+  "next": {
+    "title": "Commercial License",
+    "permalink": "/docs/legal/commercial-license"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "legal/commercial-license-notice",
+  "title": "Commercial License Notice",
+  "description": "StreamSuites™ is proprietary commercial software owned by Brainstream Media Group.",
+  "source": "@site/docs/legal/commercial-license-notice.md",
+  "sourceDirName": "legal",
+  "slug": "/legal/commercial-license",
+  "permalink": "/docs/legal/commercial-license",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Commercial License Notice",
+    "sidebar_label": "Commercial License",
+    "slug": "/legal/commercial-license"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "EULA",
+    "permalink": "/docs/legal/eula"
+  },
+  "next": {
+    "title": "StreamSuites™ Proprietary License",
+    "permalink": "/docs/legal/license"
+  }
+}

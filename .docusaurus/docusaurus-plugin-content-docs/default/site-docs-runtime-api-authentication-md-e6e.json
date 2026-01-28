@@ -1,0 +1,26 @@
+{
+  "id": "runtime/api-authentication",
+  "title": "API authentication",
+  "description": "Runtime",
+  "source": "@site/docs/runtime/api-authentication.md",
+  "sourceDirName": "runtime",
+  "slug": "/runtime/api-authentication",
+  "permalink": "/docs/runtime/api-authentication",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "API authentication",
+    "slug": "/runtime/api-authentication"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Automation states",
+    "permalink": "/docs/runtime/automation-states"
+  },
+  "next": {
+    "title": "API keys",
+    "permalink": "/docs/runtime/api-keys"
+  }
+}

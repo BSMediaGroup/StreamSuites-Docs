@@ -1,0 +1,17 @@
+{
+  "id": "integrations/kick",
+  "title": "Kick",
+  "description": "",
+  "source": "@site/docs/integrations/kick.md",
+  "sourceDirName": "integrations",
+  "slug": "/integrations/kick",
+  "permalink": "/docs/integrations/kick",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Kick",
+    "slug": "/integrations/kick"
+  }
+}

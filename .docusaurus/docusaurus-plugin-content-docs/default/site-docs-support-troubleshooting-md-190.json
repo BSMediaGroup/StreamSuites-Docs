@@ -13,14 +13,5 @@
   "frontMatter": {
     "title": "Troubleshooting",
     "slug": "/support/troubleshooting"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "FAQ",
-    "permalink": "/docs/support/faq"
-  },
-  "next": {
-    "title": "Support model",
-    "permalink": "/docs/support/support-model"
   }
 }

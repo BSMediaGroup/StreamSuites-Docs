@@ -13,14 +13,5 @@
   "frontMatter": {
     "title": "FAQ",
     "slug": "/support/faq"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "Runtime overview",
-    "permalink": "/docs/reference/runtime-overview"
-  },
-  "next": {
-    "title": "Troubleshooting",
-    "permalink": "/docs/support/troubleshooting"
   }
 }

@@ -5,11 +5,21 @@
       "versions": [
         {
           "name": "current",
-          "label": "Next",
+          "label": "v0.x (current)",
           "isLast": true,
           "path": "/docs",
           "mainDocId": "index",
           "docs": [
+            {
+              "id": "changelog/index",
+              "path": "/docs/changelog",
+              "sidebar": "docs"
+            },
+            {
+              "id": "changelog/v0.3",
+              "path": "/docs/changelog/v0.3",
+              "sidebar": "docs"
+            },
             {
               "id": "creator-guide/automation-basics",
               "path": "/docs/creator-guide/automation-basics",
@@ -61,8 +71,21 @@
               "sidebar": "docs"
             },
             {
+              "id": "integrations/kick",
+              "path": "/docs/integrations/kick"
+            },
+            {
+              "id": "integrations/pilled",
+              "path": "/docs/integrations/pilled"
+            },
+            {
               "id": "integrations/rumble",
               "path": "/docs/integrations/rumble",
+              "sidebar": "docs"
+            },
+            {
+              "id": "integrations/stripe",
+              "path": "/docs/integrations/stripe",
               "sidebar": "docs"
             },
             {
@@ -76,8 +99,33 @@
               "sidebar": "docs"
             },
             {
+              "id": "legal/commercial-license-notice",
+              "path": "/docs/legal/commercial-license",
+              "sidebar": "docs"
+            },
+            {
+              "id": "legal/eula",
+              "path": "/docs/legal/eula",
+              "sidebar": "docs"
+            },
+            {
+              "id": "legal/license",
+              "path": "/docs/legal/license",
+              "sidebar": "docs"
+            },
+            {
               "id": "reference/runtime-overview",
               "path": "/docs/reference/runtime-overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "runtime/api-authentication",
+              "path": "/docs/runtime/api-authentication",
+              "sidebar": "docs"
+            },
+            {
+              "id": "runtime/api-keys",
+              "path": "/docs/runtime/api-keys",
               "sidebar": "docs"
             },
             {
@@ -97,8 +145,7 @@
             },
             {
               "id": "support/faq",
-              "path": "/docs/support/faq",
-              "sidebar": "docs"
+              "path": "/docs/support/faq"
             },
             {
               "id": "support/support-model",
@@ -107,8 +154,7 @@
             },
             {
               "id": "support/troubleshooting",
-              "path": "/docs/support/troubleshooting",
-              "sidebar": "docs"
+              "path": "/docs/support/troubleshooting"
             }
           ],
           "draftIds": [],

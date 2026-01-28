@@ -16,7 +16,11 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Troubleshooting",
-    "permalink": "/docs/support/troubleshooting"
+    "title": "Runtime overview",
+    "permalink": "/docs/reference/runtime-overview"
+  },
+  "next": {
+    "title": "EULA",
+    "permalink": "/docs/legal/eula"
   }
 }

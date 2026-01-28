@@ -20,7 +20,7 @@
     "permalink": "/docs/integrations/twitch"
   },
   "next": {
-    "title": "Runtime overview",
-    "permalink": "/docs/reference/runtime-overview"
+    "title": "Stripe & Billing",
+    "permalink": "/docs/integrations/stripe"
   }
 }

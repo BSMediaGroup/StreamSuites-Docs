@@ -1,0 +1,26 @@
+{
+  "id": "integrations/stripe",
+  "title": "Stripe",
+  "description": "Integrations",
+  "source": "@site/docs/integrations/stripe.md",
+  "sourceDirName": "integrations",
+  "slug": "/integrations/stripe",
+  "permalink": "/docs/integrations/stripe",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Stripe",
+    "slug": "/integrations/stripe"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Discord",
+    "permalink": "/docs/integrations/discord"
+  },
+  "next": {
+    "title": "Runtime overview",
+    "permalink": "/docs/reference/runtime-overview"
+  }
+}

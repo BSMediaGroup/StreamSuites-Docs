@@ -27,7 +27,14 @@ export default {
       {
         "docs": {
           "routeBasePath": "/docs",
-          "sidebarPath": "C:\\NEPTUNE LOCAL\\GIT\\StreamSuites-Docs\\sidebars.js"
+          "sidebarPath": "C:\\NEPTUNE LOCAL\\GIT\\StreamSuites-Docs\\sidebars.js",
+          "lastVersion": "current",
+          "versions": {
+            "current": {
+              "label": "v0.x (current)",
+              "path": ""
+            }
+          }
         },
         "blog": false,
         "theme": {
@@ -44,13 +51,18 @@ export default {
         "indexDocs": true,
         "indexPages": true,
         "indexBlog": false,
-        "docsRouteBasePath": [
-          "/docs"
-        ]
+        "docsRouteBasePath": "/docs"
       }
     ]
   ],
   "themeConfig": {
+    "docs": {
+      "versionPersistence": "none",
+      "sidebar": {
+        "hideable": false,
+        "autoCollapseCategories": false
+      }
+    },
     "colorMode": {
       "defaultMode": "dark",
       "disableSwitch": false,
@@ -99,7 +111,13 @@ export default {
           "position": "right"
         },
         {
-          "href": "/EULA.md",
+          "type": "docsVersionDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
+          "href": "/docs/legal/eula",
           "label": "EULA",
           "position": "right"
         }
@@ -109,14 +127,7 @@ export default {
     "footer": {
       "style": "dark",
       "links": [],
-      "copyright": "StreamSuites documentation hub for docs.streamsuites.app."
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
+      "copyright": "StreamSuites™ Documentation Hub"
     },
     "blog": {
       "sidebar": {

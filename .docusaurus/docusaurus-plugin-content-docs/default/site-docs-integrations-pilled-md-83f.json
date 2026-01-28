@@ -1,0 +1,17 @@
+{
+  "id": "integrations/pilled",
+  "title": "Pilled",
+  "description": "",
+  "source": "@site/docs/integrations/pilled.md",
+  "sourceDirName": "integrations",
+  "slug": "/integrations/pilled",
+  "permalink": "/docs/integrations/pilled",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Pilled",
+    "slug": "/integrations/pilled"
+  }
+}

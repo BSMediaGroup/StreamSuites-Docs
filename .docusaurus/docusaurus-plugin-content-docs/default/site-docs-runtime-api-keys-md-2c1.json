@@ -1,0 +1,26 @@
+{
+  "id": "runtime/api-keys",
+  "title": "API keys",
+  "description": "Runtime",
+  "source": "@site/docs/runtime/api-keys.md",
+  "sourceDirName": "runtime",
+  "slug": "/runtime/api-keys",
+  "permalink": "/docs/runtime/api-keys",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "API keys",
+    "slug": "/runtime/api-keys"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "API authentication",
+    "permalink": "/docs/runtime/api-authentication"
+  },
+  "next": {
+    "title": "YouTube",
+    "permalink": "/docs/integrations/youtube"
+  }
+}

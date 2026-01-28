@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Automation states",
-    "permalink": "/docs/runtime/automation-states"
+    "title": "API keys",
+    "permalink": "/docs/runtime/api-keys"
   },
   "next": {
     "title": "Rumble",

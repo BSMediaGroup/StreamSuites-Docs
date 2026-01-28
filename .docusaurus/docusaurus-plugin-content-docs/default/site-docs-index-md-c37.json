@@ -16,7 +16,7 @@
   },
   "sidebar": "docs",
   "next": {
-    "title": "Installation",
-    "permalink": "/docs/getting-started/installation"
+    "title": "Changelog",
+    "permalink": "/docs/changelog"
   }
 }

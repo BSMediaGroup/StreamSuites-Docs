@@ -1,0 +1,26 @@
+{
+  "id": "changelog/index",
+  "title": "Changelog",
+  "description": "Changelog",
+  "source": "@site/docs/changelog/index.md",
+  "sourceDirName": "changelog",
+  "slug": "/changelog",
+  "permalink": "/docs/changelog",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Changelog",
+    "slug": "/changelog"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "StreamSuites™ Documentation",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "v0.3",
+    "permalink": "/docs/changelog/v0.3"
+  }
+}

@@ -20,7 +20,7 @@
     "permalink": "/docs/runtime/exports-and-versioning"
   },
   "next": {
-    "title": "YouTube",
-    "permalink": "/docs/integrations/youtube"
+    "title": "API authentication",
+    "permalink": "/docs/runtime/api-authentication"
   }
 }

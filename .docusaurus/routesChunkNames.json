@@ -5,22 +5,30 @@
       "plugin": "138e0e15"
     }
   },
-  "/docs-7d1": {
+  "/docs-f98": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-bba": {
+  "/docs-98e": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-18c": {
+  "/docs-24d": {
     "__comp": "a94703ab"
   },
   "/docs-d78": {
     "__comp": "17896441",
     "content": "c377a04b"
+  },
+  "/docs/changelog-7b8": {
+    "__comp": "17896441",
+    "content": "7fda2918"
+  },
+  "/docs/changelog/v0.3-9bf": {
+    "__comp": "17896441",
+    "content": "67eeb009"
   },
   "/docs/creator-guide/automation-basics-9cd": {
     "__comp": "17896441",
@@ -58,9 +66,21 @@
     "__comp": "17896441",
     "content": "b1fece7b"
   },
+  "/docs/integrations/kick-a4c": {
+    "__comp": "17896441",
+    "content": "05091961"
+  },
+  "/docs/integrations/pilled-cb4": {
+    "__comp": "17896441",
+    "content": "83f77b0d"
+  },
   "/docs/integrations/rumble-c8e": {
     "__comp": "17896441",
     "content": "498679ce"
+  },
+  "/docs/integrations/stripe-1f2": {
+    "__comp": "17896441",
+    "content": "5fa1d5c3"
   },
   "/docs/integrations/twitch-198": {
     "__comp": "17896441",
@@ -70,9 +90,29 @@
     "__comp": "17896441",
     "content": "90dba78f"
   },
+  "/docs/legal/commercial-license-fc2": {
+    "__comp": "17896441",
+    "content": "5807377b"
+  },
+  "/docs/legal/eula-8aa": {
+    "__comp": "17896441",
+    "content": "f3ba8611"
+  },
+  "/docs/legal/license-c0f": {
+    "__comp": "17896441",
+    "content": "7a094ce2"
+  },
   "/docs/reference/runtime-overview-05f": {
     "__comp": "17896441",
     "content": "d6ddaf29"
+  },
+  "/docs/runtime/api-authentication-c75": {
+    "__comp": "17896441",
+    "content": "e6eb1d2c"
+  },
+  "/docs/runtime/api-keys-7c6": {
+    "__comp": "17896441",
+    "content": "2c1307a9"
   },
   "/docs/runtime/automation-states-bcc": {
     "__comp": "17896441",
@@ -86,7 +126,7 @@
     "__comp": "17896441",
     "content": "bc2a5e8a"
   },
-  "/docs/support/faq-e64": {
+  "/docs/support/faq-c84": {
     "__comp": "17896441",
     "content": "67992901"
   },
@@ -94,7 +134,7 @@
     "__comp": "17896441",
     "content": "92706f8f"
   },
-  "/docs/support/troubleshooting-a51": {
+  "/docs/support/troubleshooting-368": {
     "__comp": "17896441",
     "content": "190a27a8"
   },

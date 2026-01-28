@@ -1,4 +1,4 @@
-import lunr from "C:\\NEPTUNE LOCAL\\GIT\\StreamSuites-Docs\\node_modules\\lunr\\lunr.js";
+import lunr from "G:\\StreamSuites-Docs\\node_modules\\lunr\\lunr.js";
 export const removeDefaultStopWordFilter = [];
 export const language = ["en"];
 export const searchIndexUrl = "search-index{dir}.json?_=e52a7a54";

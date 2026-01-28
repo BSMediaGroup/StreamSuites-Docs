@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "routeBasePath": "/docs",
-          "sidebarPath": "C:\\NEPTUNE LOCAL\\GIT\\StreamSuites-Docs\\sidebars.js",
+          "sidebarPath": "G:\\StreamSuites-Docs\\sidebars.js",
           "lastVersion": "current",
           "versions": {
             "current": {
@@ -38,14 +38,14 @@ export default {
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\NEPTUNE LOCAL\\GIT\\StreamSuites-Docs\\src\\css\\custom.css"
+          "customCss": "G:\\StreamSuites-Docs\\src\\css\\custom.css"
         }
       }
     ]
   ],
   "plugins": [
     [
-      "C:\\NEPTUNE LOCAL\\GIT\\StreamSuites-Docs\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
+      "G:\\StreamSuites-Docs\\node_modules\\@easyops-cn\\docusaurus-search-local\\dist\\server\\server\\index.js",
       {
         "hashed": true,
         "indexDocs": true,

@@ -293,6 +293,15 @@
   .heroCard {
     padding: 34px 30px;
   }
+
+  .titleLine {
+    align-items: flex-start;
+  }
+
+  .titleLogo {
+    height: 2.1em;
+    transform: translateY(0.02em);
+  }
 }
 
 @media (max-width: 600px) {

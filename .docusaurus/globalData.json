@@ -145,7 +145,8 @@
             },
             {
               "id": "support/faq",
-              "path": "/docs/support/faq"
+              "path": "/docs/support/faq",
+              "sidebar": "docs"
             },
             {
               "id": "support/support-model",

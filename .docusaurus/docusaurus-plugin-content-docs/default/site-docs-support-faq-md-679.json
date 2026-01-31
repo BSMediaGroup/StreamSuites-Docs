@@ -13,5 +13,14 @@
   "frontMatter": {
     "title": "FAQ",
     "slug": "/support/faq"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Support model",
+    "permalink": "/docs/support/support-model"
+  },
+  "next": {
+    "title": "EULA",
+    "permalink": "/docs/legal/eula"
   }
 }

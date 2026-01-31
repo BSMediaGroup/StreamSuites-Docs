@@ -62,6 +62,7 @@ module.exports = {
       label: 'Support',
       items: [
         'support/support-model',
+        'support/faq',
       ],
     },
     {

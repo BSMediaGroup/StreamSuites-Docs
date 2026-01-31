@@ -37,6 +37,12 @@
   --ifm-navbar-background-color: var(--panel);
   --ifm-footer-background-color: var(--panel);
   --ifm-card-background-color: var(--panel);
+  --ifm-h1-font-size: 1.125rem;
+  --ifm-h2-font-size: 1.215rem;
+  --ifm-h3-font-size: 1.125rem;
+  --ifm-h4-font-size: 0.9rem;
+  --ifm-navbar-link-font-size: 0.81rem;
+  --ifm-navbar-search-input-font-size: 0.81rem;
   --ifm-color-primary: #6faa23;
   --ifm-color-primary-dark: #5b8f1d;
   --ifm-color-primary-darker: #527f1a;
@@ -161,6 +167,12 @@ a {
 
 .navbar__search-input {
   font-family: var(--ifm-font-family-base);
+  font-size: var(--ifm-navbar-search-input-font-size);
+}
+
+.navbar__link,
+.navbar__item.navbar__link {
+  font-size: var(--ifm-navbar-link-font-size);
 }
 
 :root:not([data-theme='dark']) .navbar__search-input {
@@ -174,4 +186,74 @@ a {
 
 [data-theme='dark'] .navbar__search-input {
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+.theme-doc-markdown h1,
+.theme-doc-markdown > h1,
+.theme-doc-markdown header h1,
+.theme-doc-markdown.markdown h1,
+.markdown:not(.theme-blog-markdown) h1 {
+  font-size: calc(var(--ifm-h1-font-size) * 0.75);
+}
+
+.theme-doc-markdown h2,
+.theme-doc-markdown.markdown h2,
+.markdown:not(.theme-blog-markdown) h2 {
+  font-size: calc(var(--ifm-h2-font-size) * 0.9);
+}
+
+.theme-doc-markdown h3,
+.theme-doc-markdown.markdown h3,
+.markdown:not(.theme-blog-markdown) h3 {
+  font-size: calc(var(--ifm-h3-font-size) * 0.9);
+}
+
+.theme-doc-markdown h4,
+.theme-doc-markdown.markdown h4,
+.markdown:not(.theme-blog-markdown) h4 {
+  font-size: calc(var(--ifm-h4-font-size) * 0.9);
+}
+
+@media (max-width: 576px) {
+  .markdown h1:first-child {
+    --ifm-h1-font-size: 1.125rem;
+  }
+
+  .markdown > h2 {
+    --ifm-h2-font-size: 1.215rem;
+  }
+
+  .markdown > h3 {
+    --ifm-h3-font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 996px) {
+  .navbar,
+  .navbar__inner {
+    overflow: visible;
+  }
+
+  #__docusaurus,
+  .main-wrapper,
+  .theme-layout {
+    overflow: visible;
+    contain: none;
+  }
+
+  .theme-layout-navbar-sidebar,
+  .navbar-sidebar {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2200;
+  }
+
+  .navbar-sidebar__items {
+    position: relative;
+    z-index: 2200;
+    height: 100%;
+    max-height: none;
+  }
 }

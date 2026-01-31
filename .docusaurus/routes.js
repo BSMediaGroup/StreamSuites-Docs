@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f98'),
+    component: ComponentCreator('/docs', '53b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '98e'),
+        component: ComponentCreator('/docs', 'aad'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '24d'),
+            component: ComponentCreator('/docs', 'cc9'),
             routes: [
               {
                 path: '/docs',
@@ -181,8 +181,9 @@ export default [
               },
               {
                 path: '/docs/support/faq',
-                component: ComponentCreator('/docs/support/faq', 'c84'),
-                exact: true
+                component: ComponentCreator('/docs/support/faq', 'e64'),
+                exact: true,
+                sidebar: "docs"
               },
               {
                 path: '/docs/support/support-model',

@@ -197,7 +197,7 @@ img {
 .nav {
   display: flex;
   gap: 12px;
-  font-size: 0.83rem;
+  font-size: 0.75rem;
   align-items: center;
   color: var(--muted);
 }
@@ -646,7 +646,7 @@ img {
 
 .card h2 {
   font-family: "RechargeBd", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.26rem;
   letter-spacing: 0.03em;
 }
 
@@ -711,8 +711,13 @@ img {
 
 .page-header h1 {
   font-family: "RechargeBd", sans-serif;
-  font-size: clamp(2rem, 3.2vw, 2.8rem);
+  font-size: clamp(1.5rem, 2.4vw, 2.1rem);
   letter-spacing: 0.04em;
+}
+
+.placeholder h2,
+.home-section h2 {
+  font-size: 1.35rem;
 }
 
 .placeholder {
@@ -912,7 +917,7 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
 }
 
 .pagefind-search .pagefind-ui__search-wrap .pagefind-ui__search-input {
-  font-size: 0.8rem !important;
+  font-size: 0.72rem !important;
   line-height: 1.2 !important;
   padding-right: 44px !important;
 }
@@ -953,7 +958,7 @@ html:not([data-theme="light"]) .pagefind-ui__search-clear {
   width: 100% !important;
   box-sizing: border-box !important;
   padding-right: 2.5rem !important; /* HARD RESERVE FOR X */
-  font-size: 0.9rem !important;     /* your agreed final size */
+  font-size: 0.81rem !important;     /* your agreed final size */
 }
 
 /* 3. COMPLETELY REMOVE clear button from document flow */

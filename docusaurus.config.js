@@ -5,8 +5,12 @@ module.exports = {
   url: 'https://docs.streamsuites.app',
   baseUrl: '/',
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   organizationName: 'StreamSuites',
   projectName: 'StreamSuites-Docs',
   trailingSlash: false,

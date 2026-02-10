@@ -16,6 +16,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "changelog/v0-4-0-alpha",
+              "path": "/docs/changelog/v0-4-0-alpha",
+              "sidebar": "docs"
+            },
+            {
               "id": "changelog/v0.3",
               "path": "/docs/changelog/v0.3",
               "sidebar": "docs"

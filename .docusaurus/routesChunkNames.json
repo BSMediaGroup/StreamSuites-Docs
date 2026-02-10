@@ -5,17 +5,17 @@
       "plugin": "138e0e15"
     }
   },
-  "/docs-53b": {
+  "/docs-87a": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-aad": {
+  "/docs-563": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-cc9": {
+  "/docs-9c0": {
     "__comp": "a94703ab"
   },
   "/docs-d78": {
@@ -25,6 +25,10 @@
   "/docs/changelog-7b8": {
     "__comp": "17896441",
     "content": "7fda2918"
+  },
+  "/docs/changelog/v0-4-0-alpha-d3c": {
+    "__comp": "17896441",
+    "content": "31fe0c46"
   },
   "/docs/changelog/v0.3-9bf": {
     "__comp": "17896441",

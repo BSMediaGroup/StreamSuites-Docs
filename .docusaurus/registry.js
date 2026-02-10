@@ -8,6 +8,7 @@ export default {
   "2a8058e6": [() => import(/* webpackChunkName: "2a8058e6" */ "@site/docs/creator-guide/automation-basics.md"), "@site/docs/creator-guide/automation-basics.md", require.resolveWeak("@site/docs/creator-guide/automation-basics.md")],
   "2acb21c5": [() => import(/* webpackChunkName: "2acb21c5" */ "@site/docs/runtime/exports-and-versioning.md"), "@site/docs/runtime/exports-and-versioning.md", require.resolveWeak("@site/docs/runtime/exports-and-versioning.md")],
   "2c1307a9": [() => import(/* webpackChunkName: "2c1307a9" */ "@site/docs/runtime/api-keys.md"), "@site/docs/runtime/api-keys.md", require.resolveWeak("@site/docs/runtime/api-keys.md")],
+  "31fe0c46": [() => import(/* webpackChunkName: "31fe0c46" */ "@site/docs/changelog/v0-4-0-alpha.md"), "@site/docs/changelog/v0-4-0-alpha.md", require.resolveWeak("@site/docs/changelog/v0-4-0-alpha.md")],
   "4718f96c": [() => import(/* webpackChunkName: "4718f96c" */ "@site/docs/runtime/automation-states.md"), "@site/docs/runtime/automation-states.md", require.resolveWeak("@site/docs/runtime/automation-states.md")],
   "498679ce": [() => import(/* webpackChunkName: "498679ce" */ "@site/docs/integrations/rumble.md"), "@site/docs/integrations/rumble.md", require.resolveWeak("@site/docs/integrations/rumble.md")],
   "52a8f07d": [() => import(/* webpackChunkName: "52a8f07d" */ "@site/docs/getting-started/first-run.md"), "@site/docs/getting-started/first-run.md", require.resolveWeak("@site/docs/getting-started/first-run.md")],

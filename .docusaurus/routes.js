@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '87a'),
+    component: ComponentCreator('/docs', '115'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '563'),
+        component: ComponentCreator('/docs', 'b4d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '9c0'),
+            component: ComponentCreator('/docs', 'd82'),
             routes: [
               {
                 path: '/docs',
@@ -34,6 +34,12 @@ export default [
               {
                 path: '/docs/changelog/v0-4-0-alpha',
                 component: ComponentCreator('/docs/changelog/v0-4-0-alpha', 'd3c'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/changelog/v0-4-2-alpha',
+                component: ComponentCreator('/docs/changelog/v0-4-2-alpha', 'cf0'),
                 exact: true,
                 sidebar: "docs"
               },

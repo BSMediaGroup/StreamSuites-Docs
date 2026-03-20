@@ -56,6 +56,7 @@ StreamSuites-Docs/
   docusaurus.config.js
   EULA.md
   LICENSE
+  BUMP_NOTES.md
   package-lock.json
   package.json
   README.md

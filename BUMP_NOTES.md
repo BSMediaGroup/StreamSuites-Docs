@@ -1,3 +1,19 @@
+CURRENT VER= 0.4.2-alpha / PENDING VER= 0.4.2-alpha
+
+## Technical Notes
+
+- CI was failing at `npm ci` because `package-lock.json` contained a poisoned transitive entry for `update-notifier -> is-yarn-global` that pointed npm at the nonexistent tarball `is-yarn-global-0.4.2.tgz`.
+- Removed and regenerated the root `package-lock.json` from `package.json` after isolating the stale local install tree, which replaced the bad lockfile entry with the published `is-yarn-global@0.4.1` resolution.
+- Validation run for this repair used the repo's CI install/build commands: `npm ci` and `npm run build`.
+- `npm ci` now succeeds locally against the regenerated lockfile, and `npm run build` now succeeds and generates the Docusaurus site.
+- The Docusaurus build still reports pre-existing broken-link warnings on older docs routes; those warnings did not block the build during this repair.
+
+## Human Notes
+
+- The docs pipeline was blocked by a bad lockfile artifact, not by a real package declared in `package.json`.
+- The fix was a clean lockfile replacement rather than a broad dependency upgrade, so the repo stays truthful to its existing dependency intent.
+- The regenerated lockfile is expected to differ substantially from the prior one because the broken generated artifact was replaced with a fresh npm-generated dependency graph.
+
 CURRENT VER= v0.4.0-alpha / PENDING VER= 0.4.2-alpha
 
 ## Technical Notes

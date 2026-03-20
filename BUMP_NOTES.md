@@ -9,6 +9,7 @@ CURRENT VER= v0.4.0-alpha / PENDING VER= 0.4.2-alpha
 - Validation completed with the repo-standard build command `npm run build`; Docusaurus generated static files in `build/` successfully and refreshed the tracked build output for the new release page.
 - The rebuild reported existing broken-link warnings on older docs pages such as `/docs`, `/docs/guides/*`, and `/docs/reference/runtime-overview`; these warnings predate the `v0.4.2-alpha` release-page additions and were not introduced by this release task.
 - Repaired CI install failures by fixing invalid transitive lockfile entries for `cssnano-preset-advanced -> autoprefixer` and old `ajv -> json-schema-traverse` chains, then updated the GitHub Pages workflow to use `npm ci`, opt into Node 24 action runtime, and install/build on Node 24.
+- Regenerated `package-lock.json` with a newer npm dependency model so optional wasm packages required by `@node-rs/jieba` are now present in the lockfile for cross-platform CI installs instead of being omitted by the prior lockfile state.
 
 ## Human Notes
 
@@ -17,3 +18,4 @@ CURRENT VER= v0.4.0-alpha / PENDING VER= 0.4.2-alpha
 - The docs repo itself is aligned to the broader late-alpha milestone without inventing extra product changes beyond the published release content.
 - Docusaurus now rebuilds successfully after the release-page and navigation updates, with the existing broken-link warnings still present on unrelated legacy content.
 - GitHub Actions is now configured more defensively for this repo's current dependency graph instead of depending on broken registry resolutions from the previous lockfile state.
+- The lockfile now covers both the broken tarball corrections and the missing `@node-rs/jieba` wasm dependency set that was previously blocking `npm ci` on GitHub Actions.

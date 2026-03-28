@@ -46,6 +46,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "find-me-here/advanced-css",
+              "path": "/docs/find-me-here/advanced-css",
+              "sidebar": "docs"
+            },
+            {
               "id": "getting-started/account-types",
               "path": "/docs/getting-started/account-types",
               "sidebar": "docs"

@@ -32,6 +32,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'FindMeHere',
+      items: ['find-me-here/advanced-css'],
+    },
+    {
+      type: 'category',
       label: 'Runtime',
       items: [
         'runtime/runtime-overview',

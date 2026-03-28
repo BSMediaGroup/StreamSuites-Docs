@@ -1,5 +1,30 @@
 CURRENT VER= 0.4.2-alpha / PENDING VER= 0.4.2-alpha
 
+## FindMeHere Advanced CSS Docs Scaffold - 2026-03-28
+
+### Technical Notes
+
+- Added the first Docusaurus `FindMeHere` sidebar/category scaffold and authored `docs/find-me-here/advanced-css.md`, which resolves to `/docs/find-me-here/advanced-css` under the current docs routing setup.
+- The new page is grounded in the live FindMeHere implementation: it documents the current advanced CSS selector aliases, the presentational property allowlist, the at-rule and unsafe-input rejections, and the product boundary that this feature is Pro-only and FindMeHere.live-only.
+- Wired the requested preview image into the actual Docusaurus-served asset path at `static/assets/illustrations/advancedcss-sample-01.webp` so the markdown page can render the inline WEBP during a normal site build.
+- Updated the root README to reflect the new `find-me-here` docs section and the repo's real `/assets/...` static-asset convention.
+- Validation completed with `npm run build`, which generated the new route, sidebar entry, markdown code fence, and inline image through the real Docusaurus pipeline.
+- The build still reports the repo's older broken-link warnings on existing legacy docs pages; those warnings predate this FindMeHere docs addition and were not introduced by the new page.
+
+### Human Notes
+
+- Docs now have a truthful first-pass FindMeHere section instead of sending advanced CSS users to a future empty route.
+- The new page teaches safe customization without implying that creators can rewrite the whole public profile shell with unrestricted CSS.
+- The preview image is wired as a real inline doc asset, so it can be swapped later without changing the page structure.
+
+### Files / Areas Touched
+
+- `sidebars.js`
+- `docs/find-me-here/advanced-css.md`
+- `static/assets/illustrations/advancedcss-sample-01.webp`
+- `README.md`
+- `BUMP_NOTES.md`
+
 ## Technical Notes
 
 - CI was failing at `npm ci` because `package-lock.json` contained a poisoned transitive entry for `update-notifier -> is-yarn-global` that pointed npm at the nonexistent tarball `is-yarn-global-0.4.2.tgz`.

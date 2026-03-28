@@ -1,0 +1,27 @@
+{
+  "id": "find-me-here/advanced-css",
+  "title": "Advanced CSS",
+  "description": "Scoped advanced CSS guidance for Pro-tier FindMeHere.live creator profiles.",
+  "source": "@site/docs/find-me-here/advanced-css.md",
+  "sourceDirName": "find-me-here",
+  "slug": "/find-me-here/advanced-css",
+  "permalink": "/docs/find-me-here/advanced-css",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Advanced CSS",
+    "description": "Scoped advanced CSS guidance for Pro-tier FindMeHere.live creator profiles.",
+    "sidebar_label": "Advanced CSS"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Clips and scoreboards",
+    "permalink": "/docs/creator-guide/clips-scoreboards"
+  },
+  "next": {
+    "title": "Runtime overview",
+    "permalink": "/docs/runtime/runtime-overview"
+  }
+}

@@ -25,6 +25,7 @@ export default {
   "7a094ce2": [() => import(/* webpackChunkName: "7a094ce2" */ "@site/docs/legal/license.md"), "@site/docs/legal/license.md", require.resolveWeak("@site/docs/legal/license.md")],
   "7fda2918": [() => import(/* webpackChunkName: "7fda2918" */ "@site/docs/changelog/index.md"), "@site/docs/changelog/index.md", require.resolveWeak("@site/docs/changelog/index.md")],
   "83f77b0d": [() => import(/* webpackChunkName: "83f77b0d" */ "@site/docs/integrations/pilled.md"), "@site/docs/integrations/pilled.md", require.resolveWeak("@site/docs/integrations/pilled.md")],
+  "8721767d": [() => import(/* webpackChunkName: "8721767d" */ "@site/docs/find-me-here/advanced-css.md"), "@site/docs/find-me-here/advanced-css.md", require.resolveWeak("@site/docs/find-me-here/advanced-css.md")],
   "90dba78f": [() => import(/* webpackChunkName: "90dba78f" */ "@site/docs/integrations/youtube.md"), "@site/docs/integrations/youtube.md", require.resolveWeak("@site/docs/integrations/youtube.md")],
   "92706f8f": [() => import(/* webpackChunkName: "92706f8f" */ "@site/docs/support/support-model.md"), "@site/docs/support/support-model.md", require.resolveWeak("@site/docs/support/support-model.md")],
   "9dd8a0d2": [() => import(/* webpackChunkName: "9dd8a0d2" */ "@site/src/pages/index.jsx"), "@site/src/pages/index.jsx", require.resolveWeak("@site/src/pages/index.jsx")],

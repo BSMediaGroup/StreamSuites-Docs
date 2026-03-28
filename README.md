@@ -4,6 +4,8 @@ Documentation site source for StreamSuites user guides, references, and support 
 ## What this repo is
 - A Docusaurus site with Markdown content and sidebars.
 - Public docs are served from https://docs.streamsuites.app.
+- Current doc sections include `changelog`, `creator-guide`, `find-me-here`, `getting-started`, `guides`, `integrations`, `runtime`, `reference`, `support`, and `legal`.
+- Site-served docs assets that resolve under `/assets/...` are kept in `static/assets/`.
 
 ## How it is deployed
 - GitHub Actions builds on pushes to `main` (or manual runs) using `npm run build`.

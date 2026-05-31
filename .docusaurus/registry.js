@@ -19,6 +19,7 @@ export default {
   "5e95c892": [() => import(/* webpackChunkName: "5e95c892" */ "@theme/DocsRoot"), "@theme/DocsRoot", require.resolveWeak("@theme/DocsRoot")],
   "5e9f5e1a": [() => import(/* webpackChunkName: "5e9f5e1a" */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
   "5fa1d5c3": [() => import(/* webpackChunkName: "5fa1d5c3" */ "@site/docs/integrations/stripe.md"), "@site/docs/integrations/stripe.md", require.resolveWeak("@site/docs/integrations/stripe.md")],
+  "62dc4c53": [() => import(/* webpackChunkName: "62dc4c53" */ "@site/docs/changelog/v0-5-0-alpha.md"), "@site/docs/changelog/v0-5-0-alpha.md", require.resolveWeak("@site/docs/changelog/v0-5-0-alpha.md")],
   "67992901": [() => import(/* webpackChunkName: "67992901" */ "@site/docs/support/faq.md"), "@site/docs/support/faq.md", require.resolveWeak("@site/docs/support/faq.md")],
   "67eeb009": [() => import(/* webpackChunkName: "67eeb009" */ "@site/docs/changelog/v0.3.md"), "@site/docs/changelog/v0.3.md", require.resolveWeak("@site/docs/changelog/v0.3.md")],
   "6dbb1403": [() => import(/* webpackChunkName: "6dbb1403" */ "@site/docs/creator-guide/clips-scoreboards.md"), "@site/docs/creator-guide/clips-scoreboards.md", require.resolveWeak("@site/docs/creator-guide/clips-scoreboards.md")],

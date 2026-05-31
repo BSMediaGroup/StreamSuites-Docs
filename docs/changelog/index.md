@@ -9,6 +9,7 @@ Release notes for StreamSuites documentation and unified platform changes.
 
 ## Releases
 
+* [v0.5.0-alpha](/docs/changelog/v0-5-0-alpha)
 * [v0.4.2-alpha](/docs/changelog/v0-4-2-alpha)
 * [v0.4.0-alpha](/docs/changelog/v0-4-0-alpha)
 * [v0.3](/docs/changelog/v0.3)

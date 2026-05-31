@@ -1,3 +1,28 @@
+# Bump Notes
+
+## RELEASED / PACKAGED: 0.4.2-alpha
+
+Packaged / released and no longer the active pending bucket. Preserve new notes for the open `0.5.0-alpha` section below.
+
+## CURRENT VER= 0.5.0-alpha / PENDING VER= 0.5.1-alpha
+
+## Release Prep — v0.5.0-alpha
+
+- BUMP_NOTES.md restructured with proper RELEASED 0.4.2-alpha archiving for consistency with the rest of the platform.
+- New detailed `v0.5.0-CHANGELOG.md` created.
+- Package metadata bumped to 0.5.0-alpha.
+- Changelog navigation and Docusaurus sidebars updated for the new release.
+- Master `v0.5.0-PROJECT-CHANGELOG.md` published in the runtime repository and linked from the docs site.
+
+### Files / Areas Touched
+
+- `BUMP_NOTES.md`
+- `package.json`
+- `sidebars.js`
+- `docs/changelog/index.md`
+- `docs/changelog/v0-5-0-alpha.md` (new)
+- `changelog/v0.5.0-CHANGELOG.md` (new in runtime)
+
 CURRENT VER= 0.4.2-alpha / PENDING VER= 0.4.2-alpha
 
 ## FindMeHere Advanced CSS Docs Scaffold - 2026-03-28

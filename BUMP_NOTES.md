@@ -6,6 +6,9 @@ Packaged / released and no longer the active pending bucket. Preserve new notes 
 
 ## CURRENT VER= 0.5.0-alpha / PENDING VER= 0.5.1-alpha
 
+- Corrected the Docs package lockfile version metadata from `0.4.2-alpha` to `0.5.0-alpha` so the package metadata matches the current runtime release train.
+- Human note: Docs keeps historical `v0.4.2-alpha` changelog pages as archive material while current package metadata now reports `v0.5.0-alpha`.
+
 ## Release Prep — v0.5.0-alpha
 
 - BUMP_NOTES.md restructured with proper RELEASED 0.4.2-alpha archiving for consistency with the rest of the platform.

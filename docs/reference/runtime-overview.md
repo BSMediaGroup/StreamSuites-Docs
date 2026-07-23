@@ -19,6 +19,6 @@ This page will document runtime services, lifecycle states, and operational note
 
 Runtime documentation is now grouped into overview, exports, and automation states.
 
-* [Runtime overview](/docs/reference/runtime-overview)
-* [Exports and versioning](/docs/reference/runtime-overview)
-* [Automation states](/docs/reference/runtime-overview)
+* [Runtime overview](/docs/runtime/runtime-overview)
+* [Exports and versioning](/docs/runtime/exports-and-versioning)
+* [Automation states](/docs/runtime/automation-states)

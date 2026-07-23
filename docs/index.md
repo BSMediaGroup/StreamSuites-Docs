@@ -40,9 +40,9 @@ Build creator-ready workflows, automation rules, and live production assets.
 
 Operational surface area, exports and versioning, and runtime automation state.
 
-* [Runtime overview](/docs/reference/runtime-overview)
-* [Runtime exports and versioning](/docs/reference/runtime-overview)
-* [Automation states](/docs/reference/runtime-overview)
+* [Runtime overview](/docs/runtime/runtime-overview)
+* [Runtime exports and versioning](/docs/runtime/exports-and-versioning)
+* [Automation states](/docs/runtime/automation-states)
 
 ## Integrations
 

@@ -1,10 +1,16 @@
 # Bump Notes
 
-## RELEASED / PACKAGED: 0.4.2-alpha
+## RELEASED / PACKAGED: 0.5.0-alpha
 
-Packaged / released and no longer the active pending bucket. Preserve new notes for the open `0.5.0-alpha` section below.
+Packaged / released and no longer the active pending bucket. Preserve new notes for the open `0.5.4-alpha` section below.
 
-## CURRENT VER= 0.5.0-alpha / PENDING VER= 0.5.1-alpha
+## CURRENT VER= 0.5.4-alpha / PENDING VER= 0.5.5-alpha
+
+### 2026-07-24 - Docs version-cycle synchronization
+
+- Updated docs package metadata to `0.5.4-alpha`.
+- Opened the docs cycle at `v0.5.4-alpha` while preserving the prior `0.5.0` metadata release.
+- Added `v0.5.4-alpha` to the docs changelog index and sidebar for publication.
 
 - Corrected the Docs package lockfile version metadata from `0.4.2-alpha` to `0.5.0-alpha` so the package metadata matches the current runtime release train.
 - Human note: Docs keeps historical `v0.4.2-alpha` changelog pages as archive material while current package metadata now reports `v0.5.0-alpha`.

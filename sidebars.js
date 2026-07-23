@@ -5,7 +5,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Changelog',
-      items: ['changelog/index', 'changelog/v0-5-0-alpha', 'changelog/v0-4-2-alpha', 'changelog/v0-4-0-alpha', 'changelog/v0.3'],
+      items: ['changelog/index', 'changelog/v0-5-4-alpha', 'changelog/v0-5-0-alpha', 'changelog/v0-4-2-alpha', 'changelog/v0-4-0-alpha', 'changelog/v0.3'],
     },
     {
       type: 'category',

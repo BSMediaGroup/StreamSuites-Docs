@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ac0'),
+    component: ComponentCreator('/docs', '0ae'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '11b'),
+        component: ComponentCreator('/docs', '719'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ebb'),
+            component: ComponentCreator('/docs', '9bc'),
             routes: [
               {
                 path: '/docs',
@@ -46,6 +46,12 @@ export default [
               {
                 path: '/docs/changelog/v0-5-0-alpha',
                 component: ComponentCreator('/docs/changelog/v0-5-0-alpha', '10d'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/changelog/v0-5-4-alpha',
+                component: ComponentCreator('/docs/changelog/v0-5-4-alpha', '0de'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -170,36 +176,6 @@ export default [
               {
                 path: '/docs/reference/runtime-overview',
                 component: ComponentCreator('/docs/reference/runtime-overview', '05f'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/docs/runtime/api-authentication',
-                component: ComponentCreator('/docs/runtime/api-authentication', 'c75'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/docs/runtime/api-keys',
-                component: ComponentCreator('/docs/runtime/api-keys', '7c6'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/docs/runtime/automation-states',
-                component: ComponentCreator('/docs/runtime/automation-states', 'bcc'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/docs/runtime/exports-and-versioning',
-                component: ComponentCreator('/docs/runtime/exports-and-versioning', '782'),
-                exact: true,
-                sidebar: "docs"
-              },
-              {
-                path: '/docs/runtime/runtime-overview',
-                component: ComponentCreator('/docs/runtime/runtime-overview', '4d9'),
                 exact: true,
                 sidebar: "docs"
               },

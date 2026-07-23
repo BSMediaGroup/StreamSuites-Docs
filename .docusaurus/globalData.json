@@ -31,6 +31,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "changelog/v0-5-4-alpha",
+              "path": "/docs/changelog/v0-5-4-alpha",
+              "sidebar": "docs"
+            },
+            {
               "id": "changelog/v0.3",
               "path": "/docs/changelog/v0.3",
               "sidebar": "docs"
@@ -136,31 +141,6 @@
             {
               "id": "reference/runtime-overview",
               "path": "/docs/reference/runtime-overview",
-              "sidebar": "docs"
-            },
-            {
-              "id": "runtime/api-authentication",
-              "path": "/docs/runtime/api-authentication",
-              "sidebar": "docs"
-            },
-            {
-              "id": "runtime/api-keys",
-              "path": "/docs/runtime/api-keys",
-              "sidebar": "docs"
-            },
-            {
-              "id": "runtime/automation-states",
-              "path": "/docs/runtime/automation-states",
-              "sidebar": "docs"
-            },
-            {
-              "id": "runtime/exports-and-versioning",
-              "path": "/docs/runtime/exports-and-versioning",
-              "sidebar": "docs"
-            },
-            {
-              "id": "runtime/runtime-overview",
-              "path": "/docs/runtime/runtime-overview",
               "sidebar": "docs"
             },
             {

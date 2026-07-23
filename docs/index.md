@@ -24,42 +24,42 @@ High-level perspective on StreamSuites capabilities, personas, and release postu
 
 Installation, first-run checklists, and a breakdown of account types.
 
-* [Installation](getting-started/installation.html)
-* [First run](getting-started/first-run.html)
-* [Account types](getting-started/account-types.html)
+* [Installation](/docs/getting-started/installation)
+* [First run](/docs/getting-started/first-run)
+* [Account types](/docs/getting-started/account-types)
 
 ## Creator guide
 
 Build creator-ready workflows, automation rules, and live production assets.
 
-* [Creator dashboard](creator-guide/creator-dashboard.html)
-* [Automation basics](creator-guide/automation-basics.html)
-* [Clips & scoreboards](creator-guide/clips-scoreboards.html)
+* [Creator dashboard](/docs/creator-guide/creator-dashboard)
+* [Automation basics](/docs/creator-guide/automation-basics)
+* [Clips & scoreboards](/docs/creator-guide/clips-scoreboards)
 
 ## Runtime
 
 Operational surface area, exports and versioning, and runtime automation state.
 
-* [Runtime overview](runtime/runtime-overview.html)
-* [Exports and versioning](runtime/exports-and-versioning.html)
-* [Automation states](runtime/automation-states.html)
+* [Runtime overview](/docs/reference/runtime-overview)
+* [Runtime exports and versioning](/docs/reference/runtime-overview)
+* [Automation states](/docs/reference/runtime-overview)
 
 ## Integrations
 
 Connect StreamSuites with major platforms and communication tools.
 
-* [YouTube](integrations/youtube.html)
-* [Rumble](integrations/rumble.html)
-* [Twitch](integrations/twitch.html)
-* [Discord](integrations/discord.html)
+* [YouTube](/docs/integrations/youtube)
+* [Rumble](/docs/integrations/rumble)
+* [Twitch](/docs/integrations/twitch)
+* [Discord](/docs/integrations/discord)
 
 ## Support
 
 FAQ, troubleshooting workflows, and the StreamSuites support model.
 
-* [FAQ](support/faq.html)
-* [Troubleshooting](support/troubleshooting.html)
-* [Support model](support/support-model.html)
+* [FAQ](/docs/support/faq)
+* [Troubleshooting](/docs/support/troubleshooting)
+* [Support model](/docs/support/support-model)
 
 ## Overview {#overview}
 

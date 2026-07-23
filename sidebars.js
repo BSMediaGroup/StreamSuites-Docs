@@ -39,11 +39,7 @@ module.exports = {
       type: 'category',
       label: 'Runtime',
       items: [
-        'runtime/runtime-overview',
-        'runtime/exports-and-versioning',
-        'runtime/automation-states',
-        'runtime/api-authentication',
-        'runtime/api-keys',
+        'reference/runtime-overview',
       ],
     },
     {

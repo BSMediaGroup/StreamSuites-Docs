@@ -109,13 +109,13 @@ This release ships the foundational contracts that will power the next phase of 
 - Canonical runtime version stamped at `0.5.0-alpha` in `runtime/version.py` and `runtime/exports/version.json`.
 - BUMP_NOTES.md prepared with proper 0.4.2-alpha archiving in all 8 repositories.
 - Detailed per-repo changelogs created:
-  - [Runtime](./changelog/v0.5.0-CHANGELOG.md) (in main runtime repo)
-  - [Public](../StreamSuites-Public/changelog/v0.5.0-CHANGELOG.md)
-  - [Creator](../StreamSuites-Creator/changelog/v0.5.0-CHANGELOG.md)
-  - [Dashboard](../StreamSuites-Dashboard/changelog/v0.5.0-CHANGELOG.md)
-  - [Members](../StreamSuites-Members/changelog/v0.5.0-CHANGELOG.md)
-  - [Developer](../StreamSuites-Developer/changelog/v0.5.0-CHANGELOG.md)
-  - [LiveChat Launcher](../StreamSuites-LiveChat-Launcher/changelog/v0.5.0-CHANGELOG.md)
+- Runtime (StreamSuites/repo/changelog/v0.5.0-CHANGELOG.md)
+- Public (StreamSuites-Public/changelog/v0.5.0-CHANGELOG.md)
+- Creator (StreamSuites-Creator/changelog/v0.5.0-CHANGELOG.md)
+- Dashboard (StreamSuites-Dashboard/changelog/v0.5.0-CHANGELOG.md)
+- Members (StreamSuites-Members/changelog/v0.5.0-CHANGELOG.md)
+- Developer (StreamSuites-Developer/changelog/v0.5.0-CHANGELOG.md)
+- LiveChat Launcher (StreamSuites-LiveChat-Launcher/changelog/v0.5.0-CHANGELOG.md)
 - This is the canonical published version of the platform changelog for v0.5.0-alpha.
 
 ---

@@ -19,6 +19,6 @@ This page will cover the initial setup journey from install to first launch.
 
 Start with the refreshed getting started sequence in the new IA.
 
-* [Installation](../getting-started/installation.html)
-* [First run](../getting-started/first-run.html)
-* [Account types](../getting-started/account-types.html)
+* [Installation](/docs/getting-started/installation)
+* [First run](/docs/getting-started/first-run)
+* [Account types](/docs/getting-started/account-types)

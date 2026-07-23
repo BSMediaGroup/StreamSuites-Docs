@@ -20,7 +20,7 @@ const cards = [
   {
     title: 'Runtime',
     description: 'Understand exports, versioning, and runtime automation states.',
-    href: '/docs/runtime/runtime-overview',
+    href: '/docs/reference/runtime-overview',
     cta: 'Explore runtime',
   },
   {

@@ -83,7 +83,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'runtime/runtime-overview',
+          docId: 'reference/runtime-overview',
           label: 'Runtime',
           position: 'left',
         },

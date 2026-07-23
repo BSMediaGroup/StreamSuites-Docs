@@ -19,6 +19,6 @@ This page will outline how to design and manage creator-ready workspaces.
 
 The creator guide is now split into dashboard, automation, and asset flows.
 
-* [Creator dashboard](../creator-guide/creator-dashboard.html)
-* [Automation basics](../creator-guide/automation-basics.html)
-* [Clips & scoreboards](../creator-guide/clips-scoreboards.html)
+* [Creator dashboard](/docs/creator-guide/creator-dashboard)
+* [Automation basics](/docs/creator-guide/automation-basics)
+* [Clips & scoreboards](/docs/creator-guide/clips-scoreboards)

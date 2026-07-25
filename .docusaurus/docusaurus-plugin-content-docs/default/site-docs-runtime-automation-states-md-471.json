@@ -1,7 +1,7 @@
 {
   "id": "runtime/automation-states",
-  "title": "Automation states",
-  "description": "Runtime",
+  "title": "Runtime automation states",
+  "description": "Runtime automation state snapshots and exports are defined by Runtime and mirrored to",
   "source": "@site/docs/runtime/automation-states.md",
   "sourceDirName": "runtime",
   "slug": "/runtime/automation-states",
@@ -11,16 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "Automation states",
-    "slug": "/runtime/automation-states"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "Exports and versioning",
-    "permalink": "/docs/runtime/exports-and-versioning"
-  },
-  "next": {
-    "title": "API authentication",
-    "permalink": "/docs/runtime/api-authentication"
+    "title": "Runtime automation states",
+    "sidebar_label": "Automation states"
   }
 }

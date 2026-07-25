@@ -144,6 +144,26 @@
               "sidebar": "docs"
             },
             {
+              "id": "runtime/api-authentication",
+              "path": "/docs/runtime/api-authentication"
+            },
+            {
+              "id": "runtime/api-keys",
+              "path": "/docs/runtime/api-keys"
+            },
+            {
+              "id": "runtime/automation-states",
+              "path": "/docs/runtime/automation-states"
+            },
+            {
+              "id": "runtime/exports-and-versioning",
+              "path": "/docs/runtime/exports-and-versioning"
+            },
+            {
+              "id": "runtime/runtime-overview",
+              "path": "/docs/runtime/runtime-overview"
+            },
+            {
               "id": "support/faq",
               "path": "/docs/support/faq",
               "sidebar": "docs"

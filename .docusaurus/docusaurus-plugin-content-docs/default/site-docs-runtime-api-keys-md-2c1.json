@@ -1,7 +1,7 @@
 {
   "id": "runtime/api-keys",
-  "title": "API keys",
-  "description": "Runtime",
+  "title": "Runtime API keys",
+  "description": "Runtime API keys and secrets are scoped through authoritative Runtime/Auth",
   "source": "@site/docs/runtime/api-keys.md",
   "sourceDirName": "runtime",
   "slug": "/runtime/api-keys",
@@ -11,16 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "API keys",
-    "slug": "/runtime/api-keys"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "API authentication",
-    "permalink": "/docs/runtime/api-authentication"
-  },
-  "next": {
-    "title": "YouTube",
-    "permalink": "/docs/integrations/youtube"
+    "title": "Runtime API keys",
+    "sidebar_label": "API keys"
   }
 }

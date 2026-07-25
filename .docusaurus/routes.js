@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '0ae'),
+    component: ComponentCreator('/docs', '63e'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '719'),
+        component: ComponentCreator('/docs', 'b58'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '9bc'),
+            component: ComponentCreator('/docs', 'e8c'),
             routes: [
               {
                 path: '/docs',
@@ -178,6 +178,31 @@ export default [
                 component: ComponentCreator('/docs/reference/runtime-overview', '05f'),
                 exact: true,
                 sidebar: "docs"
+              },
+              {
+                path: '/docs/runtime/api-authentication',
+                component: ComponentCreator('/docs/runtime/api-authentication', '04d'),
+                exact: true
+              },
+              {
+                path: '/docs/runtime/api-keys',
+                component: ComponentCreator('/docs/runtime/api-keys', '479'),
+                exact: true
+              },
+              {
+                path: '/docs/runtime/automation-states',
+                component: ComponentCreator('/docs/runtime/automation-states', '2ee'),
+                exact: true
+              },
+              {
+                path: '/docs/runtime/exports-and-versioning',
+                component: ComponentCreator('/docs/runtime/exports-and-versioning', 'f68'),
+                exact: true
+              },
+              {
+                path: '/docs/runtime/runtime-overview',
+                component: ComponentCreator('/docs/runtime/runtime-overview', '1b5'),
+                exact: true
               },
               {
                 path: '/docs/support/faq',

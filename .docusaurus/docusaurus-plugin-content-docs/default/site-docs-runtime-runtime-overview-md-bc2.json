@@ -1,7 +1,7 @@
 {
   "id": "runtime/runtime-overview",
   "title": "Runtime overview",
-  "description": "Runtime",
+  "description": "Runtime overview content is maintained at:",
   "source": "@site/docs/runtime/runtime-overview.md",
   "sourceDirName": "runtime",
   "slug": "/runtime/runtime-overview",
@@ -12,15 +12,6 @@
   "version": "current",
   "frontMatter": {
     "title": "Runtime overview",
-    "slug": "/runtime/runtime-overview"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "Advanced CSS",
-    "permalink": "/docs/find-me-here/advanced-css"
-  },
-  "next": {
-    "title": "Exports and versioning",
-    "permalink": "/docs/runtime/exports-and-versioning"
+    "sidebar_label": "Runtime overview"
   }
 }

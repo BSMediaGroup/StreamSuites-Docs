@@ -1,7 +1,7 @@
 {
   "id": "changelog/v0-5-4-alpha",
-  "title": "StreamSuites Platform Version Sync — v0.5.4-alpha",
-  "description": "Date: 2026-07-24",
+  "title": "v0.5.4-alpha",
+  "description": "Release date: 2026-07-26",
   "source": "@site/docs/changelog/v0-5-4-alpha.md",
   "sourceDirName": "changelog",
   "slug": "/changelog/v0-5-4-alpha",
@@ -11,8 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "StreamSuites Platform Version Sync — v0.5.4-alpha",
-    "sidebar_label": "v0.5.4-alpha"
+    "title": "v0.5.4-alpha"
   },
   "sidebar": "docs",
   "previous": {

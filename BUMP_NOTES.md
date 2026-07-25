@@ -94,3 +94,8 @@ CURRENT VER= v0.4.0-alpha / PENDING VER= 0.4.2-alpha
 - Docusaurus now rebuilds successfully after the release-page and navigation updates, with the existing broken-link warnings still present on unrelated legacy content.
 - GitHub Actions is now configured more defensively for this repo's current dependency graph instead of depending on broken registry resolutions from the previous lockfile state.
 - The lockfile now covers both the broken tarball corrections and the missing `@node-rs/jieba` wasm dependency set that was previously blocking `npm ci` on GitHub Actions.
+
+## 2026-07-26
+- Replaced placeholder changelog content with complete, sectioned release notes for the requested alpha release(s), preserving repository scope boundaries and canonical versioning.
+- Added/updated the project-level changelog references to keep multi-repo release notes synchronized and truthful to Runtime/Auth ownership model.
+- This change is documentation-only: no runtime, API, auth, package, route, or version-control behavior was modified.

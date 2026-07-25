@@ -1,7 +1,7 @@
 {
   "id": "runtime/exports-and-versioning",
-  "title": "Exports and versioning",
-  "description": "Runtime",
+  "title": "Runtime exports and versioning",
+  "description": "Canonical version metadata for the platform is defined by runtime ownership:",
   "source": "@site/docs/runtime/exports-and-versioning.md",
   "sourceDirName": "runtime",
   "slug": "/runtime/exports-and-versioning",
@@ -11,16 +11,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "Exports and versioning",
-    "slug": "/runtime/exports-and-versioning"
-  },
-  "sidebar": "docs",
-  "previous": {
-    "title": "Runtime overview",
-    "permalink": "/docs/runtime/runtime-overview"
-  },
-  "next": {
-    "title": "Automation states",
-    "permalink": "/docs/runtime/automation-states"
+    "title": "Runtime exports and versioning",
+    "sidebar_label": "Exports and versioning"
   }
 }

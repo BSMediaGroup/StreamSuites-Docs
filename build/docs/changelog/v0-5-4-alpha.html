@@ -4,120 +4,766 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">v0.5.4-alpha | StreamSuites™</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://docs.streamsuites.app/docs/changelog/v0-5-4-alpha"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="v0.5.4-alpha | StreamSuites™"><meta data-rh="true" name="description" content="Release date: 2026-07-26"><meta data-rh="true" property="og:description" content="Release date: 2026-07-26"><link data-rh="true" rel="icon" href="/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.streamsuites.app/docs/changelog/v0-5-4-alpha"><link data-rh="true" rel="alternate" href="https://docs.streamsuites.app/docs/changelog/v0-5-4-alpha" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.streamsuites.app/docs/changelog/v0-5-4-alpha" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"v0.5.4-alpha","item":"https://docs.streamsuites.app/docs/changelog/v0-5-4-alpha"}]}</script><link rel="stylesheet" href="/assets/css/styles.8fbb3ac3.css">
-<script src="/assets/js/runtime~main.34029dea.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.9b44ec8d.js" defer="defer"></script>
 <script src="/assets/js/main.6c4123cd.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
 <symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
 </defs></svg>
-<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/assets/logos/logoshield-whitex.webp" alt="StreamSuites" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/assets/logos/logoshield-whitex.webp" alt="StreamSuites" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">StreamSuites™</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/getting-started/installation">Getting started</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/creator-guide/creator-dashboard">Creator guide</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/reference/runtime-overview">Runtime</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/integrations/youtube">Integrations</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/support/faq">Support</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/changelog/v0-5-4-alpha">v0.x (current)</a><a class="navbar__item navbar__link" href="/docs/legal/eula">EULA</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs"><span title="StreamSuites™ Documentation" class="linkLabel_WmDU">StreamSuites™ Documentation</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/changelog"><span title="Changelog" class="categoryLinkLabel_W154">Changelog</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog"><span title="Changelog" class="linkLabel_WmDU">Changelog</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/changelog/v0-5-4-alpha"><span title="v0.5.4-alpha" class="linkLabel_WmDU">v0.5.4-alpha</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog/v0-5-0-alpha"><span title="v0.5.0-alpha" class="linkLabel_WmDU">v0.5.0-alpha</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog/v0-4-2-alpha"><span title="v0.4.2-alpha" class="linkLabel_WmDU">v0.4.2-alpha</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog/v0-4-0-alpha"><span title="v0.4.0-alpha" class="linkLabel_WmDU">v0.4.0-alpha</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog/v0.3"><span title="v0.3" class="linkLabel_WmDU">v0.3</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/getting-started/installation"><span title="Getting started" class="categoryLinkLabel_W154">Getting started</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/guides/getting-started"><span title="Guides" class="categoryLinkLabel_W154">Guides</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/creator-guide/creator-dashboard"><span title="Creator guide" class="categoryLinkLabel_W154">Creator guide</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/find-me-here/advanced-css"><span title="FindMeHere" class="categoryLinkLabel_W154">FindMeHere</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/reference/runtime-overview"><span title="Runtime" class="categoryLinkLabel_W154">Runtime</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/integrations/youtube"><span title="Integrations" class="categoryLinkLabel_W154">Integrations</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/reference/runtime-overview"><span title="Reference" class="categoryLinkLabel_W154">Reference</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/support/support-model"><span title="Support" class="categoryLinkLabel_W154">Support</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/legal/eula"><span title="Legal" class="categoryLinkLabel_W154">Legal</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Changelog</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">v0.5.4-alpha</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>StreamSuites v0.5.4-alpha Changelog</h1></header>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/assets/logos/logoshield-whitex.webp" alt="StreamSuites" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/assets/logos/logoshield-whitex.webp" alt="StreamSuites" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">StreamSuites™</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/getting-started/installation">Getting started</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/creator-guide/creator-dashboard">Creator guide</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/reference/runtime-overview">Runtime</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/integrations/youtube">Integrations</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/support/faq">Support</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/changelog/v0-5-4-alpha">v0.x (current)</a><a class="navbar__item navbar__link" href="/docs/legal/eula">EULA</a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs"><span title="StreamSuites™ Documentation" class="linkLabel_WmDU">StreamSuites™ Documentation</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/changelog"><span title="Changelog" class="categoryLinkLabel_W154">Changelog</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog"><span title="Changelog" class="linkLabel_WmDU">Changelog</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/changelog/v0-5-4-alpha"><span title="v0.5.4-alpha" class="linkLabel_WmDU">v0.5.4-alpha</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog/v0-5-0-alpha"><span title="v0.5.0-alpha" class="linkLabel_WmDU">v0.5.0-alpha</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog/v0-4-2-alpha"><span title="v0.4.2-alpha" class="linkLabel_WmDU">v0.4.2-alpha</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog/v0-4-0-alpha"><span title="v0.4.0-alpha" class="linkLabel_WmDU">v0.4.0-alpha</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/changelog/v0.3"><span title="v0.3" class="linkLabel_WmDU">v0.3</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/getting-started/installation"><span title="Getting started" class="categoryLinkLabel_W154">Getting started</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/guides/getting-started"><span title="Guides" class="categoryLinkLabel_W154">Guides</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/creator-guide/creator-dashboard"><span title="Creator guide" class="categoryLinkLabel_W154">Creator guide</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/find-me-here/advanced-css"><span title="FindMeHere" class="categoryLinkLabel_W154">FindMeHere</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/reference/runtime-overview"><span title="Runtime" class="categoryLinkLabel_W154">Runtime</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/integrations/youtube"><span title="Integrations" class="categoryLinkLabel_W154">Integrations</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/reference/runtime-overview"><span title="Reference" class="categoryLinkLabel_W154">Reference</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/support/support-model"><span title="Support" class="categoryLinkLabel_W154">Support</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/legal/eula"><span title="Legal" class="categoryLinkLabel_W154">Legal</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Changelog</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">v0.5.4-alpha</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>StreamSuites Platform v0.5.4-alpha</h1></header>
 <p><strong>Release date:</strong> 2026-07-26
-<strong>Release type:</strong> Documentation correction and release-note alignment</p>
-<p>This page is the full master changelog for the 0.5.4-alpha release cluster.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="release-summary">Release summary<a href="#release-summary" class="hash-link" aria-label="Direct link to Release summary" title="Direct link to Release summary" translate="no">​</a></h2>
+<strong>Release identity:</strong> Shared platform alpha cycle <code>v0.5.4-alpha</code> with independent surface tracks <code>v0.2.1-alpha</code>, <code>v0.2.4-alpha</code>, and <code>v0.1.1-alpha</code>
+<strong>Scope:</strong> Runtime/Auth, Dashboard, Creator, Public, Studio, StudioApp, OBS, and Docs alignment</p>
+<p>This is the consolidated master record for the 2026-07-26 0.5.4 release train across the StreamSuites runtime platform and its independent companion products.
+The intent is not to announce fresh runtime features; it is to publish a truthful, production-accurate narrative for what was finalized and synchronized at this alpha milestone.</p>
+<p>It also serves three purposes in one document:</p>
 <ul>
-<li class="">All repository release notes were rewritten from placeholder text into complete release documents.</li>
-<li class="">Canonical source-of-truth boundaries were made explicit across Runtime/Auth and client surfaces.</li>
-<li class="">No runtime code, API, auth contracts, or version bumps changed in this pass.</li>
+<li class="">preserve canonical platform truth for Runtime/Auth and surface consumers,</li>
+<li class="">document how each product and operator surface participates in the release boundary,</li>
+<li class="">and provide an audit-friendly release record that can be reused by release notes, legal reviewers, and on-call operators without requiring interpretation from scattered per-repo files.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="updated-repository-changelogs">Updated repository changelogs<a href="#updated-repository-changelogs" class="hash-link" aria-label="Direct link to Updated repository changelogs" title="Direct link to Updated repository changelogs" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="streamsuites-runtimeauth">StreamSuites Runtime/Auth<a href="#streamsuites-runtimeauth" class="hash-link" aria-label="Direct link to StreamSuites Runtime/Auth" title="Direct link to StreamSuites Runtime/Auth" translate="no">​</a></h3>
+<p>In this cycle, the dominant outcome is the replacement of an abbreviated, internally inconsistent changelog corpus with a unified release record that is explicit about ownership, compatibility, limitations, and validation posture. The narrative includes independent product realities (native desktop, browser Studio, OBS plugin, and public/admin shells) while repeatedly guarding against implied capabilities not yet shipped.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-major-platform-themes">🌟 Major Platform Themes<a href="#-major-platform-themes" class="hash-link" aria-label="Direct link to 🌟 Major Platform Themes" title="Direct link to 🌟 Major Platform Themes" translate="no">​</a></h2>
 <ul>
-<li class="">Expanded <code>changelog/v0.5.4-CHANGELOG.md</code> with:<!-- -->
-<ul>
-<li class="">explicit Runtime/Auth authority boundaries</li>
-<li class="">session/room/destination truth-state definitions</li>
-<li class="">test and artifact integrity constraints</li>
-<li class="">migration notes and compatibility framing.</li>
+<li class=""><strong>Authority-first release model:</strong> The release is anchored in a platform contract where Runtime/Auth remains the only canonical authority for identities, sessions, permissions, rooms, invitations, destinations, and canonical version metadata.</li>
+<li class=""><strong>Independent surface releases under a shared release umbrella:</strong> <code>StreamSuites v0.5.4-alpha</code> remains the runtime compatibility line; <code>StreamSuites-Studio</code>, <code>StreamSuites-StudioApp</code>, and <code>StreamSuites-OBS</code> keep their own product version lines without weakening the shared compatibility guarantee.</li>
+<li class=""><strong>Narrative repair over architectural churn:</strong> Multiple release documents were corrected from summary-only placeholders into detailed, sectioned records. The correction cycle did not introduce media-plane rewrites or runtime behavior changes.</li>
+<li class=""><strong>Truthful state boundaries:</strong> Every surface now documents which values are authoritative, which are hydrated mirrors, and where no client-side fabrication is allowed.</li>
+<li class=""><strong>Transport and media policy consistency:</strong> Browser Studio, native StudioApp, and OBS retain separate media ownership models, preventing a mixed or duplicated control model.</li>
+<li class=""><strong>Migration-safe documentation posture:</strong> The release text explicitly separates historical implementation iterations from final state so superseded paths are no longer represented as active behavior.</li>
+<li class=""><strong>Operational honesty:</strong> Limitations, deferred work, and safe-unavailable features are now called out in each surface section rather than hidden by generic claims.</li>
+<li class=""><strong>Verification-first publishing discipline:</strong> Build artifacts, generated routes, and release artifacts are presented as documented outcomes; no production deployment is assumed in this corrective cycle.</li>
+<li class=""><strong>Cross-surface behavior convergence:</strong> Admin, creator, and public surfaces now explicitly consume canonical room/session/destination signals using the same trust graph.</li>
+<li class=""><strong>Release-readiness through documentation:</strong> The Docs route now carries the complete release body so operational teams can read the same release truth from the documentation site.</li>
 </ul>
-</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="streamsuites-dashboard">StreamSuites Dashboard<a href="#streamsuites-dashboard" class="hash-link" aria-label="Direct link to StreamSuites Dashboard" title="Direct link to StreamSuites Dashboard" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-runtime--auth-authority">🧠 Runtime &amp; Auth Authority<a href="#-runtime--auth-authority" class="hash-link" aria-label="Direct link to 🧠 Runtime &amp; Auth Authority" title="Direct link to 🧠 Runtime &amp; Auth Authority" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-accounts-sessions-and-identity-contracts">🧱 Accounts, Sessions, and Identity Contracts<a href="#-accounts-sessions-and-identity-contracts" class="hash-link" aria-label="Direct link to 🧱 Accounts, Sessions, and Identity Contracts" title="Direct link to 🧱 Accounts, Sessions, and Identity Contracts" translate="no">​</a></h3>
 <ul>
-<li class="">Expanded <code>changelog/v0.5.4-CHANGELOG.md</code> with:<!-- -->
-<ul>
-<li class="">admin workflow details</li>
-<li class="">role-gated moderation/retry semantics</li>
-<li class="">reliability framing around room and alert surfaces.</li>
+<li class=""><strong>Canonical session roots:</strong> Runtime/Auth remains the origin for account identity, role assignment, tier evaluation, and session lifecycle decisions.</li>
+<li class=""><strong>Session continuity:</strong> Authoritative session state defines whether room creation, moderation, publish, and destination operations can proceed, while downstream clients consume authenticated projections.</li>
+<li class=""><strong>Client-safe handling:</strong> Runtime-derived user projections are deliberately shaped for client consumption, with no expectation that a client can invent identity, permission, or secret-bearing claims.</li>
+<li class=""><strong>Compatibility framing:</strong> The runtime remains backward-consistent with existing 0.5.x auth contracts unless explicitly superseded in later releases.</li>
+<li class=""><strong>Release truth:</strong> Runtime/Auth authoritative session handling is the release foundation that makes distributed surfaces coherent under one canonical contract.</li>
 </ul>
-</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="streamsuites-creator">StreamSuites Creator<a href="#streamsuites-creator" class="hash-link" aria-label="Direct link to StreamSuites Creator" title="Direct link to StreamSuites Creator" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-roles-tiers-and-permissions">🎚️ Roles, Tiers, and Permissions<a href="#️-roles-tiers-and-permissions" class="hash-link" aria-label="Direct link to 🎚️ Roles, Tiers, and Permissions" title="Direct link to 🎚️ Roles, Tiers, and Permissions" translate="no">​</a></h3>
 <ul>
-<li class="">Expanded <code>changelog/v0.5.4-CHANGELOG.md</code> with:<!-- -->
-<ul>
-<li class="">publish session and destination behavior notes</li>
-<li class="">permission-validated operation context</li>
-<li class="">security-safe wording for hydrated vs authoritative data.</li>
+<li class=""><strong>Permissions no longer duplicated:</strong> Permission checks are resolved through shared backend policy, then mirrored in UI gating for dashboard, creator, public, and desktop surfaces.</li>
+<li class=""><strong>Role-aware behavior:</strong> Surface behaviors and API access scopes are now anchored in the same role/tier map instead of per-repo assumptions.</li>
+<li class=""><strong>Explicit server enforcement:</strong> Access denial remains server-side, with clients responsible for rendering error states rather than enforcing policy themselves.</li>
+<li class=""><strong>Operational predictability:</strong> Shared role decisions reduce accidental drift across admin and creator tools.</li>
+<li class=""><strong>Boundary preservation:</strong> No permission matrix rewrite is represented in this release, only the synchronization and documentation of existing behavior.</li>
 </ul>
-</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="streamsuites-public">StreamSuites Public<a href="#streamsuites-public" class="hash-link" aria-label="Direct link to StreamSuites Public" title="Direct link to StreamSuites Public" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-rooms-participant-authority-and-location-state">🏠 Rooms, Participant Authority, and Location State<a href="#-rooms-participant-authority-and-location-state" class="hash-link" aria-label="Direct link to 🏠 Rooms, Participant Authority, and Location State" title="Direct link to 🏠 Rooms, Participant Authority, and Location State" translate="no">​</a></h3>
 <ul>
-<li class="">Expanded <code>changelog/v0.5.4-CHANGELOG.md</code> with:<!-- -->
-<ul>
-<li class="">public-facing state/truth boundary statements</li>
-<li class="">security-safe public messaging constraints</li>
-<li class="">route/version alignment and release metadata clarifications.</li>
+<li class=""><strong>Room authority boundary:</strong> Room owner, cohost, participant location, and guest admission are defined from authoritative backend state.</li>
+<li class=""><strong>Participant location model:</strong> Stage/backstage semantics remain authoritative through Runtime/Auth and are represented as hydrated UI state in client surfaces.</li>
+<li class=""><strong>Guest and owner boundaries:</strong> Guest admission and placement are not computed by client-only logic; UI displays only what backend state resolves.</li>
+<li class=""><strong>Operational safety:</strong> This cycle avoids over-asserting presence for participants where backend state is unresolved.</li>
+<li class=""><strong>Consistency with prior runtime updates:</strong> The state model aligns with documented project behavior that participant location and invitation ownership are projected from runtime state.</li>
 </ul>
-</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="streamsuites-studio">StreamSuites Studio<a href="#streamsuites-studio" class="hash-link" aria-label="Direct link to StreamSuites Studio" title="Direct link to StreamSuites Studio" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-invitations-approvals-and-waiting-behavior">🧾 Invitations, Approvals, and Waiting Behavior<a href="#-invitations-approvals-and-waiting-behavior" class="hash-link" aria-label="Direct link to 🧾 Invitations, Approvals, and Waiting Behavior" title="Direct link to 🧾 Invitations, Approvals, and Waiting Behavior" translate="no">​</a></h3>
 <ul>
-<li class="">Expanded <code>changelog/v0.2.1-CHANGELOG.md</code> with:<!-- -->
-<ul>
-<li class="">Realtime-first studio room/workspace behavior</li>
-<li class="">room-entry and source lifecycle details</li>
-<li class="">canonical state mirroring behavior.</li>
+<li class=""><strong>Invitation lifecycle clarity:</strong> Invite creation, acceptance, denial, and expiry are represented via canonical state transitions.</li>
+<li class=""><strong>Approval semantics:</strong> Runtime-driven approval paths are not hidden; surfaces expose clear outcomes based on backend state instead of synthetic local flags.</li>
+<li class=""><strong>Waiting and queue behavior:</strong> UI states now map to known room control decisions instead of placeholder statuses.</li>
+<li class=""><strong>Short-link and routing safety:</strong> Link exchange and route-driven room entry remain server-owned, reducing client-level mismatch risk.</li>
+<li class=""><strong>Client display behavior:</strong> Surfaces avoid exposing unsupported status such as invented live/recording/replay markers.</li>
 </ul>
-</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="streamsuites-studioapp">StreamSuites StudioApp<a href="#streamsuites-studioapp" class="hash-link" aria-label="Direct link to StreamSuites StudioApp" title="Direct link to StreamSuites StudioApp" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-destination-credentials-stream-keys-and-ownership">🔐 Destination Credentials, Stream Keys, and Ownership<a href="#-destination-credentials-stream-keys-and-ownership" class="hash-link" aria-label="Direct link to 🔐 Destination Credentials, Stream Keys, and Ownership" title="Direct link to 🔐 Destination Credentials, Stream Keys, and Ownership" translate="no">​</a></h3>
 <ul>
-<li class="">Expanded <code>changelog/v0.2.4-CHANGELOG.md</code> with:<!-- -->
-<ul>
-<li class="">native desktop architecture boundaries</li>
-<li class="">room reliability/engine orchestration clarifications</li>
-<li class="">installation and safety wording fixes.</li>
+<li class=""><strong>Destination governance stays backend-owned:</strong> Credentials, keys, and destination connectivity decisions continue to be validated and stored within authoritative services.</li>
+<li class=""><strong>Non-disclosure discipline:</strong> Release text and UI behavior do not expose secret-bearing values as reliable surface state.</li>
+<li class=""><strong>Credential trust boundaries:</strong> Client applications treat destination metadata as permission-gated, non-authoritative data for rendering and action gating.</li>
+<li class=""><strong>Integration posture:</strong> All destination workflows remain dependent on Runtime/Auth permission checks and mirror policy.</li>
+<li class=""><strong>No storage drift assumption:</strong> The document rejects the idea that destination credentials can be managed by Docs or any client as canonical.</li>
 </ul>
-</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="streamsuites-obs">StreamSuites OBS<a href="#streamsuites-obs" class="hash-link" aria-label="Direct link to StreamSuites OBS" title="Direct link to StreamSuites OBS" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-event-streams-contracts-and-consumed-signals">📡 Event Streams, Contracts, and Consumed Signals<a href="#-event-streams-contracts-and-consumed-signals" class="hash-link" aria-label="Direct link to 📡 Event Streams, Contracts, and Consumed Signals" title="Direct link to 📡 Event Streams, Contracts, and Consumed Signals" translate="no">​</a></h3>
 <ul>
-<li class="">Expanded <code>changelog/v0.1.1-CHANGELOG.md</code> with:<!-- -->
-<ul>
-<li class="">OBS-native media ownership boundaries</li>
-<li class="">compatibility and session posture</li>
-<li class="">secret-safe release language.</li>
+<li class=""><strong>Event-driven behavior remains server-coordinated:</strong> Chat, room transitions, and moderation/event notifications are consumed from canonical event pathways.</li>
+<li class=""><strong>Contract language normalized:</strong> Runtime-facing contracts are documented as source-of-truth while avoiding endpoint dump style.</li>
+<li class=""><strong>Redaction and sensitivity awareness:</strong> Event payloads are represented with caution for secrets and token-bearing values.</li>
+<li class=""><strong>Hydration path clarity:</strong> Surfaces receiving event snapshots are expected to handle partial and delayed state safely.</li>
+<li class=""><strong>Stability over breadth:</strong> This release favors reliable contract interpretation over speculative signal expansions.</li>
 </ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="canonical-notes">Canonical notes<a href="#canonical-notes" class="hash-link" aria-label="Direct link to Canonical notes" title="Direct link to Canonical notes" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-schema-and-compatibility-stewardship">🛠️ Schema and Compatibility Stewardship<a href="#️-schema-and-compatibility-stewardship" class="hash-link" aria-label="Direct link to 🛠️ Schema and Compatibility Stewardship" title="Direct link to 🛠️ Schema and Compatibility Stewardship" translate="no">​</a></h3>
 <ul>
-<li class="">Runtime/Auth remains the source of truth for accounts, sessions, permissions, rooms, destinations, credentials, and export governance.</li>
-<li class="">Clients, shells, and plugins continue to consume canonical state and hydrated views only.</li>
-<li class="">No fake Live/Recording/Replay state was introduced.</li>
+<li class=""><strong>Version metadata:</strong> <code>runtime/version.py</code> and export-generated metadata remain build-authority controlled and were not changed in this correction cycle.</li>
+<li class=""><strong>Compatible runtime contract baseline:</strong> Product versions and compatibility notes now explicitly reference the canonical Runtime/Auth line and independent surface versions.</li>
+<li class=""><strong>No contract inflation:</strong> The release does not claim to replace any of the stable Runtime/Auth schemas.</li>
+<li class=""><strong>Release continuity:</strong> Runtime compatibility language now aligns with existing 0.5.x milestones.</li>
+<li class=""><strong>Traceability:</strong> Consumers can reconcile this changelog with repository-specific release notes and BUMP note context.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="documentation-and-bump-notes">Documentation and bump notes<a href="#documentation-and-bump-notes" class="hash-link" aria-label="Direct link to Documentation and bump notes" title="Direct link to Documentation and bump notes" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-rooms-guests-invitations--shared-studio-contracts">🚪 Rooms, Guests, Invitations &amp; Shared Studio Contracts<a href="#-rooms-guests-invitations--shared-studio-contracts" class="hash-link" aria-label="Direct link to 🚪 Rooms, Guests, Invitations &amp; Shared Studio Contracts" title="Direct link to 🚪 Rooms, Guests, Invitations &amp; Shared Studio Contracts" translate="no"> ​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-room-lifecycle-semantics">🧭 Room Lifecycle Semantics<a href="#-room-lifecycle-semantics" class="hash-link" aria-label="Direct link to 🧭 Room Lifecycle Semantics" title="Direct link to 🧭 Room Lifecycle Semantics" translate="no">​</a></h3>
 <ul>
-<li class="">Added <code>2026-07-26</code> bump entries to:<!-- -->
-<ul>
-<li class=""><code>StreamSuites/BUMP_NOTES.md</code></li>
-<li class=""><code>StreamSuites-Dashboard/BUMP_NOTES.md</code></li>
-<li class=""><code>StreamSuites-Creator/BUMP_NOTES.md</code></li>
-<li class=""><code>StreamSuites-Public/BUMP_NOTES.md</code></li>
-<li class=""><code>StreamSuites-Studio/BUMP_NOTES.md</code></li>
-<li class=""><code>StreamSuites-StudioApp/BUMP_NOTES.md</code></li>
-<li class=""><code>StreamSuites-OBS/BUMP_NOTES.md</code></li>
-<li class=""><code>StreamSuites-Docs/BUMP_NOTES.md</code></li>
+<li class=""><strong>Lifecycle visibility:</strong> Room creation, entry, and termination are still backend-coordinated and surfaced as canonical state changes.</li>
+<li class=""><strong>No client ownership drift:</strong> Surfaces do not claim to own room ownership transitions.</li>
+<li class=""><strong>Retry and recovery posture:</strong> Client workflows are described as reflecting authoritative state re-query outcomes and backend resolution.</li>
+<li class=""><strong>Consistency across surfaces:</strong> Studio, Dashboard, and Creator all consume the same room lifecycle signals.</li>
+<li class=""><strong>Truth vs projection:</strong> This section explicitly separates what is authoritative from what is represented in interface overlays.</li>
 </ul>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notes">Notes<a href="#notes" class="hash-link" aria-label="Direct link to Notes" title="Direct link to Notes" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-host-and-guest-authority">🧾 Co-host and Guest Authority<a href="#-co-host-and-guest-authority" class="hash-link" aria-label="Direct link to 🧾 Co-host and Guest Authority" title="Direct link to 🧾 Co-host and Guest Authority" translate="no">​</a></h3>
 <ul>
-<li class="">This release entry is documentation-only.</li>
-<li class="">Behavior, packaging, and release binary operations are unchanged.</li>
-</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/changelog"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Changelog</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/changelog/v0-5-0-alpha"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">v0.5.0-alpha</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#release-summary" class="table-of-contents__link toc-highlight">Release summary</a></li><li><a href="#updated-repository-changelogs" class="table-of-contents__link toc-highlight">Updated repository changelogs</a><ul><li><a href="#streamsuites-runtimeauth" class="table-of-contents__link toc-highlight">StreamSuites Runtime/Auth</a></li><li><a href="#streamsuites-dashboard" class="table-of-contents__link toc-highlight">StreamSuites Dashboard</a></li><li><a href="#streamsuites-creator" class="table-of-contents__link toc-highlight">StreamSuites Creator</a></li><li><a href="#streamsuites-public" class="table-of-contents__link toc-highlight">StreamSuites Public</a></li><li><a href="#streamsuites-studio" class="table-of-contents__link toc-highlight">StreamSuites Studio</a></li><li><a href="#streamsuites-studioapp" class="table-of-contents__link toc-highlight">StreamSuites StudioApp</a></li><li><a href="#streamsuites-obs" class="table-of-contents__link toc-highlight">StreamSuites OBS</a></li></ul></li><li><a href="#canonical-notes" class="table-of-contents__link toc-highlight">Canonical notes</a></li><li><a href="#documentation-and-bump-notes" class="table-of-contents__link toc-highlight">Documentation and bump notes</a></li><li><a href="#notes" class="table-of-contents__link toc-highlight">Notes</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">StreamSuites™ Documentation Hub</div></div></div></footer></div>
+<li class=""><strong>Host authority preserved:</strong> Host/cohost role semantics remain governed by runtime logic and permission checks.</li>
+<li class=""><strong>Guest constraints enforced:</strong> Guest sessions and guest permissions are backend-constrained and not locally improvised by product surfaces.</li>
+<li class=""><strong>Admission outcomes explicit:</strong> Rejected or queued guest states remain transparent and deterministic.</li>
+<li class=""><strong>No fabricated presence:</strong> The release reinforces no silent client-level guest state invention.</li>
+<li class=""><strong>Operational clarity:</strong> The release text removes ambiguity around who controls guest promotion and placement.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-profileavatar-overrides-and-room-identity">🧬 Profile/Avatar Overrides and Room Identity<a href="#-profileavatar-overrides-and-room-identity" class="hash-link" aria-label="Direct link to 🧬 Profile/Avatar Overrides and Room Identity" title="Direct link to 🧬 Profile/Avatar Overrides and Room Identity" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Canonical identity path:</strong> Runtime identity and role checks precede any room presentation output.</li>
+<li class=""><strong>Display-safe composition:</strong> Avatar and profile overrides are represented as hydrated display fields with no security-critical authority.</li>
+<li class=""><strong>Resolution order documented:</strong> Surface-level identity data follows the backend contract where possible and avoids conflict behavior.</li>
+<li class=""><strong>Avoiding mismatched UI claims:</strong> This release documents the limits of profile override behavior and where stale fields can appear.</li>
+<li class=""><strong>Room identity integrity:</strong> Canonical room identity remains stable under shared runtime IDs and IDs from backend records.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-event-refetch-and-state-reconciliation">🔄 Event, Refetch, and State Reconciliation<a href="#-event-refetch-and-state-reconciliation" class="hash-link" aria-label="Direct link to 🔄 Event, Refetch, and State Reconciliation" title="Direct link to 🔄 Event, Refetch, and State Reconciliation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Event-driven refresh:</strong> Clients may rehydrate room, guest, and chat state from Runtime/Auth updates rather than holding stale local state.</li>
+<li class=""><strong>Conflict handling:</strong> Late-bound updates are represented as backend-truth transitions in logs and UI.</li>
+<li class=""><strong>Recovery safety:</strong> UI surfaces avoid auto-reclaiming room ownership state after a denied backend decision.</li>
+<li class=""><strong>Observability value:</strong> Release notes now call out when reconciliation is expected over optimistic local assumptions.</li>
+<li class=""><strong>Inter-surface reliability:</strong> This improves consistency between desktop, browser, and admin surfaces.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-client-owned-vs-server-owned-responsibilities">⚠️ Client-Owned vs Server-Owned Responsibilities<a href="#️-client-owned-vs-server-owned-responsibilities" class="hash-link" aria-label="Direct link to ⚠️ Client-Owned vs Server-Owned Responsibilities" title="Direct link to ⚠️ Client-Owned vs Server-Owned Responsibilities" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Server-owned:</strong> session issuance, permission evaluation, invitation validity, room membership state, destination validation, and canonical moderation outcomes.</li>
+<li class=""><strong>Client-owned:</strong> presentation rendering, action affordances, local UI state, navigation, and operator workflows bounded by permission outcomes.</li>
+<li class=""><strong>No blended authority:</strong> No surface is documented as owning live credentials or rewriting backend state.</li>
+<li class=""><strong>Operationally safe failure:</strong> Clients render clear non-authoritative states where backend data is missing or restricted.</li>
+<li class=""><strong>Security posture:</strong> Client surfaces inherit backend restrictions and avoid secret surfacing.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-chat-platform-services--automation">💬 Chat, Platform Services &amp; Automation<a href="#-chat-platform-services--automation" class="hash-link" aria-label="Direct link to 💬 Chat, Platform Services &amp; Automation" title="Direct link to 💬 Chat, Platform Services &amp; Automation" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-private-room-chat">🗨️ Private Room Chat<a href="#️-private-room-chat" class="hash-link" aria-label="Direct link to 🗨️ Private Room Chat" title="Direct link to 🗨️ Private Room Chat" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Private chat context stays room-authoritative:</strong> backend-authenticated room membership controls access to private communication channels.</li>
+<li class=""><strong>No invented conversation state:</strong> UI does not infer completion or delivery status beyond observed backend-backed events.</li>
+<li class=""><strong>Visibility constraints:</strong> Private chat state follows session and room validity.</li>
+<li class=""><strong>Token-safe behavior:</strong> Messaging actions do not expose sensitive credential details.</li>
+<li class=""><strong>Surface consistency:</strong> Dashboards and Studio consume chat-state semantics consistently, without claiming independent control.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-public-chat-foundations">🌐 Public Chat Foundations<a href="#-public-chat-foundations" class="hash-link" aria-label="Direct link to 🌐 Public Chat Foundations" title="Direct link to 🌐 Public Chat Foundations" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Public chat remains foundation-level:</strong> This release does not introduce broad public post pipelines in a new state.</li>
+<li class=""><strong>Provider behavior carefully described:</strong> Where platform integrations exist, they are described as constrained by backend policy, not always-enabling.</li>
+<li class=""><strong>Capability disclosure:</strong> Release wording now avoids overstating public-chat feature parity.</li>
+<li class=""><strong>Operational fallback:</strong> Surfaces preserve non-authoritative status messaging when public chat channels are restricted.</li>
+<li class=""><strong>State truth discipline:</strong> Public messaging does not claim states that runtime did not confirm.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-trigger-and-automation-surfaces">🤖 Trigger and Automation Surfaces<a href="#-trigger-and-automation-surfaces" class="hash-link" aria-label="Direct link to 🤖 Trigger and Automation Surfaces" title="Direct link to 🤖 Trigger and Automation Surfaces" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Automation remains backend-driven:</strong> Trigger workflows operate under authorized permission and event models.</li>
+<li class=""><strong>Cooldown and safety constraints preserved:</strong> Trigger-like behavior remains bounded by backend and does not assume client-side unrestricted automation.</li>
+<li class=""><strong>Planner vs shipped behavior:</strong> Planned trigger expansion and placeholder automation references are separated from delivered automation behavior.</li>
+<li class=""><strong>Error boundaries:</strong> Automation error states remain server-coordinated.</li>
+<li class=""><strong>Operator traceability:</strong> Admin-facing flows are expected to read validation messages from backend-driven events.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-provider-integrations">🎥 Provider Integrations<a href="#-provider-integrations" class="hash-link" aria-label="Direct link to 🎥 Provider Integrations" title="Direct link to 🎥 Provider Integrations" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Integration states are explicit:</strong> Release text distinguishes provider-supported behavior from unavailable or deferred surfaces.</li>
+<li class=""><strong>No provider posting claims:</strong> Where provider publishing or posting is not part of current shipped runtime, the release intentionally avoids asserting it.</li>
+<li class=""><strong>Credential authority unchanged:</strong> Provider auth tokens and connection sessions remain server-managed.</li>
+<li class=""><strong>Cross-surface consistency:</strong> Integration availability is now represented as a shared policy result across CLI-free surfaces.</li>
+<li class=""><strong>Future-ready wording:</strong> Planned provider expansion is framed as forward-looking, never as shipped in this alpha.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-provider-reliability-and-failure-handling">🛡️ Provider Reliability and Failure Handling<a href="#️-provider-reliability-and-failure-handling" class="hash-link" aria-label="Direct link to 🛡️ Provider Reliability and Failure Handling" title="Direct link to 🛡️ Provider Reliability and Failure Handling" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Failure propagation:</strong> Provider and chat failures follow backend event paths and are surfaced as non-fatal UI states where possible.</li>
+<li class=""><strong>Graceful degradation:</strong> Unavailable provider states do not collapse room functionality in undocumented ways.</li>
+<li class=""><strong>Fallback clarity:</strong> Surfaces include explicit fallback pathways rather than implying seamless continuation under failure.</li>
+<li class=""><strong>No synthetic metrics claims:</strong> Release text avoids implying provider telemetry not present in authoritative logs.</li>
+<li class=""><strong>Operational confidence:</strong> The release separates integration hardening from speculative growth.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-desktop-operator-applications">🖥️ Desktop Operator Applications<a href="#️-desktop-operator-applications" class="hash-link" aria-label="Direct link to 🖥️ Desktop Operator Applications" title="Direct link to 🖥️ Desktop Operator Applications" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-desktop-admin">🧭 Desktop Admin<a href="#-desktop-admin" class="hash-link" aria-label="Direct link to 🧭 Desktop Admin" title="Direct link to 🧭 Desktop Admin" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Command shell as operator surface:</strong> Admin surfaces are clients of canonical state and remain non-authoritative for identity/control state.</li>
+<li class=""><strong>Operational readability:</strong> Changelog updates now distinguish control-plane states from local UI affordances.</li>
+<li class=""><strong>Moderation and visibility:</strong> Permission-checked operations are documented as server-validating, not locally overriding.</li>
+<li class=""><strong>Runtime linkage:</strong> Admin workflows remain dependent on Runtime/Auth for correctness and auditability.</li>
+<li class=""><strong>Release posture:</strong> This cycle clarifies operational expectations without adding new admin core behaviors.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-windows-alerts-client">🔔 Windows Alerts Client<a href="#-windows-alerts-client" class="hash-link" aria-label="Direct link to 🔔 Windows Alerts Client" title="Direct link to 🔔 Windows Alerts Client" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Alert pathways:</strong> Real-time alert and event visibility remains tied to backend-authenticated contexts.</li>
+<li class=""><strong>No secret leakage claims:</strong> Alert surfaces do not expose private credential details.</li>
+<li class=""><strong>Signal alignment:</strong> Alerts now map to backend-generated events rather than speculative local state.</li>
+<li class=""><strong>Recovery behavior:</strong> Invalid or stale alerts are shown as stale until reconciliation.</li>
+<li class=""><strong>Cross-surface alignment:</strong> Desktop alerts now line up with Dashboard event semantics and room state contracts.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-runtime-operations-diagnostics--recovery">⚙️ Runtime Operations, Diagnostics &amp; Recovery<a href="#️-runtime-operations-diagnostics--recovery" class="hash-link" aria-label="Direct link to ⚙️ Runtime Operations, Diagnostics &amp; Recovery" title="Direct link to ⚙️ Runtime Operations, Diagnostics &amp; Recovery" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Diagnostics preserved as backend-first:</strong> Runtime diagnostics consumed in desktop tools are authoritative snapshots, not local inventions.</li>
+<li class=""><strong>Recovery logic boundaries:</strong> Recovery expectations and re-entry states are documented with explicit backend dependence.</li>
+<li class=""><strong>Operational safety:</strong> Recovery and reconnection behavior avoids claims of guaranteed output continuity.</li>
+<li class=""><strong>No media claim drift:</strong> Diagnostics remain separate from media transport truth.</li>
+<li class=""><strong>Documentation-only updates:</strong> No control-plane architecture changes were introduced during this pass.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-streamsuites-dashboard">📊 StreamSuites-Dashboard<a href="#-streamsuites-dashboard" class="hash-link" aria-label="Direct link to 📊 StreamSuites-Dashboard" title="Direct link to 📊 StreamSuites-Dashboard" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-admin-workspaces-and-surface-layout">🧩 Admin Workspaces and Surface Layout<a href="#-admin-workspaces-and-surface-layout" class="hash-link" aria-label="Direct link to 🧩 Admin Workspaces and Surface Layout" title="Direct link to 🧩 Admin Workspaces and Surface Layout" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Workspace stability:</strong> Dashboard now documents how workspace sections map to canonical room and account state.</li>
+<li class=""><strong>Navigation consistency:</strong> Admin workflows are aligned with runtime-auth validated routes and session boundaries.</li>
+<li class=""><strong>State surface ownership:</strong> Dashboard screens that show room health, moderation, and operational actions are now clearly tied to backend authority.</li>
+<li class=""><strong>No hidden state assumptions:</strong> The release doc avoids implicit cross-surface shortcuts where runtime confidence is absent.</li>
+<li class=""><strong>Operational visibility:</strong> Admin operators can now distinguish readonly mirrors from authoritative controls.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-account--identity-management">👤 Account &amp; Identity Management<a href="#-account--identity-management" class="hash-link" aria-label="Direct link to 👤 Account &amp; Identity Management" title="Direct link to 👤 Account &amp; Identity Management" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Identity operations clarified:</strong> Identity management actions reference runtime-owned checks and canonical session context.</li>
+<li class=""><strong>No authority confusion:</strong> Dashboard does not claim local identity persistence beyond session-safe UI context.</li>
+<li class=""><strong>Role-driven tooling:</strong> Tooling visibility and action enablement follow role assertions from backend authority.</li>
+<li class=""><strong>Audit readiness:</strong> The section supports accountable identity-related workflows without promising local mutation ability.</li>
+<li class=""><strong>Security-forward messaging:</strong> The release avoids exposing sensitive identity material.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-platform-and-bot-controls">🛠️ Platform and Bot Controls<a href="#️-platform-and-bot-controls" class="hash-link" aria-label="Direct link to 🛠️ Platform and Bot Controls" title="Direct link to 🛠️ Platform and Bot Controls" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Bot and alert control surfaces</strong> remain backend-gated and server-backed.</li>
+<li class=""><strong>Moderation controls:</strong> Role, cooldown, and permission boundaries are treated as Runtime/Auth artifacts.</li>
+<li class=""><strong>Debug and diagnostics alignment:</strong> Error and status surfaces are now described as state reflections, not direct authority.</li>
+<li class=""><strong>Operational command posture:</strong> Dashboard control actions are explicitly permission-sensitive.</li>
+<li class=""><strong>No undocumented bot behavior:</strong> Only behaviors supported by existing backend contracts are documented.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-operational-diagnostics">📡 Operational Diagnostics<a href="#-operational-diagnostics" class="hash-link" aria-label="Direct link to 📡 Operational Diagnostics" title="Direct link to 📡 Operational Diagnostics" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Status interpretation:</strong> Loading, degraded, and empty-state messaging for diagnostics now follows backend contracts.</li>
+<li class=""><strong>Event visibility:</strong> Runtime event updates and event-driven workflows are more coherently represented.</li>
+<li class=""><strong>Failure representation:</strong> Failed backend conditions surface as clear non-authoritative states.</li>
+<li class=""><strong>Recovery expectations:</strong> UI behavior is documented as recoverable via permission/session resolution.</li>
+<li class=""><strong>Cross-repo consistency:</strong> Diagnostic semantics now align with other operators and docs references.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-analytics--telemetry-consumption">📈 Analytics &amp; Telemetry Consumption<a href="#-analytics--telemetry-consumption" class="hash-link" aria-label="Direct link to 📈 Analytics &amp; Telemetry Consumption" title="Direct link to 📈 Analytics &amp; Telemetry Consumption" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Telemetry usage:</strong> Dashboard consumption remains downstream, never replacing canonical storage.</li>
+<li class=""><strong>Presentation of platform health:</strong> Analytics panels are framed as derived and observational.</li>
+<li class=""><strong>No fabricated aggregates:</strong> Charts and metrics are represented as backend-backed data views.</li>
+<li class=""><strong>Security constraints:</strong> Telemetry paths avoid exposing private user data in release language.</li>
+<li class=""><strong>Release transparency:</strong> The section explains how analytics visibility fits into compatibility boundaries.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-loading-failure-and-empty-states">📱 Loading, Failure, and Empty States<a href="#-loading-failure-and-empty-states" class="hash-link" aria-label="Direct link to 📱 Loading, Failure, and Empty States" title="Direct link to 📱 Loading, Failure, and Empty States" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>No overpromising on resilience:</strong> The changelog details actual handling and not hypothetical full resilience.</li>
+<li class=""><strong>Fallback behaviors:</strong> Documented fallback for missing sessions and backend data.</li>
+<li class=""><strong>Error state consistency:</strong> Failed fetches map to explicit non-authoritative UI states.</li>
+<li class=""><strong>Reduced ambiguity:</strong> Empty and loading states are now intentionally distinguished.</li>
+<li class=""><strong>Accessible recoverability:</strong> Recovery suggestions stay tied to auth/permission remediation.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-shell-and-accessibility-in-admin">🧱 Shell and Accessibility in Admin<a href="#-shell-and-accessibility-in-admin" class="hash-link" aria-label="Direct link to 🧱 Shell and Accessibility in Admin" title="Direct link to 🧱 Shell and Accessibility in Admin" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Layout behavior:</strong> Admin shell patterns remain consistent with Runtime contract-driven rendering.</li>
+<li class=""><strong>Navigation reliability:</strong> Dashboard navigation avoids exposing inaccessible states without permission context.</li>
+<li class=""><strong>Accessibility-minded documentation:</strong> Release text now references practical UI states including disabled controls and fallback messaging.</li>
+<li class=""><strong>No UI behavior drift claim:</strong> The cycle does not claim a redesign beyond documented updates.</li>
+<li class=""><strong>Cross-surface alignment:</strong> Shell behavior is aligned with platform-wide authority conventions.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-streamsuites-creator">🎨 StreamSuites-Creator<a href="#-streamsuites-creator" class="hash-link" aria-label="Direct link to 🎨 StreamSuites-Creator" title="Direct link to 🎨 StreamSuites-Creator" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-creator-workspace-and-core-publishing-flows">🧭 Creator Workspace and Core Publishing Flows<a href="#-creator-workspace-and-core-publishing-flows" class="hash-link" aria-label="Direct link to 🧭 Creator Workspace and Core Publishing Flows" title="Direct link to 🧭 Creator Workspace and Core Publishing Flows" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Workspace context anchored in runtime:</strong> Publishing and destination operations are tied to authorized runtime session state.</li>
+<li class=""><strong>Permission-aware actions:</strong> Publish controls are rendered within backend permission envelopes.</li>
+<li class=""><strong>No local authority inflation:</strong> Creator flows no longer read as if they mint session credentials.</li>
+<li class=""><strong>Error messaging consistency:</strong> Access denied outcomes now map to explicit runtime validation states.</li>
+<li class=""><strong>Stable route framing:</strong> Creator release notes are fully anchored to <code>v0.5.4-alpha</code> compatibility claims.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-destinations-and-validation">🧰 Destinations and Validation<a href="#-destinations-and-validation" class="hash-link" aria-label="Direct link to 🧰 Destinations and Validation" title="Direct link to 🧰 Destinations and Validation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Destination state:</strong> Destination validation, configuration validity, and capability checks remain backend-owned.</li>
+<li class=""><strong>Client-side safety:</strong> Creator UI now documents that it consumes destination truth instead of managing credentials directly.</li>
+<li class=""><strong>Error safety:</strong> Destination mismatches are surfaced as actionable backend-driven states.</li>
+<li class=""><strong>Security framing:</strong> Credentials and keys are not represented as local secrets.</li>
+<li class=""><strong>Scope declaration:</strong> No destination engine behavior changes were introduced in this pass.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-content-management-and-identity-associations">🎛️ Content Management and Identity Associations<a href="#️-content-management-and-identity-associations" class="hash-link" aria-label="Direct link to 🎛️ Content Management and Identity Associations" title="Direct link to 🎛️ Content Management and Identity Associations" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Identity projection:</strong> Account and content contexts are treated as runtime-originated identities with client rendering.</li>
+<li class=""><strong>No fabricated alias claims:</strong> Secondary identity and account associations are surfaced when backend states indicate them.</li>
+<li class=""><strong>Consistency for creator assets:</strong> Metadata and account-type context are reflected as downstream projections.</li>
+<li class=""><strong>No hidden rewrite of provenance:</strong> The doc avoids false claims around provenance rewrites.</li>
+<li class=""><strong>Operational clarity:</strong> Creator content management remains within prior functional bounds.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-trigger-automation-and-action-surfaces">🔗 Trigger, Automation, and Action Surfaces<a href="#-trigger-automation-and-action-surfaces" class="hash-link" aria-label="Direct link to 🔗 Trigger, Automation, and Action Surfaces" title="Direct link to 🔗 Trigger, Automation, and Action Surfaces" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Trigger-driven controls:</strong> Trigger actions remain permission-gated and backend-owned.</li>
+<li class=""><strong>Cooldown and moderation behavior:</strong> Trigger semantics avoid implying unrestricted automation.</li>
+<li class=""><strong>Status transparency:</strong> Backend failures and validation rejections are represented as explicit outcomes.</li>
+<li class=""><strong>No speculative controls:</strong> Release text excludes unsupported automation claims.</li>
+<li class=""><strong>Version continuity:</strong> Existing trigger paths are retained with clearer documentation.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-account-types-and-access-context">👥 Account Types and Access Context<a href="#-account-types-and-access-context" class="hash-link" aria-label="Direct link to 👥 Account Types and Access Context" title="Direct link to 👥 Account Types and Access Context" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Creator account behavior:</strong> Access tiers and account type constraints are runtime-determined.</li>
+<li class=""><strong>Identity constraints:</strong> Surface behavior aligns with the same role/tier boundaries used across platform repos.</li>
+<li class=""><strong>No account source drift:</strong> Creator screens do not claim authority for account mutations outside backend policy.</li>
+<li class=""><strong>Security-safe UX:</strong> Sensitive profile and identity metadata are handled according to server policy.</li>
+<li class=""><strong>Operational consistency:</strong> Creator account actions remain stable with documented guards.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-room-setup-and-responsive-behaviors">📱 Room Setup and Responsive Behaviors<a href="#-room-setup-and-responsive-behaviors" class="hash-link" aria-label="Direct link to 📱 Room Setup and Responsive Behaviors" title="Direct link to 📱 Room Setup and Responsive Behaviors" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Setup flows:</strong> Room setup and associated controls remain consistent with runtime-auth gating and compatibility.</li>
+<li class=""><strong>Responsive behavior:</strong> UI state adapts to available session context and permissions.</li>
+<li class=""><strong>No fake readiness claims:</strong> Incomplete or restricted setup paths are now spelled out.</li>
+<li class=""><strong>Cross-platform consistency:</strong> Creator room behavior remains aligned with Studio and Dashboard semantics.</li>
+<li class=""><strong>Scope note:</strong> No room runtime architecture changes were introduced in this release rewrite.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-accessibility-and-creator-productivity">♿ Accessibility and Creator Productivity<a href="#-accessibility-and-creator-productivity" class="hash-link" aria-label="Direct link to ♿ Accessibility and Creator Productivity" title="Direct link to ♿ Accessibility and Creator Productivity" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Accessible action affordances:</strong> Controls are documented with clear disabled/error states and context.</li>
+<li class=""><strong>Focus and flow stability:</strong> The release acknowledges operational recovery paths for blocked sessions.</li>
+<li class=""><strong>Error handling clarity:</strong> Permission denials and unavailable actions are communicated rather than masked.</li>
+<li class=""><strong>No invented convenience behavior:</strong> The doc avoids claiming automatic fallback where none exists.</li>
+<li class=""><strong>UX integrity:</strong> Creator flows are now mapped to explicit backend dependencies.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-streamsuites-public">🌐 StreamSuites-Public<a href="#-streamsuites-public" class="hash-link" aria-label="Direct link to 🌐 StreamSuites-Public" title="Direct link to 🌐 StreamSuites-Public" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-public-navigation-and-surface-entry">🧭 Public Navigation and Surface Entry<a href="#-public-navigation-and-surface-entry" class="hash-link" aria-label="Direct link to 🧭 Public Navigation and Surface Entry" title="Direct link to 🧭 Public Navigation and Surface Entry" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Public route integrity:</strong> Public pages are documented as presentation and discovery layers consuming runtime-safe data.</li>
+<li class=""><strong>Auth/session truth:</strong> User-visible room, profile, or publish markers remain server-validated where applicable.</li>
+<li class=""><strong>No invented capability claims:</strong> Public claims do not imply client-owned room control.</li>
+<li class=""><strong>Runtime alignment:</strong> Public route behavior is described against runtime mirror compatibility.</li>
+<li class=""><strong>Operationally honest entry points:</strong> Download and navigation language stays within actual deployed behavior.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-download-and-distribution-surfaces">📦 Download and Distribution Surfaces<a href="#-download-and-distribution-surfaces" class="hash-link" aria-label="Direct link to 📦 Download and Distribution Surfaces" title="Direct link to 📦 Download and Distribution Surfaces" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Distribution language standardized:</strong> Public surfaces describing StudioApp and OBS artifacts now align with runtime compatibility context.</li>
+<li class=""><strong>No installation claims:</strong> The changelog clarifies when links and messaging are present without implying installer runs occurred.</li>
+<li class=""><strong>Version framing:</strong> Product artifacts are referenced with explicit compatibility versions.</li>
+<li class=""><strong>Security posture:</strong> Distribution messaging avoids exposing sensitive credentials.</li>
+<li class=""><strong>Evidence alignment:</strong> Documentation states what surfaces link to, not what each package can claim in isolation.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-extension-store-and-catalog-foundation">🛒 Extension Store and Catalog Foundation<a href="#-extension-store-and-catalog-foundation" class="hash-link" aria-label="Direct link to 🛒 Extension Store and Catalog Foundation" title="Direct link to 🛒 Extension Store and Catalog Foundation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Catalog surfaces remain authoritative-through-runtime:</strong> Store-like public elements are tied to backend-defined catalog state where relevant.</li>
+<li class=""><strong>No catalog fabrication:</strong> Public lists avoid representing local placeholder data as complete state.</li>
+<li class=""><strong>Consistency with profile/identity:</strong> Public catalog views depend on hydrated runtime-backed identity contexts.</li>
+<li class=""><strong>Display trust:</strong> Manifest and catalog metadata are presented without overstating availability.</li>
+<li class=""><strong>Version note:</strong> No new store architecture is introduced in this cycle.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-livewatchprofile-public-surfaces">🧪 Live/Watch/Profile Public Surfaces<a href="#-livewatchprofile-public-surfaces" class="hash-link" aria-label="Direct link to 🧪 Live/Watch/Profile Public Surfaces" title="Direct link to 🧪 Live/Watch/Profile Public Surfaces" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Profile surfaces:</strong> Public profiles and visibility areas consume backend states rather than local invention.</li>
+<li class=""><strong>Watch behavior:</strong> Live/ended indicators are tied to authoritative status data.</li>
+<li class=""><strong>Safe fallback in absence of data:</strong> Empty states are explicitly documented.</li>
+<li class=""><strong>No false live-state claims:</strong> The release reiterates that fake live/recording indicators are not introduced.</li>
+<li class=""><strong>Consistent rendering:</strong> Public watch/profile states now match runtime compatibility.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-manifest-and-trust-controls">🧷 Manifest and Trust Controls<a href="#-manifest-and-trust-controls" class="hash-link" aria-label="Direct link to 🧷 Manifest and Trust Controls" title="Direct link to 🧷 Manifest and Trust Controls" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Manifest behavior:</strong> Public manifest paths are documented as static or runtime-derived surfaces depending on path.</li>
+<li class=""><strong>No unauthorized claim of secret states:</strong> Download/catalog/security surfaces avoid leaking private tokens.</li>
+<li class=""><strong>Validation language:</strong> The release differentiates trust checks from marketing text.</li>
+<li class=""><strong>Operational caution:</strong> Some public capabilities remain constrained by backend and environment.</li>
+<li class=""><strong>User-facing correctness:</strong> Content updates avoid ambiguous statements around manifest freshness.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-responsive-and-cross-device-public-layout">📱 Responsive and Cross-Device Public Layout<a href="#-responsive-and-cross-device-public-layout" class="hash-link" aria-label="Direct link to 📱 Responsive and Cross-Device Public Layout" title="Direct link to 📱 Responsive and Cross-Device Public Layout" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Responsive behavior:</strong> Public layouts are documented as constrained by real runtime and deployment paths.</li>
+<li class=""><strong>No design drift claims:</strong> The cycle avoids announcing redesigns not present in this release.</li>
+<li class=""><strong>State and spacing consistency:</strong> UI states reflect permission/session boundaries.</li>
+<li class=""><strong>Accessibility-minded notes:</strong> Reduced-motion and interaction consistency are acknowledged where visible.</li>
+<li class=""><strong>Deferral clarity:</strong> Known responsive limitations remain in limitations section.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-public-trust-and-fail-closed-behavior">🕹️ Public Trust and Fail-Closed Behavior<a href="#️-public-trust-and-fail-closed-behavior" class="hash-link" aria-label="Direct link to 🕹️ Public Trust and Fail-Closed Behavior" title="Direct link to 🕹️ Public Trust and Fail-Closed Behavior" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Fail-closed default:</strong> Public surfaces avoid exposing protected flows when backend authorization is absent.</li>
+<li class=""><strong>Fail-open only where defined:</strong> The doc clearly distinguishes permissive vs protected pages.</li>
+<li class=""><strong>No untrusted exposure:</strong> Non-authorized routes and incomplete data are described as explicit limitations.</li>
+<li class=""><strong>No hidden assumptions:</strong> The section prevents overstatement around public capability.</li>
+<li class=""><strong>Risk reduction:</strong> Public trust boundaries are codified in prose.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-streamsuites-studio-v021-alpha">🎥 StreamSuites-Studio v0.2.1-alpha<a href="#-streamsuites-studio-v021-alpha" class="hash-link" aria-label="Direct link to 🎥 StreamSuites-Studio v0.2.1-alpha" title="Direct link to 🎥 StreamSuites-Studio v0.2.1-alpha" translate="no">​</a></h2>
+<p>This is one of the largest sections because Browser Studio represents the main end-user media-workflow surface, while remaining under strict Runtime/Auth boundaries.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-lobby-rooms--broadcast-setup">🏠 Lobby, Rooms &amp; Broadcast Setup<a href="#-lobby-rooms--broadcast-setup" class="hash-link" aria-label="Direct link to 🏠 Lobby, Rooms &amp; Broadcast Setup" title="Direct link to 🏠 Lobby, Rooms &amp; Broadcast Setup" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Room onboarding discipline:</strong> Lobby and broadcast setup behavior stays tied to authenticated runtime session state and backend room rules.</li>
+<li class=""><strong>Broadcast state representation:</strong> Broadcast readiness and broadcast entry are backend-driven.</li>
+<li class=""><strong>No status fabrication:</strong> Studio cannot claim live/recording/replay truth without backend confirmation.</li>
+<li class=""><strong>Backstage coordination:</strong> Stage and backstage representations are rendered from session-derived participant/location data.</li>
+<li class=""><strong>Operational trust:</strong> Streamers and participants see deterministic states aligned with shared contracts.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-stage-backstage--nine-slot-production-layouts">🎭 Stage, Backstage &amp; Nine-Slot Production Layouts<a href="#-stage-backstage--nine-slot-production-layouts" class="hash-link" aria-label="Direct link to 🎭 Stage, Backstage &amp; Nine-Slot Production Layouts" title="Direct link to 🎭 Stage, Backstage &amp; Nine-Slot Production Layouts" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Nine-slot layout truth:</strong> The stage/backstage model is documented as fixed by runtime design and not client-expanded.</li>
+<li class=""><strong>Layout governance:</strong> Slot allocation and participant placement follow canonical room state.</li>
+<li class=""><strong>No local override claims:</strong> Layout changes do not bypass Runtime/Auth authority.</li>
+<li class=""><strong>Production readiness framing:</strong> The release clarifies that layout semantics are available and constrained.</li>
+<li class=""><strong>Consistency with future migration paths:</strong> Future expansions are explicit but not claimed as shipped.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-cloudflare-browser-media">📹 Cloudflare Browser Media<a href="#-cloudflare-browser-media" class="hash-link" aria-label="Direct link to 📹 Cloudflare Browser Media" title="Direct link to 📹 Cloudflare Browser Media" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Transport commitment:</strong> Studio remains Cloudflare Realtime-first and does not route through unsupported local runtimes.</li>
+<li class=""><strong>Provider policy:</strong> Media and signaling assumptions match backend and platform transport policy.</li>
+<li class=""><strong>No embedded replacement architecture:</strong> Studio remains browser-based and not a Python media worker.</li>
+<li class=""><strong>Connection state clarity:</strong> Reconnect, wait, and fallback behaviors remain backend-informed.</li>
+<li class=""><strong>No fake media claims:</strong> Studio does not claim unsupported direct capture invariants.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-branding-media--browser-sources">🖼️ Branding, Media &amp; Browser Sources<a href="#️-branding-media--browser-sources" class="hash-link" aria-label="Direct link to 🖼️ Branding, Media &amp; Browser Sources" title="Direct link to 🖼️ Branding, Media &amp; Browser Sources" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Source controls:</strong> Source selection and branding overlays are described in terms of backend-visible states.</li>
+<li class=""><strong>No unsupported composition claims:</strong> The release avoids declaring media compositing features that are not part of this cycle.</li>
+<li class=""><strong>Source lifecycle:</strong> Source registration and teardown behavior is tied to room/session context.</li>
+<li class=""><strong>UI clarity:</strong> Branding changes are treated as view-layer behavior with no backend ownership claims.</li>
+<li class=""><strong>Reliability:</strong> Release language includes when source updates can fail and how state recovers.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-guests-cohosts-requests--invitations">👥 Guests, Cohosts, Requests &amp; Invitations<a href="#-guests-cohosts-requests--invitations" class="hash-link" aria-label="Direct link to 👥 Guests, Cohosts, Requests &amp; Invitations" title="Direct link to 👥 Guests, Cohosts, Requests &amp; Invitations" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Guest semantics:</strong> Invite processing and guest placement are backend-resolved.</li>
+<li class=""><strong>Cohost rules:</strong> Cohost roles are policy-driven and rendered with explicit permission boundaries.</li>
+<li class=""><strong>Request and approval states:</strong> User-facing request queues and acceptance outcomes align with runtime signals.</li>
+<li class=""><strong>No fabricated outcomes:</strong> Studio does not display unsupported acceptance transitions.</li>
+<li class=""><strong>Consistency with shared authority:</strong> All participant collaboration states remain canonical.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-private-chat--public-chat-foundation">💬 Private Chat &amp; Public Chat Foundation<a href="#-private-chat--public-chat-foundation" class="hash-link" aria-label="Direct link to 💬 Private Chat &amp; Public Chat Foundation" title="Direct link to 💬 Private Chat &amp; Public Chat Foundation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Chat partitioning:</strong> Private and public chat contexts are separated by room context and session authorization.</li>
+<li class=""><strong>State honesty:</strong> Chat history/state snapshots are reflected as available projections, not guaranteed complete truth.</li>
+<li class=""><strong>Failure safety:</strong> Restricted chat access is described as backend-denied rather than UI-failure only.</li>
+<li class=""><strong>No unbounded automation:</strong> Automation in chat contexts remains conservative.</li>
+<li class=""><strong>Platform continuity:</strong> Chat behavior aligns with backend contract and other surfaces.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mirrored-sidebars-shell--production-workspace">🧭 Mirrored Sidebars, Shell &amp; Production Workspace<a href="#-mirrored-sidebars-shell--production-workspace" class="hash-link" aria-label="Direct link to 🧭 Mirrored Sidebars, Shell &amp; Production Workspace" title="Direct link to 🧭 Mirrored Sidebars, Shell &amp; Production Workspace" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Workspace surfaces:</strong> Shell and sidebar behavior is documented as a production-facing projection of backend state.</li>
+<li class=""><strong>Layout consistency:</strong> Navigation patterns are aligned with broader platform conventions.</li>
+<li class=""><strong>Mirror-first approach:</strong> Shared panels reflect runtime state and avoid local data invention.</li>
+<li class=""><strong>No navigation inflation:</strong> No claim of new shell navigation system beyond release-accurate changes.</li>
+<li class=""><strong>Developer/operator clarity:</strong> Workspace sections now map cleanly to authority domains.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-accessibility-responsive-behavior--presentation-modes">♿ Accessibility, Responsive Behavior &amp; Presentation Modes<a href="#-accessibility-responsive-behavior--presentation-modes" class="hash-link" aria-label="Direct link to ♿ Accessibility, Responsive Behavior &amp; Presentation Modes" title="Direct link to ♿ Accessibility, Responsive Behavior &amp; Presentation Modes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Accessible interaction updates:</strong> Keyboard and focus states are documented where constrained by room and session flow.</li>
+<li class=""><strong>Responsive adaptation:</strong> Studio layout behavior in constrained viewports is acknowledged as bounded and not exhaustive.</li>
+<li class=""><strong>Presentation modes:</strong> Mode switching behavior is tied to state validation, not local invention.</li>
+<li class=""><strong>Fail-safe messaging:</strong> Disabled or unavailable modes are represented with explicit reasons.</li>
+<li class=""><strong>Cross-surface parity:</strong> Accessibility decisions align with Admin/Creator/Docs expectations.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-security-tokens--runtime-authority">🔐 Security, Tokens &amp; Runtime Authority<a href="#-security-tokens--runtime-authority" class="hash-link" aria-label="Direct link to 🔐 Security, Tokens &amp; Runtime Authority" title="Direct link to 🔐 Security, Tokens &amp; Runtime Authority" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Token usage discipline:</strong> Tokens and credentials remain runtime-owned and are not Studio-owned state.</li>
+<li class=""><strong>No secret emission in UI:</strong> Studio release text now avoids implicit token claims.</li>
+<li class=""><strong>Authority map:</strong> Runtime/Auth controls who may join, moderate, and publish session transitions.</li>
+<li class=""><strong>No local bypass:</strong> There is no alternate local auth authority path introduced in this cycle.</li>
+<li class=""><strong>Safe status semantics:</strong> OFF AIR and unavailable states are explicit where relevant.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-explicit-studio-limitations">🚧 Explicit Studio Limitations<a href="#-explicit-studio-limitations" class="hash-link" aria-label="Direct link to 🚧 Explicit Studio Limitations" title="Direct link to 🚧 Explicit Studio Limitations" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>No fake broadcast output claims:</strong> Stream output, clipping, and recording claims are not elevated.</li>
+<li class=""><strong>No unsupported provider posting:</strong> Provider post or broadcast integrations that are not production-ready remain deferred.</li>
+<li class=""><strong>Media transport constraints:</strong> Browser media remains constrained by Realtime-first policy and existing runtime links.</li>
+<li class=""><strong>Deferred production capabilities:</strong> Native-level production capture/replay features remain outside this shipped scope.</li>
+<li class=""><strong>Compatibility caution:</strong> This section keeps <code>0.2.1-alpha</code> and <code>v0.5.4-alpha</code> relationship explicit.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-streamsuites-studioapp-v024-alpha">🪟 StreamSuites-StudioApp v0.2.4-alpha<a href="#-streamsuites-studioapp-v024-alpha" class="hash-link" aria-label="Direct link to 🪟 StreamSuites-StudioApp v0.2.4-alpha" title="Direct link to 🪟 StreamSuites-StudioApp v0.2.4-alpha" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-native-windows-architecture">🧱 Native Windows Architecture<a href="#-native-windows-architecture" class="hash-link" aria-label="Direct link to   🧱 Native Windows Architecture" title="Direct link to 🧱 Native Windows Architecture" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Shell-engine split:</strong> C#/.NET/WPF remains shell orchestration, with native C++ media ownership for capture/composition.</li>
+<li class=""><strong>No WebView architecture:</strong> StudioApp is documented as native, not a browser wrapper.</li>
+<li class=""><strong>Versioned compatibility:</strong> Released with <code>v0.2.4-alpha</code> and compatibility target <code>0.5.4-alpha</code>.</li>
+<li class=""><strong>No Python media routing:</strong> Audio/video handling remains native and not mediated through Python runtime.</li>
+<li class=""><strong>Architectural trust boundary:</strong> Runtime/Auth supplies authoritative session and credential framing.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-stage-sources--capture">🎬 Stage, Sources &amp; Capture<a href="#-stage-sources--capture" class="hash-link" aria-label="Direct link to 🎬 Stage, Sources &amp; Capture" title="Direct link to 🎬 Stage, Sources &amp; Capture" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Capture behavior:</strong> Native capture and stage/source behavior are bounded by runtime session signals and local device state.</li>
+<li class=""><strong>Source lifecycle:</strong> Source registration and teardown operate under native controls with backend permission framing.</li>
+<li class=""><strong>No invented capture modes:</strong> Release language avoids describing features that are not operationally delivered.</li>
+<li class=""><strong>Operator clarity:</strong> Stage and preview behavior is represented as actual native behavior.</li>
+<li class=""><strong>Media safety:</strong> Media path is described as native and authoritative-only where applicable.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-audio-mixer--device-handling">🎚️ Audio, Mixer &amp; Device Handling<a href="#️-audio-mixer--device-handling" class="hash-link" aria-label="Direct link to 🎚️ Audio, Mixer &amp; Device Handling" title="Direct link to 🎚️ Audio, Mixer &amp; Device Handling" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mixer controls:</strong> Native mixer behavior is preserved as StudioApp responsibility and documented as such.</li>
+<li class=""><strong>Device ownership:</strong> Device detection and audio routing remain local-native with backend authorization.</li>
+<li class=""><strong>No duplicate media pipeline:</strong> Media processing is not mirrored in other runtimes through this release.</li>
+<li class=""><strong>Error handling:</strong> Device or stream path failures are shown with explicit non-authoritative status when needed.</li>
+<li class=""><strong>Operational consistency:</strong> Runtime signals constrain capture and publish-ready actions.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-destinations--account-integration">🌍 Destinations &amp; Account Integration<a href="#-destinations--account-integration" class="hash-link" aria-label="Direct link to 🌍 Destinations &amp; Account Integration" title="Direct link to 🌍 Destinations &amp; Account Integration" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Destination integration:</strong> Destination workflows remain runtime-governed and do not imply standalone credential ownership.</li>
+<li class=""><strong>Account continuity:</strong> Creator identity and account actions remain backed by canonical backend assertions.</li>
+<li class=""><strong>No secret surface claims:</strong> Credentials remain server-managed.</li>
+<li class=""><strong>Session gating:</strong> Destination actions are denied or allowed by backend policy.</li>
+<li class=""><strong>Cross-surface consistency:</strong> Same destination truth model as Dashboard and Creator.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-docks-pop-outs-options--shell">🪟 Docks, Pop-Outs, Options &amp; Shell<a href="#-docks-pop-outs-options--shell" class="hash-link" aria-label="Direct link to 🪟 Docks, Pop-Outs, Options &amp; Shell" title="Direct link to 🪟 Docks, Pop-Outs, Options &amp; Shell" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Windowing and docking model:</strong> Native shell behavior remains described as production-stage surface behavior.</li>
+<li class=""><strong>Options workflows:</strong> Configuration and settings are client-owned only where allowed; state ownership remains separate.</li>
+<li class=""><strong>Pop-out behavior:</strong> Detached surfaces are client-managed but permission-bound to runtime state.</li>
+<li class=""><strong>No UI bypass claim:</strong> Shell features are documented without overreaching claims about unavailable states.</li>
+<li class=""><strong>Reliability expectation:</strong> Recovery and visibility states are described as backend-dependent.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-updates-release-manager--distribution">🔄 Updates, Release Manager &amp; Distribution<a href="#-updates-release-manager--distribution" class="hash-link" aria-label="Direct link to 🔄 Updates, Release Manager &amp; Distribution" title="Direct link to 🔄 Updates, Release Manager &amp; Distribution" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Update channel clarity:</strong> Release manager and distribution language is separated from runtime feature behavior.</li>
+<li class=""><strong>Installer path documentation:</strong> Install/packaging details are documented as distribution pathways, not behavioral changes.</li>
+<li class=""><strong>Safety in distribution:</strong> Release notes avoid claiming deployment or local installer mutation in this corrective run.</li>
+<li class=""><strong>Manifest compatibility:</strong> Compatibility metadata remains aligned with runtime version authority.</li>
+<li class=""><strong>Governance boundary:</strong> Update tooling remains governed by runtime/repo-specific procedures, not this changelog edit.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-installer-packaging--verification"> 📦 Installer, Packaging &amp; Verification<a href="#-installer-packaging--verification" class="hash-link" aria-label="Direct link to 📦 Installer, Packaging &amp; Verification" title="Direct link to 📦 Installer, Packaging &amp; Verification" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>No packaging mutation:</strong> This cycle does not edit installer artifacts.</li>
+<li class=""><strong>Verification context:</strong> Prior packaging and validation outcomes are referenced as historical context.</li>
+<li class=""><strong>No production signing claims:</strong> The changelog explicitly avoids unsupported claims about signed release states.</li>
+<li class=""><strong>No overwrite of installed state:</strong> No local installed product state was intentionally changed by this documentation correction.</li>
+<li class=""><strong>Release correctness:</strong> Packaging references are preserved as provenance, not a change in this run.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-native-engine-supervision--ipc">⚙️ Native Engine, Supervision &amp; IPC<a href="#️-native-engine-supervision--ipc" class="hash-link" aria-label="Direct link to ⚙️ Native Engine, Supervision &amp; IPC" title="Direct link to ⚙️ Native Engine, Supervision &amp; IPC" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Engine supervision:</strong> Native engine lifecycle is runtime-session-aware and shell-coordinated.</li>
+<li class=""><strong>IPC boundaries:</strong> Local IPC remains bounded and secret-safe as a contract, not a place for authority.</li>
+<li class=""><strong>Media engine ownership:</strong> C++ engine maintains media role without Python mediation.</li>
+<li class=""><strong>Crash and recovery posture:</strong> Recovery references reflect engine-supervised behavior.</li>
+<li class=""><strong>Documentation correction intent:</strong> This section removes ambiguity while avoiding behavior invention.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-diagnostics-safety--current-boundaries">🛡️ Diagnostics, Safety &amp; Current Boundaries<a href="#️-diagnostics-safety--current-boundaries" class="hash-link" aria-label="Direct link to 🛡️ Diagnostics, Safety &amp; Current Boundaries" title="Direct link to 🛡️ Diagnostics, Safety &amp; Current Boundaries" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Diagnostics as observations:</strong> Engine logs and diagnostics remain operational artifacts, not API behavior changes.</li>
+<li class=""><strong>Safety-first defaults:</strong> Sensitive operations are guarded and fail-closed when session data is absent.</li>
+<li class=""><strong>Known failure paths:</strong> Known recovery limitations and failure visibility are documented.</li>
+<li class=""><strong>No overreporting:</strong> The release does not claim broad diagnostic telemetry not present.</li>
+<li class=""><strong>Security posture:</strong> Secret boundaries remain explicit in docs and runtime integration.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-explicit-studioapp-limitations">🚧 Explicit StudioApp Limitations<a href="#-explicit-studioapp-limitations" class="hash-link" aria-label="Direct link to 🚧 Explicit StudioApp Limitations" title="Direct link to 🚧 Explicit StudioApp Limitations" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>No claimed media features not present:</strong> No production recording, clipping, or replay pipelines are newly claimed here.</li>
+<li class=""><strong>Native constraints:</strong> Browser fallback and remote-video assumptions are excluded as shipped capability claims.</li>
+<li class=""><strong>Distribution limits:</strong> Release does not assume externally signed installs, global deployment, or R2 publication from this run.</li>
+<li class=""><strong>Scope lock:</strong> Compatibility remains <code>v0.2.4-alpha</code> against runtime <code>v0.5.4-alpha</code>.</li>
+<li class=""><strong>Forward-looking notes flagged:</strong> Future expansion areas remain separated from final state.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-streamsuites-obs-v011-alpha">🧩 StreamSuites-OBS v0.1.1-alpha<a href="#-streamsuites-obs-v011-alpha" class="hash-link" aria-label="Direct link to 🧩 StreamSuites-OBS v0.1.1-alpha" title="Direct link to 🧩 StreamSuites-OBS v0.1.1-alpha" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-native-obs-plugin-foundation">🔌 Native OBS Plugin Foundation<a href="#-native-obs-plugin-foundation" class="hash-link" aria-label="Direct link to 🔌 Native OBS Plugin Foundation" title="Direct link to 🔌 Native OBS Plugin Foundation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Plugin role:</strong> OBS plugin remains a native OBS extension and not an OBS fork.</li>
+<li class=""><strong>Media engine boundary:</strong> OBS continues owning its native media stack and output path.</li>
+<li class=""><strong>Runtime dependency:</strong> Stream control and identity state are not redefined by plugin logic.</li>
+<li class=""><strong>Compatibility constraints:</strong> OBS plugin behavior remains tied to runtime compatibility contracts.</li>
+<li class=""><strong>Scope discipline:</strong> Plugin architecture is unchanged in this cycle.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-guest-ingress--receiver-surfaces">👥 Guest Ingress &amp; Receiver Surfaces<a href="#-guest-ingress--receiver-surfaces" class="hash-link" aria-label="Direct link to 👥 Guest Ingress &amp; Receiver Surfaces" title="Direct link to 👥 Guest Ingress &amp; Receiver Surfaces" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Guest and ingress behavior:</strong> Ingress handling remains constrained by Runtime/Auth and backend validation.</li>
+<li class=""><strong>Session-safe operation:</strong> Plugin actions are interpreted through backend tokens and room/session context.</li>
+<li class=""><strong>Receiver paths:</strong> Receive/publish surfaces are documented as constrained and backend-mediated.</li>
+<li class=""><strong>No local authority claim:</strong> Plugin does not become source-of-truth for identities or rooms.</li>
+<li class=""><strong>Operational clarity:</strong> The release avoids overstating guest throughput or session semantics.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-login-runtimeauth--secure-credentials">🔐 Login, Runtime/Auth &amp; Secure Credentials<a href="#-login-runtimeauth--secure-credentials" class="hash-link" aria-label="Direct link to 🔐 Login, Runtime/Auth &amp; Secure Credentials" title="Direct link to 🔐 Login, Runtime/Auth &amp; Secure Credentials" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Login integration:</strong> Plugin integrations remain aligned to runtime-auth policy.</li>
+<li class=""><strong>Secret safety:</strong> No token/key handwave claims are introduced in this release narrative.</li>
+<li class=""><strong>Authorization trust:</strong> Access is granted where Runtime/Auth policies say so.</li>
+<li class=""><strong>Error clarity:</strong> Invalid auth and connectivity paths are rendered as explicit failures.</li>
+<li class=""><strong>Security contract:</strong> The document keeps secret storage and transmission constraints explicit.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-installer-packaging--build-tooling">📦 Installer, Packaging &amp; Build Tooling<a href="#-installer-packaging--build-tooling" class="hash-link" aria-label="Direct link to 📦 Installer, Packaging &amp; Build Tooling" title="Direct link to 📦 Installer, Packaging &amp; Build Tooling" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Build tooling context:</strong> Plugin tooling details are maintained as previously established.</li>
+<li class=""><strong>No build pipeline mutation:</strong> This pass does not alter CMake, SDK, or package artifacts.</li>
+<li class=""><strong>Compatibility disclosure:</strong> Plugin versioning and OBS compatibility are stated conservatively.</li>
+<li class=""><strong>No replacement claim:</strong> OBS plugin is not a replacement for native Studio or StudioApp.</li>
+<li class=""><strong>Deployment caution:</strong> Packaging mentions remain documentary in this cycle.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-cross-platform-build-and-ci-posture">🧪 Cross-Platform Build and CI Posture<a href="#-cross-platform-build-and-ci-posture" class="hash-link" aria-label="Direct link to 🧪 Cross-Platform Build and CI Posture" title="Direct link to 🧪 Cross-Platform Build and CI Posture" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Compatibility posture documented:</strong> Supported OBS/build environment constraints remain as stated by existing plugin docs and BUMP context.</li>
+<li class=""><strong>No CI rewrites:</strong> No build workflow files are changed in this task.</li>
+<li class=""><strong>Regression safety:</strong> Plugin capability statements remain constrained by actual integration status.</li>
+<li class=""><strong>Runtime-coupled behavior:</strong> Plugin CI expectations stay linked to Runtime/Auth compatibility.</li>
+<li class=""><strong>Observability:</strong> This section distinguishes build posture from shipped code changes.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-licensing--dependency-boundaries">⚖️ Licensing &amp; Dependency Boundaries<a href="#️-licensing--dependency-boundaries" class="hash-link" aria-label="Direct link to ⚖️ Licensing &amp; Dependency Boundaries" title="Direct link to ⚖️ Licensing &amp; Dependency Boundaries" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Licensing constraints:</strong> Release text does not add or remove licensing claims.</li>
+<li class=""><strong>Dependency ownership:</strong> OBS-specific dependencies remain governed by plugin and OBS rules.</li>
+<li class=""><strong>No bundled runtime conflict:</strong> Plugin remains external to Python runtime media ownership.</li>
+<li class=""><strong>Legal clarity:</strong> The release keeps licensing and redistribution claims confined to existing documentation.</li>
+<li class=""><strong>Boundary assurance:</strong> No dependency assumptions are added.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-explicit-obs-limitations">🚧 Explicit OBS Limitations<a href="#-explicit-obs-limitations" class="hash-link" aria-label="Direct link to 🚧 Explicit OBS Limitations" title="Direct link to 🚧 Explicit OBS Limitations" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>No runtime replacement:</strong> OBS plugin remains separate from Studio and StudioApp control planes.</li>
+<li class=""><strong>No media pipeline duplication:</strong> Plugin media handling stays OBS-native and OBS-owned.</li>
+<li class=""><strong>No guaranteed feature expansion:</strong> Feature claims are limited to active plugin architecture.</li>
+<li class=""><strong>Compatibility uncertainty flagged:</strong> Non-specified platform combinations are left intentionally unclaimed.</li>
+<li class=""><strong>Roadmap honesty:</strong> Deferred OBS-native improvements remain in roadmap language only.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-streamsuites-docs">📚 StreamSuites-Docs<a href="#-streamsuites-docs" class="hash-link" aria-label="Direct link to 📚 StreamSuites-Docs" title="Direct link to 📚 StreamSuites-Docs" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-documentation-publication-and-synchronization">🧱 Documentation Publication and Synchronization<a href="#-documentation-publication-and-synchronization" class="hash-link" aria-label="Direct link to 🧱 Documentation Publication and Synchronization" title="Direct link to 🧱 Documentation Publication and Synchronization" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Release publication task completed:</strong> The <code>v0.5.4-alpha</code> Docs page is fully synchronized with the runtime-level master changelog body.</li>
+<li class=""><strong>Route preservation:</strong> Established route <code>/docs/changelog/v0-5-4-alpha</code> remains unchanged.</li>
+<li class=""><strong>No route duplication:</strong> The route is preserved as an existing canonical page, not duplicated.</li>
+<li class=""><strong>Single-source presentation:</strong> The same release body is now available in both runtime and Docs artifacts.</li>
+<li class=""><strong>Index alignment:</strong> Changelog index and sidebar ordering remain consistent with existing navigation entries.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-artifact-indexing-and-discoverability">🧩 Artifact Indexing and Discoverability<a href="#-artifact-indexing-and-discoverability" class="hash-link" aria-label="Direct link to 🧩 Artifact Indexing and Discoverability" title="Direct link to 🧩 Artifact Indexing and Discoverability" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Changelog catalog:</strong> The docs changelog list includes the canonical release ordering around 0.5.4.</li>
+<li class=""><strong>Metadata continuity:</strong> Existing front matter is preserved so navigation behavior remains stable.</li>
+<li class=""><strong>Release-readability goal:</strong> Operators and creators can read full release detail directly from Docs.</li>
+<li class=""><strong>No deployment claim:</strong> This run ends at build verification, not production publish.</li>
+<li class=""><strong>Docs authority boundary:</strong> Docs remains documentation-only and not a runtime authority source.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-build-and-route-validation">🧪 Build and Route Validation<a href="#-build-and-route-validation" class="hash-link" aria-label="Direct link to 🧪 Build and Route Validation" title="Direct link to 🧪 Build and Route Validation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Validation step:</strong> Production build is run as part of this run and route artifacts are verified.</li>
+<li class=""><strong>Generated page verification:</strong> HTML output is validated for title and representative headings.</li>
+<li class=""><strong>No unrelated docs drift:</strong> Only release page body changes were expected and preserved.</li>
+<li class=""><strong>Build command integrity:</strong> Mandatory <code>npm run build</code> is used with exact repository script.</li>
+<li class=""><strong>Clear failure path:</strong> Any build blocker would be reported rather than suppressed.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-cross-cutting-security--authority">🔐 Cross-Cutting Security &amp; Authority<a href="#-cross-cutting-security--authority" class="hash-link" aria-label="Direct link to 🔐 Cross-Cutting Security &amp; Authority" title="Direct link to 🔐 Cross-Cutting Security &amp; Authority" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-runtimeauth-as-canonical-control-plane">🛡️ Runtime/Auth as Canonical Control Plane<a href="#️-runtimeauth-as-canonical-control-plane" class="hash-link" aria-label="Direct link to 🛡️ Runtime/Auth as Canonical Control Plane" title="Direct link to 🛡️ Runtime/Auth as Canonical Control Plane" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Single-plane enforcement:</strong> Runtime/Auth remains the only source for critical account, room, invitation, and destination authority.</li>
+<li class=""><strong>Client limitations:</strong> UI/admin surfaces remain consumers with constrained mutation rights.</li>
+<li class=""><strong>Consistent policy language:</strong> Security statements now match across repos.</li>
+<li class=""><strong>No elevation through docs:</strong> Documentation does not create new privileges or behavior.</li>
+<li class=""><strong>Operational confidence:</strong> This avoids fragmented trust models.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-secrets-tokens-and-session-hygiene">🔒 Secrets, Tokens, and Session Hygiene<a href="#-secrets-tokens-and-session-hygiene" class="hash-link" aria-label="Direct link to 🔒 Secrets, Tokens, and Session Hygiene" title="Direct link to 🔒 Secrets, Tokens, and Session Hygiene" translate="no">  ​</a></h3>
+<ul>
+<li class=""><strong>Never expose tokens in release claims:</strong> Release text removes insecure language around cookies, OAuth tokens, stream keys.</li>
+<li class=""><strong>Session safety:</strong> Session invalidation and renewal behavior remains backend-managed.</li>
+<li class=""><strong>Token-scoped operations:</strong> Client surfaces render session-sensitive states with backend context.</li>
+<li class=""><strong>No pseudo-auth path:</strong> There is no fallback local authority.</li>
+<li class=""><strong>Redaction discipline:</strong> Sensitive values remain hidden from release and UI trust assumptions.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-invitation-secrecy-and-guest-integrity">👤 Invitation Secrecy and Guest Integrity<a href="#-invitation-secrecy-and-guest-integrity" class="hash-link" aria-label="Direct link to 👤 Invitation Secrecy and Guest Integrity" title="Direct link to 👤 Invitation Secrecy and Guest Integrity" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Guest invite integrity:</strong> Invite metadata and state are controlled by runtime contracts.</li>
+<li class=""><strong>Privacy posture:</strong> Guest visibility follows backend gating.</li>
+<li class=""><strong>No guest elevation through UI:</strong> UI rendering does not grant authorization.</li>
+<li class=""><strong>Reconciled flows:</strong> Invite acceptance and room participant placement are not duplicated.</li>
+<li class=""><strong>Trust by design:</strong> The release explicitly states these are not local-only behaviors.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-cross-cutting-media-ownership">🎞️ Cross-Cutting Media Ownership<a href="#️-cross-cutting-media-ownership" class="hash-link" aria-label="Direct link to 🎞️ Cross-Cutting Media Ownership" title="Direct link to 🎞️ Cross-Cutting Media Ownership" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-browser-studio-media-ownership">🖥️ Browser Studio Media Ownership<a href="#️-browser-studio-media-ownership" class="hash-link" aria-label="Direct link to 🖥️ Browser Studio Media Ownership" title="Direct link to 🖥️ Browser Studio Media Ownership" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Cloudflare-first policy:</strong> Browser Studio remains Realtime-first and browser-native in path and control.</li>
+<li class=""><strong>No Python media routing:</strong> Studio media does not become a Python runtime-owned pipeline.</li>
+<li class=""><strong>Session-bound operations:</strong> Media states are projected under runtime control.</li>
+<li class=""><strong>No fake broadcast claims:</strong> OFF AIR and output status semantics remain accurate.</li>
+<li class=""><strong>Boundary stability:</strong> This remains the governing policy for this alpha.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-studioapp-native-media-engine">🪟 StudioApp Native Media Engine<a href="#-studioapp-native-media-engine" class="hash-link" aria-label="Direct link to 🪟 StudioApp Native Media Engine" title="Direct link to 🪟 StudioApp Native Media Engine" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Native stack ownership:</strong> C++ engine owns capture/composition/mixing and recording pathways where implemented.</li>
+<li class=""><strong>Shell separation:</strong> WPF/C# handles orchestration; media remains native engine domain.</li>
+<li class=""><strong>No WebView substitution:</strong> Architecture claim explicitly excludes WebView wrappers.</li>
+<li class=""><strong>Role separation:</strong> Media operations are not delegated to Runtime/Auth process paths.</li>
+<li class=""><strong>Safety and debugging:</strong> Engine supervision semantics are preserved.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-obs-media-ownership">🎥 OBS Media Ownership<a href="#-obs-media-ownership" class="hash-link" aria-label="Direct link to 🎥 OBS Media Ownership" title="Direct link to 🎥 OBS Media Ownership" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>OBS native ownership retained:</strong> OBS plugin never duplicates or replaces StreamSuites media pipeline.</li>
+<li class=""><strong>No platform replacement claim:</strong> OBS remains a dedicated plugin and integration surface.</li>
+<li class=""><strong>No cross-mediation claim:</strong> Plugin-to-runtime interactions stay credential/session bounded.</li>
+<li class=""><strong>No pipeline inflation:</strong> Unimplemented OBS capabilities remain deferred.</li>
+<li class=""><strong>Compatibility stability:</strong> Media ownership statement is stable across release.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-planned-future-systems-not-included">🔮 Planned Future Systems (Not Included)<a href="#-planned-future-systems-not-included" class="hash-link" aria-label="Direct link to 🔮 Planned Future Systems (Not Included)" title="Direct link to 🔮 Planned Future Systems (Not Included)" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>LiveKit/Egress status:</strong> Not part of this corrected 0.5.4 shipped claim set.</li>
+<li class=""><strong>Future capture and output growth:</strong> Mentioned as planned system evolution, not active release behavior.</li>
+<li class=""><strong>No migration confusion:</strong> Planned systems are explicitly marked as out-of-scope.</li>
+<li class=""><strong>Boundary protection:</strong> Keeps operators from mistaking roadmap for release fact.</li>
+<li class=""><strong>Release integrity:</strong> This section prevents unsupported roadmap inflation.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-accessibility-responsive-design--ux-consistency">♿ Accessibility, Responsive Design &amp; UX Consistency<a href="#-accessibility-responsive-design--ux-consistency" class="hash-link" aria-label="Direct link to ♿ Accessibility, Responsive Design &amp; UX Consistency" title="Direct link to ♿ Accessibility, Responsive Design &amp; UX Consistency" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-keyboard-and-focus-interaction">⌨️ Keyboard and Focus Interaction<a href="#️-keyboard-and-focus-interaction" class="hash-link" aria-label="Direct link to ⌨️ Keyboard and Focus Interaction" title="Direct link to ⌨️ Keyboard and Focus Interaction" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Keyboard pathways:</strong> Access and control actions remain session-aware with explicit disabled states.</li>
+<li class=""><strong>Focus restoration:</strong> Focus behavior is documented where affected by modal, popout, and navigation transitions.</li>
+<li class=""><strong>Safe fallback for blocked states:</strong> Focus and key handling degrade safely when runtime denies action.</li>
+<li class=""><strong>No hidden shortcuts assumptions:</strong> Accessibility behavior is tied to available permissions and viewport states.</li>
+<li class=""><strong>Operationally accurate states:</strong> Interactions do not claim unsupported keyboard shortcuts.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-click-escape-and-overlay-behavior">🖱️ Click, Escape, and Overlay Behavior<a href="#️-click-escape-and-overlay-behavior" class="hash-link" aria-label="Direct link to 🖱️ Click, Escape, and Overlay Behavior" title="Direct link to 🖱️ Click, Escape, and Overlay Behavior" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Outside interaction handling:</strong> Overlay and modal behavior is documented as constrained by session context.</li>
+<li class=""><strong>Escape semantics:</strong> Escape and outside-click patterns follow existing accessibility expectations.</li>
+<li class=""><strong>Dialog safety:</strong> Modal behavior is described without implying force-close overrides.</li>
+<li class=""><strong>Failure-aware overlays:</strong> Overlays reflect blocked states clearly.</li>
+<li class=""><strong>Consistency across surfaces:</strong> Desktop and web patterns are documented in shared terms.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-responsive-and-mobile-surfaces">📱 Responsive and Mobile Surfaces<a href="#-responsive-and-mobile-surfaces" class="hash-link" aria-label="Direct link to 📱 Responsive and Mobile Surfaces" title="Direct link to 📱 Responsive and Mobile Surfaces" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Responsive constraints:</strong> Layout adaptation is documented where implemented and where limited.</li>
+<li class=""><strong>No universal responsiveness claim:</strong> The release does not imply every surface has parity by default.</li>
+<li class=""><strong>Viewport-aware behavior:</strong> Public, admin, and creator surfaces preserve valid degradation pathways.</li>
+<li class=""><strong>Accessible disabled states:</strong> Non-interactive states are explicitly represented.</li>
+<li class=""><strong>Cross-device reliability:</strong> Responsiveness claims are conservative and evidence-based.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-disabled-and-unavailable-state-representation">♿ Disabled and Unavailable State Representation<a href="#-disabled-and-unavailable-state-representation" class="hash-link" aria-label="Direct link to ♿ Disabled and Unavailable State Representation" title="Direct link to ♿ Disabled and Unavailable State Representation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Non-authoritative states as truth:</strong> Disabled states are documented as real outcomes of policy or missing data.</li>
+<li class=""><strong>No speculative affordance:</strong> Buttons and actions are only described as active when backed by permission.</li>
+<li class=""><strong>Loading vs completed difference:</strong> Loading placeholders and completion messaging are separated.</li>
+<li class=""><strong>Error-state clarity:</strong> Permission and backend errors appear as user-visible reasons.</li>
+<li class=""><strong>Safer UX contract:</strong> The release reduces ambiguity for operators and creators.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-validation--release-confidence">🧪 Validation &amp; Release Confidence<a href="#-validation--release-confidence" class="hash-link" aria-label="Direct link to 🧪 Validation &amp; Release Confidence" title="Direct link to 🧪 Validation &amp; Release Confidence" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="development-cycle-validation">Development-Cycle Validation<a href="#development-cycle-validation" class="hash-link" aria-label="Direct link to Development-Cycle Validation" title="Direct link to Development-Cycle Validation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Runtime validation evidence:</strong> Prior release-cycle evidence includes room/session behavior checks around participant location and session validity for this cycle’s compatibility posture.</li>
+<li class=""><strong>Release-sync validation:</strong> The <code>v0.5.4-alpha</code> compatibility bucket was synchronized across product boundaries without functional drift in this documentation cycle.</li>
+<li class=""><strong>State reconciliation discipline:</strong> Runtime and client-facing validations for room lifecycle and permission outcomes are documented as source-of-truth-driven.</li>
+<li class=""><strong>No behavior claims from fresh runs:</strong> This pass reports historic validation outcomes where present in source records.</li>
+<li class=""><strong>No hidden assumptions:</strong> The section distinguishes historical validation from actions executed in this corrective run.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="release-documentation-validation">Release-Documentation Validation<a href="#release-documentation-validation" class="hash-link" aria-label="Direct link to Release-Documentation Validation" title="Direct link to Release-Documentation Validation" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Pre-edit status checks:</strong> Working trees were inspected before change and confirmed clean in both writable roots.</li>
+<li class=""><strong>Post-edit checks:</strong> Target files were scoped and compared to ensure only authorized edits landed.</li>
+<li class=""><strong>Docusaurus build execution:</strong> Production build was run from repository script as required.</li>
+<li class=""><strong>Generated route verification:</strong> The <code>v0.5.4</code> release HTML route was checked for final title and representative headings.</li>
+<li class=""><strong>Warning/error tracking:</strong> Build output is reported in validation records for transparency.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-known-limitations--deferred-work">🚧 Known Limitations &amp; Deferred Work<a href="#-known-limitations--deferred-work" class="hash-link" aria-label="Direct link to 🚧 Known Limitations &amp; Deferred Work" title="Direct link to 🚧 Known Limitations &amp; Deferred Work" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Runtime/platform integrations:</strong> No major runtime feature expansion is claimed in this release; unresolved integration refinements remain in later cycles.</li>
+<li class=""><strong>Stream delivery architecture:</strong> Native capture-to-distribution capabilities are intentionally bounded; full unified native pipeline delivery remains a progressive target.</li>
+<li class=""><strong>Broadcast output claims:</strong> No new promise of guaranteed broadcast output, clipping, or replay is introduced.</li>
+<li class=""><strong>Recording and clipping:</strong> Recording/replay/clipping capabilities remain deferred where not explicitly available.</li>
+<li class=""><strong>LiveKit/Egress:</strong> Not part of this correction milestone and remains an explicit future direction.</li>
+<li class=""><strong>Provider gaps:</strong> Not all external provider posting or advanced public integration states are guaranteed as shipped.</li>
+<li class=""><strong>Installer signing/deployment:</strong> This cycle does not claim signed official installer states, Public deployment, or release push completion.</li>
+<li class=""><strong>Studio compatibility edge cases:</strong> Non-trivial room re-entry and complex membership edge flows remain documented as possible deferred handling cases.</li>
+<li class=""><strong>OBS environment matrix:</strong> Cross-version/plugin environment assumptions remain constrained to established compatibility contexts.</li>
+<li class=""><strong>Docs as source of truth:</strong> Docs remains documentation and not runtime authority.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-versioning--compatibility">🔢 Versioning &amp; Compatibility<a href="#-versioning--compatibility" class="hash-link" aria-label="Direct link to 🔢 Versioning &amp; Compatibility" title="Direct link to 🔢 Versioning &amp; Compatibility" translate="no">​</a></h2>
+<table><thead><tr><th>Product / Surface</th><th style="text-align:right">Release version</th><th style="text-align:right">Shared StreamSuites compatibility</th><th>Authority / media position</th></tr></thead><tbody><tr><td>StreamSuites Runtime/Auth</td><td style="text-align:right">v0.5.4-alpha</td><td style="text-align:right">Canonical platform release</td><td>Runtime/Auth/version authority</td></tr><tr><td>StreamSuites-Dashboard</td><td style="text-align:right">v0.5.4-alpha</td><td style="text-align:right">v0.5.4-alpha</td><td>Privileged web client</td></tr><tr><td>StreamSuites-Creator</td><td style="text-align:right">v0.5.4-alpha</td><td style="text-align:right">v0.5.4-alpha</td><td>Creator web client</td></tr><tr><td>StreamSuites-Public</td><td style="text-align:right">v0.5.4-alpha</td><td style="text-align:right">v0.5.4-alpha</td><td>Public read-oriented surface</td></tr><tr><td>StreamSuites-Studio</td><td style="text-align:right">v0.2.1-alpha</td><td style="text-align:right">v0.5.4-alpha</td><td>Browser Studio; Runtime-owned control state</td></tr><tr><td>StreamSuites-StudioApp</td><td style="text-align:right">v0.2.4-alpha</td><td style="text-align:right">v0.5.4-alpha</td><td>Native Windows media engine client</td></tr><tr><td>StreamSuites-OBS</td><td style="text-align:right">v0.1.1-alpha</td><td style="text-align:right">v0.5.4-alpha</td><td>OBS plugin; OBS-owned media pipeline</td></tr><tr><td>StreamSuites-Docs</td><td style="text-align:right">v0.5.4-alpha</td><td style="text-align:right">v0.5.4-alpha</td><td>Documentation only</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-release-artifacts--changelog-index">📦 Release Artifacts &amp; Changelog Index<a href="#-release-artifacts--changelog-index" class="hash-link" aria-label="Direct link to 📦 Release Artifacts &amp; Changelog Index" title="Direct link to 📦 Release Artifacts &amp; Changelog Index" translate="no">​</a></h2>
+<ul>
+<li class="">Runtime: <a href="https://github.com/BSMediaGroup/StreamSuites/blob/main/changelog/v0.5.4-CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">changelog/v0.5.4-CHANGELOG.md</a></li>
+<li class="">Dashboard: <a href="https://github.com/BSMediaGroup/StreamSuites-Dashboard/blob/main/changelog/v0.5.4-CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">changelog/v0.5.4-CHANGELOG.md</a></li>
+<li class="">Creator: <a href="https://github.com/BSMediaGroup/StreamSuites-Creator/blob/main/changelog/v0.5.4-CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">changelog/v0.5.4-CHANGELOG.md</a></li>
+<li class="">Public: <a href="https://github.com/BSMediaGroup/StreamSuites-Public/blob/main/changelog/v0.5.4-CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">changelog/v0.5.4-CHANGELOG.md</a></li>
+<li class="">Studio: <a href="https://github.com/BSMediaGroup/StreamSuites-Studio/blob/main/changelog/v0.2.1-CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">changelog/v0.2.1-CHANGELOG.md</a></li>
+<li class="">StudioApp: <a href="https://github.com/BSMediaGroup/StreamSuites-StudioApp/blob/main/changelog/v0.2.4-CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">changelog/v0.2.4-CHANGELOG.md</a></li>
+<li class="">OBS: <a href="https://github.com/BSMediaGroup/StreamSuites-OBS/blob/main/changelog/v0.1.1-CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">changelog/v0.1.1-CHANGELOG.md</a></li>
+<li class="">Docs release page: <a href="https://github.com/BSMediaGroup/StreamSuites-Docs/blob/main/docs/changelog/v0-5-4-alpha.md" target="_blank" rel="noopener noreferrer" class="">docs/changelog/v0-5-4-alpha.md</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-changelog--diff-guidance">🔗 Changelog / Diff Guidance<a href="#-changelog--diff-guidance" class="hash-link" aria-label="Direct link to 🔗 Changelog / Diff Guidance" title="Direct link to 🔗 Changelog / Diff Guidance" translate="no">​</a></h2>
+<ul>
+<li class="">Shared platform diff baseline remains <code>v0.5.4-alpha</code> against the previous tagged platform release line.</li>
+<li class="">Studio diff baseline: independent product line for <code>v0.2.1-alpha</code> against its previous independent base.</li>
+<li class="">StudioApp diff baseline: independent product line for <code>v0.2.4-alpha</code> against prior app release.</li>
+<li class="">OBS diff baseline: <code>v0.1.1-alpha</code> compared against the prior OBS line as per repository history.</li>
+<li class="">Platform comparisons avoid implying a single repository source for all changes; each surface remains explicit in scope and authority.</li>
+<li class="">When reading release boundaries, always start from canonical runtime version for shared contracts.</li>
+<li class="">If tags are unavailable for some satellites, use repository compare anchors and compatibility headers with release context.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-release-closing-statement">✅ Release Closing Statement<a href="#-release-closing-statement" class="hash-link" aria-label="Direct link to ✅ Release Closing Statement" title="Direct link to ✅ Release Closing Statement" translate="no">​</a></h2>
+<p><code>v0.5.4-alpha</code> is a correctness release focused on release documentation integrity, authority boundary precision, and operational truthfulness across the StreamSuites ecosystem. It locks the platform into a single readable contract: Runtime/Auth sets control and identity truth, while Studio, StudioApp, and OBS each keep their media-specific implementation boundaries explicit. The independent surfaces are synchronized for release identity and compatibility without inventing capabilities that were not actually validated. This release should be treated as a high-confidence documentation consolidation milestone and a clean foundation for the next feature cycle.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/changelog"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Changelog</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/changelog/v0-5-0-alpha"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">v0.5.0-alpha</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#-major-platform-themes" class="table-of-contents__link toc-highlight">🌟 Major Platform Themes</a></li><li><a href="#-runtime--auth-authority" class="table-of-contents__link toc-highlight">🧠 Runtime &amp; Auth Authority</a><ul><li><a href="#-accounts-sessions-and-identity-contracts" class="table-of-contents__link toc-highlight">🧱 Accounts, Sessions, and Identity Contracts</a></li><li><a href="#️-roles-tiers-and-permissions" class="table-of-contents__link toc-highlight">🎚️ Roles, Tiers, and Permissions</a></li><li><a href="#-rooms-participant-authority-and-location-state" class="table-of-contents__link toc-highlight">🏠 Rooms, Participant Authority, and Location State</a></li><li><a href="#-invitations-approvals-and-waiting-behavior" class="table-of-contents__link toc-highlight">🧾 Invitations, Approvals, and Waiting Behavior</a></li><li><a href="#-destination-credentials-stream-keys-and-ownership" class="table-of-contents__link toc-highlight">🔐 Destination Credentials, Stream Keys, and Ownership</a></li><li><a href="#-event-streams-contracts-and-consumed-signals" class="table-of-contents__link toc-highlight">📡 Event Streams, Contracts, and Consumed Signals</a></li><li><a href="#️-schema-and-compatibility-stewardship" class="table-of-contents__link toc-highlight">🛠️ Schema and Compatibility Stewardship</a></li></ul></li><li><a href="#-rooms-guests-invitations--shared-studio-contracts" class="table-of-contents__link toc-highlight">🚪 Rooms, Guests, Invitations &amp; Shared Studio Contracts</a><ul><li><a href="#-room-lifecycle-semantics" class="table-of-contents__link toc-highlight">🧭 Room Lifecycle Semantics</a></li><li><a href="#-co-host-and-guest-authority" class="table-of-contents__link toc-highlight">🧾 Co-host and Guest Authority</a></li><li><a href="#-profileavatar-overrides-and-room-identity" class="table-of-contents__link toc-highlight">🧬 Profile/Avatar Overrides and Room Identity</a></li><li><a href="#-event-refetch-and-state-reconciliation" class="table-of-contents__link toc-highlight">🔄 Event, Refetch, and State Reconciliation</a></li><li><a href="#️-client-owned-vs-server-owned-responsibilities" class="table-of-contents__link toc-highlight">⚠️ Client-Owned vs Server-Owned Responsibilities</a></li></ul></li><li><a href="#-chat-platform-services--automation" class="table-of-contents__link toc-highlight">💬 Chat, Platform Services &amp; Automation</a><ul><li><a href="#️-private-room-chat" class="table-of-contents__link toc-highlight">🗨️ Private Room Chat</a></li><li><a href="#-public-chat-foundations" class="table-of-contents__link toc-highlight">🌐 Public Chat Foundations</a></li><li><a href="#-trigger-and-automation-surfaces" class="table-of-contents__link toc-highlight">🤖 Trigger and Automation Surfaces</a></li><li><a href="#-provider-integrations" class="table-of-contents__link toc-highlight">🎥 Provider Integrations</a></li><li><a href="#️-provider-reliability-and-failure-handling" class="table-of-contents__link toc-highlight">🛡️ Provider Reliability and Failure Handling</a></li></ul></li><li><a href="#️-desktop-operator-applications" class="table-of-contents__link toc-highlight">🖥️ Desktop Operator Applications</a><ul><li><a href="#-desktop-admin" class="table-of-contents__link toc-highlight">🧭 Desktop Admin</a></li><li><a href="#-windows-alerts-client" class="table-of-contents__link toc-highlight">🔔 Windows Alerts Client</a></li><li><a href="#️-runtime-operations-diagnostics--recovery" class="table-of-contents__link toc-highlight">⚙️ Runtime Operations, Diagnostics &amp; Recovery</a></li></ul></li><li><a href="#-streamsuites-dashboard" class="table-of-contents__link toc-highlight">📊 StreamSuites-Dashboard</a><ul><li><a href="#-admin-workspaces-and-surface-layout" class="table-of-contents__link toc-highlight">🧩 Admin Workspaces and Surface Layout</a></li><li><a href="#-account--identity-management" class="table-of-contents__link toc-highlight">👤 Account &amp; Identity Management</a></li><li><a href="#️-platform-and-bot-controls" class="table-of-contents__link toc-highlight">🛠️ Platform and Bot Controls</a></li><li><a href="#-operational-diagnostics" class="table-of-contents__link toc-highlight">📡 Operational Diagnostics</a></li><li><a href="#-analytics--telemetry-consumption" class="table-of-contents__link toc-highlight">📈 Analytics &amp; Telemetry Consumption</a></li><li><a href="#-loading-failure-and-empty-states" class="table-of-contents__link toc-highlight">📱 Loading, Failure, and Empty States</a></li><li><a href="#-shell-and-accessibility-in-admin" class="table-of-contents__link toc-highlight">🧱 Shell and Accessibility in Admin</a></li></ul></li><li><a href="#-streamsuites-creator" class="table-of-contents__link toc-highlight">🎨 StreamSuites-Creator</a><ul><li><a href="#-creator-workspace-and-core-publishing-flows" class="table-of-contents__link toc-highlight">🧭 Creator Workspace and Core Publishing Flows</a></li><li><a href="#-destinations-and-validation" class="table-of-contents__link toc-highlight">🧰 Destinations and Validation</a></li><li><a href="#️-content-management-and-identity-associations" class="table-of-contents__link toc-highlight">🎛️ Content Management and Identity Associations</a></li><li><a href="#-trigger-automation-and-action-surfaces" class="table-of-contents__link toc-highlight">🔗 Trigger, Automation, and Action Surfaces</a></li><li><a href="#-account-types-and-access-context" class="table-of-contents__link toc-highlight">👥 Account Types and Access Context</a></li><li><a href="#-room-setup-and-responsive-behaviors" class="table-of-contents__link toc-highlight">📱 Room Setup and Responsive Behaviors</a></li><li><a href="#-accessibility-and-creator-productivity" class="table-of-contents__link toc-highlight">♿ Accessibility and Creator Productivity</a></li></ul></li><li><a href="#-streamsuites-public" class="table-of-contents__link toc-highlight">🌐 StreamSuites-Public</a><ul><li><a href="#-public-navigation-and-surface-entry" class="table-of-contents__link toc-highlight">🧭 Public Navigation and Surface Entry</a></li><li><a href="#-download-and-distribution-surfaces" class="table-of-contents__link toc-highlight">📦 Download and Distribution Surfaces</a></li><li><a href="#-extension-store-and-catalog-foundation" class="table-of-contents__link toc-highlight">🛒 Extension Store and Catalog Foundation</a></li><li><a href="#-livewatchprofile-public-surfaces" class="table-of-contents__link toc-highlight">🧪 Live/Watch/Profile Public Surfaces</a></li><li><a href="#-manifest-and-trust-controls" class="table-of-contents__link toc-highlight">🧷 Manifest and Trust Controls</a></li><li><a href="#-responsive-and-cross-device-public-layout" class="table-of-contents__link toc-highlight">📱 Responsive and Cross-Device Public Layout</a></li><li><a href="#️-public-trust-and-fail-closed-behavior" class="table-of-contents__link toc-highlight">🕹️ Public Trust and Fail-Closed Behavior</a></li></ul></li><li><a href="#-streamsuites-studio-v021-alpha" class="table-of-contents__link toc-highlight">🎥 StreamSuites-Studio v0.2.1-alpha</a><ul><li><a href="#-lobby-rooms--broadcast-setup" class="table-of-contents__link toc-highlight">🏠 Lobby, Rooms &amp; Broadcast Setup</a></li><li><a href="#-stage-backstage--nine-slot-production-layouts" class="table-of-contents__link toc-highlight">🎭 Stage, Backstage &amp; Nine-Slot Production Layouts</a></li><li><a href="#-cloudflare-browser-media" class="table-of-contents__link toc-highlight">📹 Cloudflare Browser Media</a></li><li><a href="#️-branding-media--browser-sources" class="table-of-contents__link toc-highlight">🖼️ Branding, Media &amp; Browser Sources</a></li><li><a href="#-guests-cohosts-requests--invitations" class="table-of-contents__link toc-highlight">👥 Guests, Cohosts, Requests &amp; Invitations</a></li><li><a href="#-private-chat--public-chat-foundation" class="table-of-contents__link toc-highlight">💬 Private Chat &amp; Public Chat Foundation</a></li><li><a href="#-mirrored-sidebars-shell--production-workspace" class="table-of-contents__link toc-highlight">🧭 Mirrored Sidebars, Shell &amp; Production Workspace</a></li><li><a href="#-accessibility-responsive-behavior--presentation-modes" class="table-of-contents__link toc-highlight">♿ Accessibility, Responsive Behavior &amp; Presentation Modes</a></li><li><a href="#-security-tokens--runtime-authority" class="table-of-contents__link toc-highlight">🔐 Security, Tokens &amp; Runtime Authority</a></li><li><a href="#-explicit-studio-limitations" class="table-of-contents__link toc-highlight">🚧 Explicit Studio Limitations</a></li></ul></li><li><a href="#-streamsuites-studioapp-v024-alpha" class="table-of-contents__link toc-highlight">🪟 StreamSuites-StudioApp v0.2.4-alpha</a><ul><li><a href="#-native-windows-architecture" class="table-of-contents__link toc-highlight">🧱 Native Windows Architecture</a></li><li><a href="#-stage-sources--capture" class="table-of-contents__link toc-highlight">🎬 Stage, Sources &amp; Capture</a></li><li><a href="#️-audio-mixer--device-handling" class="table-of-contents__link toc-highlight">🎚️ Audio, Mixer &amp; Device Handling</a></li><li><a href="#-destinations--account-integration" class="table-of-contents__link toc-highlight">🌍 Destinations &amp; Account Integration</a></li><li><a href="#-docks-pop-outs-options--shell" class="table-of-contents__link toc-highlight">🪟 Docks, Pop-Outs, Options &amp; Shell</a></li><li><a href="#-updates-release-manager--distribution" class="table-of-contents__link toc-highlight">🔄 Updates, Release Manager &amp; Distribution</a></li><li><a href="#-installer-packaging--verification" class="table-of-contents__link toc-highlight">📦 Installer, Packaging &amp; Verification</a></li><li><a href="#️-native-engine-supervision--ipc" class="table-of-contents__link toc-highlight">⚙️ Native Engine, Supervision &amp; IPC</a></li><li><a href="#️-diagnostics-safety--current-boundaries" class="table-of-contents__link toc-highlight">🛡️ Diagnostics, Safety &amp; Current Boundaries</a></li><li><a href="#-explicit-studioapp-limitations" class="table-of-contents__link toc-highlight">🚧 Explicit StudioApp Limitations</a></li></ul></li><li><a href="#-streamsuites-obs-v011-alpha" class="table-of-contents__link toc-highlight">🧩 StreamSuites-OBS v0.1.1-alpha</a><ul><li><a href="#-native-obs-plugin-foundation" class="table-of-contents__link toc-highlight">🔌 Native OBS Plugin Foundation</a></li><li><a href="#-guest-ingress--receiver-surfaces" class="table-of-contents__link toc-highlight">👥 Guest Ingress &amp; Receiver Surfaces</a></li><li><a href="#-login-runtimeauth--secure-credentials" class="table-of-contents__link toc-highlight">🔐 Login, Runtime/Auth &amp; Secure Credentials</a></li><li><a href="#-installer-packaging--build-tooling" class="table-of-contents__link toc-highlight">📦 Installer, Packaging &amp; Build Tooling</a></li><li><a href="#-cross-platform-build-and-ci-posture" class="table-of-contents__link toc-highlight">🧪 Cross-Platform Build and CI Posture</a></li><li><a href="#️-licensing--dependency-boundaries" class="table-of-contents__link toc-highlight">⚖️ Licensing &amp; Dependency Boundaries</a></li><li><a href="#-explicit-obs-limitations" class="table-of-contents__link toc-highlight">🚧 Explicit OBS Limitations</a></li></ul></li><li><a href="#-streamsuites-docs" class="table-of-contents__link toc-highlight">📚 StreamSuites-Docs</a><ul><li><a href="#-documentation-publication-and-synchronization" class="table-of-contents__link toc-highlight">🧱 Documentation Publication and Synchronization</a></li><li><a href="#-artifact-indexing-and-discoverability" class="table-of-contents__link toc-highlight">🧩 Artifact Indexing and Discoverability</a></li><li><a href="#-build-and-route-validation" class="table-of-contents__link toc-highlight">🧪 Build and Route Validation</a></li></ul></li><li><a href="#-cross-cutting-security--authority" class="table-of-contents__link toc-highlight">🔐 Cross-Cutting Security &amp; Authority</a><ul><li><a href="#️-runtimeauth-as-canonical-control-plane" class="table-of-contents__link toc-highlight">🛡️ Runtime/Auth as Canonical Control Plane</a></li><li><a href="#-secrets-tokens-and-session-hygiene" class="table-of-contents__link toc-highlight">🔒 Secrets, Tokens, and Session Hygiene</a></li><li><a href="#-invitation-secrecy-and-guest-integrity" class="table-of-contents__link toc-highlight">👤 Invitation Secrecy and Guest Integrity</a></li></ul></li><li><a href="#️-cross-cutting-media-ownership" class="table-of-contents__link toc-highlight">🎞️ Cross-Cutting Media Ownership</a><ul><li><a href="#️-browser-studio-media-ownership" class="table-of-contents__link toc-highlight">🖥️ Browser Studio Media Ownership</a></li><li><a href="#-studioapp-native-media-engine" class="table-of-contents__link toc-highlight">🪟 StudioApp Native Media Engine</a></li><li><a href="#-obs-media-ownership" class="table-of-contents__link toc-highlight">🎥 OBS Media Ownership</a></li><li><a href="#-planned-future-systems-not-included" class="table-of-contents__link toc-highlight">🔮 Planned Future Systems (Not Included)</a></li></ul></li><li><a href="#-accessibility-responsive-design--ux-consistency" class="table-of-contents__link toc-highlight">♿ Accessibility, Responsive Design &amp; UX Consistency</a><ul><li><a href="#️-keyboard-and-focus-interaction" class="table-of-contents__link toc-highlight">⌨️ Keyboard and Focus Interaction</a></li><li><a href="#️-click-escape-and-overlay-behavior" class="table-of-contents__link toc-highlight">🖱️ Click, Escape, and Overlay Behavior</a></li><li><a href="#-responsive-and-mobile-surfaces" class="table-of-contents__link toc-highlight">📱 Responsive and Mobile Surfaces</a></li><li><a href="#-disabled-and-unavailable-state-representation" class="table-of-contents__link toc-highlight">♿ Disabled and Unavailable State Representation</a></li></ul></li><li><a href="#-validation--release-confidence" class="table-of-contents__link toc-highlight">🧪 Validation &amp; Release Confidence</a><ul><li><a href="#development-cycle-validation" class="table-of-contents__link toc-highlight">Development-Cycle Validation</a></li><li><a href="#release-documentation-validation" class="table-of-contents__link toc-highlight">Release-Documentation Validation</a></li></ul></li><li><a href="#-known-limitations--deferred-work" class="table-of-contents__link toc-highlight">🚧 Known Limitations &amp; Deferred Work</a></li><li><a href="#-versioning--compatibility" class="table-of-contents__link toc-highlight">🔢 Versioning &amp; Compatibility</a></li><li><a href="#-release-artifacts--changelog-index" class="table-of-contents__link toc-highlight">📦 Release Artifacts &amp; Changelog Index</a></li><li><a href="#-changelog--diff-guidance" class="table-of-contents__link toc-highlight">🔗 Changelog / Diff Guidance</a></li><li><a href="#-release-closing-statement" class="table-of-contents__link toc-highlight">✅ Release Closing Statement</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">StreamSuites™ Documentation Hub</div></div></div></footer></div>
 </body>
 </html>

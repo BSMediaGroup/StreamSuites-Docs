@@ -6,73 +6,63 @@ import styles from './index.module.css';
 
 const cards = [
   {
+    title: 'Product family',
+    description: 'See the current role and Alpha posture of Browser Studio, StudioApp, Studio for OBS, and the connected web surfaces.',
+    href: '/docs/product-family',
+    cta: 'Explore products',
+  },
+  {
+    title: 'Authority and media boundaries',
+    description: 'Understand what Runtime/Auth owns and why each production product keeps its own media pipeline.',
+    href: '/docs/architecture/product-boundaries',
+    cta: 'Read architecture',
+  },
+  {
     title: 'Getting started',
-    description: 'Install StreamSuites, run first checks, and confirm account types.',
+    description: 'Install the implemented components, run first checks, and understand the existing account types.',
     href: '/docs/getting-started/installation',
     cta: 'Start setup',
   },
   {
-    title: 'Creator guide',
-    description: 'Build creator-ready workflows, automation rules, and live assets.',
+    title: 'Runtime / Auth',
+    description: 'Review canonical identity, permissions, rooms, destinations, exports, alerts, automation, and version authority.',
+    href: '/docs/runtime/runtime-overview',
+    cta: 'Explore authority',
+  },
+  {
+    title: 'Creator operations',
+    description: 'Use Creator as the operational companion for integrations, automation, audience tools, analytics, and settings.',
     href: '/docs/creator-guide/creator-dashboard',
-    cta: 'Open creator hub',
-  },
-  {
-    title: 'Runtime',
-    description: 'Understand exports, versioning, and runtime automation states.',
-    href: '/docs/reference/runtime-overview',
-    cta: 'Explore runtime',
-  },
-  {
-    title: 'Integrations',
-    description: 'Connect YouTube, Twitch, Rumble, Discord, and more.',
-    href: '/docs/integrations/youtube',
-    cta: 'View integrations',
+    cta: 'Open creator guide',
   },
   {
     title: 'Support',
-    description: 'Find answers fast with FAQ, troubleshooting, and support model.',
+    description: 'Find current troubleshooting guidance, frequently asked questions, and the documented support model.',
     href: '/docs/support/faq',
     cta: 'Get support',
-  },
-  {
-    title: 'Legal / EULA',
-    description: 'Review licensing terms, usage rights, and commercial notices.',
-    href: '/docs/legal/eula',
-    cta: 'Read EULA',
   },
 ];
 
 const quicklinks = [
   {
-    label: 'Rumble',
-    href: '/docs/integrations/rumble',
-    icon: 'assets/icons/rumble.svg',
+    label: 'Browser Studio',
+    href: 'https://studio.streamsuites.app',
   },
   {
-    label: 'YouTube',
-    href: '/docs/integrations/youtube',
-    icon: 'assets/icons/youtube.svg',
+    label: 'StudioApp',
+    href: 'https://streamsuites.app/downloads/studioapp/',
   },
   {
-    label: 'Twitch',
-    href: '/docs/integrations/twitch',
-    icon: 'assets/icons/twitch.svg',
+    label: 'Studio for OBS',
+    href: 'https://streamsuites.app/downloads/obs-plugin/',
   },
   {
-    label: 'Kick',
-    href: '/docs/integrations/kick',
-    icon: 'assets/icons/kick.svg',
+    label: 'Runtime / Auth',
+    href: '/docs/runtime/runtime-overview',
   },
   {
-    label: 'Pilled',
-    href: '/docs/integrations/pilled',
-    icon: 'assets/icons/pilled.svg',
-  },
-  {
-    label: 'Discord',
-    href: '/docs/integrations/discord',
-    icon: 'assets/icons/discord.svg',
+    label: 'Creator operations',
+    href: '/docs/creator-guide/creator-dashboard',
   },
 ];
 
@@ -82,13 +72,13 @@ export default function Home() {
   return (
     <Layout
       title="StreamSuites Documentation"
-      description="StreamSuites documentation hub for creators, runtimes, integrations, and support."
+      description="Documentation for the StreamSuites Studio product family, Runtime/Auth authority, connected capabilities, and current Alpha boundaries."
     >
       <main className={styles.page}>
         <div className={styles.backdrop} aria-hidden="true" />
         <section className={styles.hero}>
           <div className={styles.heroCard}>
-            <p className={styles.eyebrow}>StreamSuites Docs Hub</p>
+            <p className={styles.eyebrow}>StreamSuites Docs · Current Alpha reality</p>
             <h1 className={styles.title}>
               <span className={styles.titleLine}>
                 <img
@@ -97,18 +87,19 @@ export default function Home() {
                   alt="StreamSuites"
                   aria-hidden="true"
                 />
-                <span>StreamSuites{'\u2122'} Documentation</span>
+                <span>Production products. One authority.</span>
               </span>
             </h1>
             <p className={styles.description}>
-              Everything you need to stand up StreamSuites, craft creator-ready workspaces,
-              and understand the runtime surface area. Start here and drill into the guides
-              and reference as the platform evolves.
+              Current guidance for Browser Studio, native StudioApp, StreamSuites Studio for OBS,
+              Runtime/Auth, and the connected creator, admin, developer, and audience surfaces.
+              Planned work stays clearly separated from what is implemented today.
             </p>
             <div className={styles.metaRow}>
-              <span className={styles.metaPill}>Creator workflows</span>
-              <span className={styles.metaPill}>Runtime automation</span>
-              <span className={styles.metaPill}>Platform integrations</span>
+              <span className={styles.metaPill}>Browser Studio</span>
+              <span className={styles.metaPill}>Native StudioApp</span>
+              <span className={styles.metaPill}>Studio for OBS</span>
+              <span className={styles.metaPill}>Runtime/Auth authority</span>
             </div>
           </div>
         </section>
@@ -118,12 +109,6 @@ export default function Home() {
             <div className={styles.quicklinksInner}>
               {quicklinks.map((link) => (
                 <Link className={styles.quicklink} to={link.href} key={link.label}>
-                  <img
-                    className={styles.quicklinkIcon}
-                    src={useBaseUrl(link.icon)}
-                    alt=""
-                    aria-hidden="true"
-                  />
                   <span>{link.label}</span>
                 </Link>
               ))}

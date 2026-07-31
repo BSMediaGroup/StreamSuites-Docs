@@ -6,6 +6,19 @@ Packaged / released and no longer the active pending bucket. Preserve new notes 
 
 ## CURRENT VER= 0.5.4-alpha / PENDING VER= 0.5.5-alpha
 
+### 2026-07-31 - Studio-first documentation system
+
+#### Technical notes
+
+- Added the approved local Tektur, Geist Sans, and IBM Plex Mono assets and rebuilt the current Docusaurus theme roles for navigation, search, articles, code, tables, callouts, tabs, pagination, focus, responsive layouts, and reduced motion.
+- Reworked the documentation landing page, navigation, sidebar, and footer around the shipped StreamSuites product family; added truthful product-family and authority/media-boundary pages and exposed the existing Runtime/Auth documentation instead of a placeholder-only category.
+- Kept code and operational detail readable without presenting planned media paths, client-side mirrors, or downstream repositories as canonical authority.
+- No version/build authority changed. Publication remains blocked on locating and confirming the redistribution license text for the supplied Tektur binary; no matching license was present in the approved local repositories or reference bundle.
+
+#### Human-readable summary
+
+Docs now provides a clearer front door to the StreamSuites family and explains where creators, operators, developers, Runtime/Auth, Browser Studio, StudioApp, and OBS each fit.
+
 ### 2026-07-24 - Docs version-cycle synchronization
 
 - Updated docs package metadata to `0.5.4-alpha`.

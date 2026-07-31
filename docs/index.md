@@ -3,22 +3,22 @@ title: StreamSuites™ Documentation
 slug: /
 ---
 
-Documentation hub
+Studio-first documentation hub
 
-Everything you need to stand up StreamSuites, craft creator-ready workspaces,
-and understand the runtime surface area. Start here and drill into the guides
-and reference as the platform evolves.
+Current guidance for Browser Studio, native StudioApp, StreamSuites Studio for OBS,
+Runtime/Auth, and the connected creator, admin, developer, public, and audience surfaces.
+Planned work is kept separate from implemented Alpha behavior.
 
-* GitHub Pages ready
-* docs.streamsuites.app
-* Dark mode native
+* [Product family](/docs/product-family)
+* [Authority and media boundaries](/docs/architecture/product-boundaries)
+* [Current changelog](/docs/changelog/)
 
 ## Overview {#overview-card}
 
-High-level perspective on StreamSuites capabilities, personas, and release posture.
+High-level perspective on production products, connected capabilities, and release posture.
 
-* [Platform overview](#overview)
-* [What is StreamSuites™](#what-is)
+* [Product family](/docs/product-family)
+* [Authority and media boundaries](/docs/architecture/product-boundaries)
 
 ## Getting started
 
@@ -63,11 +63,13 @@ FAQ, troubleshooting workflows, and the StreamSuites support model.
 
 ## Overview {#overview}
 
-StreamSuites provides creator-centric workflows for live production, automation, and
-multi-platform distribution. This section will outline the core product surfaces and
-how teams adopt them.
+StreamSuites centers on Browser Studio, native StudioApp, and the dedicated Studio for
+OBS integration. Creator operations, automation, alerts, audience tools, administration,
+developer intake, and public clients connect around those production experiences.
 
 ## What is StreamSuites™ {#what-is}
 
-StreamSuites™ is a modular suite for managing live production workflows at scale.
-Expect this section to cover the positioning, target teams, and upcoming roadmap themes.
+StreamSuites™ is a connected livestream-production suite with Runtime/Auth as the shared
+identity, permission, room, destination, credential, alert, automation, export, audit,
+and version authority. Media remains owned by each production surface and never passes
+through the Python runtime.

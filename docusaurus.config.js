@@ -1,7 +1,7 @@
 
 module.exports = {
   title: 'StreamSuites™',
-  tagline: 'Documentation hub for StreamSuites.',
+  tagline: 'Current documentation for the StreamSuites Studio product family and Runtime/Auth authority.',
   url: 'https://docs.streamsuites.app',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -71,6 +71,12 @@ module.exports = {
       items: [
         {
           type: 'doc',
+          docId: 'product-family',
+          label: 'Products',
+          position: 'left',
+        },
+        {
+          type: 'doc',
           docId: 'getting-started/installation',
           label: 'Getting started',
           position: 'left',
@@ -83,8 +89,8 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'reference/runtime-overview',
-          label: 'Runtime',
+          docId: 'runtime/runtime-overview',
+          label: 'Runtime / Auth',
           position: 'left',
         },
         {
@@ -116,7 +122,24 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [],
+      links: [
+        {
+          title: 'Production products',
+          items: [
+            { label: 'Browser Studio', href: 'https://studio.streamsuites.app' },
+            { label: 'StudioApp', href: 'https://streamsuites.app/downloads/studioapp/' },
+            { label: 'Studio for OBS', href: 'https://streamsuites.app/downloads/obs-plugin/' },
+          ],
+        },
+        {
+          title: 'Documentation',
+          items: [
+            { label: 'Product family', to: '/docs/product-family' },
+            { label: 'Authority boundaries', to: '/docs/architecture/product-boundaries' },
+            { label: 'Support', to: '/docs/support/faq' },
+          ],
+        },
+      ],
       copyright: 'StreamSuites™ Documentation Hub',
     },
   },

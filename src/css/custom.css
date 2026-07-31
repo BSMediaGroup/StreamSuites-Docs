@@ -1,15 +1,96 @@
 @font-face {
-  font-family: "RechargeBd";
-  src: url("/assets/fonts/Recharge-Bold.otf") format("opentype");
+  font-family: "Tektur";
+  src: url("/assets/fonts/Tektur-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 400 900;
+  font-stretch: 75% 100%;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/assets/fonts/Geist-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/assets/fonts/Geist-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/assets/fonts/Geist-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/assets/fonts/Geist-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/assets/fonts/Geist-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "SuiGenerisRg";
-  src: url("/assets/fonts/SuiGeneris-Regular.otf") format("opentype");
+  font-family: "Geist Sans";
+  src: url("/assets/fonts/Geist-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/assets/fonts/mono/IBMPlexMono-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/assets/fonts/mono/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/assets/fonts/mono/IBMPlexMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/assets/fonts/mono/IBMPlexMono-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/assets/fonts/mono/IBMPlexMono-Bold.ttf") format("truetype");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -24,14 +105,29 @@
   --border: rgba(10, 14, 20, 0.14);
   --text: #121417;
   --muted: #4a515c;
-  --accent: #6faa23;
+  --accent: #604bd4;
+  --accent-alt: #277ac0;
   --accent-warm: #d47900;
   --shadow: 0 22px 50px rgba(15, 18, 22, 0.18);
-  --primary: #6faa23;
-  --primaryT: rgba(111, 170, 35, 0.45);
+  --primary: #604bd4;
+  --primaryT: rgba(96, 75, 212, 0.38);
+  --font-display: "Tektur", "Geist Sans", "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+  --font-ui: "Geist Sans", "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "Cascadia Mono", Consolas, Menlo, Monaco, monospace;
+  --weight-body: 400;
+  --weight-ui-medium: 500;
+  --weight-ui-semibold: 600;
+  --weight-ui-bold: 700;
+  --weight-display-medium: 500;
+  --weight-display-semibold: 600;
+  --weight-display-bold: 700;
+  --weight-mono-regular: 400;
+  --weight-mono-medium: 500;
+  --weight-mono-semibold: 600;
 
-  --ifm-font-family-base: "SuiGenerisRg", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --ifm-heading-font-family: "RechargeBd", "SuiGenerisRg", system-ui, sans-serif;
+  --ifm-font-family-base: var(--font-ui);
+  --ifm-heading-font-family: var(--font-ui);
+  --ifm-font-family-monospace: var(--font-mono);
   --ifm-background-color: var(--bg);
   --ifm-background-surface-color: var(--panel);
   --ifm-navbar-background-color: var(--panel);
@@ -43,11 +139,11 @@
   --ifm-h4-font-size: 0.9rem;
   --ifm-navbar-link-font-size: 0.81rem;
   --ifm-navbar-search-input-font-size: 0.81rem;
-  --ifm-color-primary: #6faa23;
-  --ifm-color-primary-dark: #5b8f1d;
-  --ifm-color-primary-darker: #527f1a;
-  --ifm-color-primary-light: #79bf2a;
-  --ifm-color-primary-lighter: #86cb32;
+  --ifm-color-primary: #604bd4;
+  --ifm-color-primary-dark: #513dc1;
+  --ifm-color-primary-darker: #4936b5;
+  --ifm-color-primary-light: #745fe0;
+  --ifm-color-primary-lighter: #846fe6;
   --ifm-font-color-base: var(--text);
   --ifm-color-content-secondary: var(--muted);
   --ifm-color-emphasis-100: rgba(15, 18, 22, 0.04);
@@ -81,22 +177,23 @@
   --border: rgba(255, 255, 255, 0.12);
   --text: #e6e8eb;
   --muted: #a9adb5;
-  --accent: #8cc736;
+  --accent: #9a82ff;
+  --accent-alt: #50a8ff;
   --accent-warm: #f49900;
   --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
-  --primary: #8cc736;
-  --primaryT: rgba(140, 199, 54, 0.45);
+  --primary: #9a82ff;
+  --primaryT: rgba(154, 130, 255, 0.42);
 
   --ifm-background-color: var(--bg);
   --ifm-background-surface-color: var(--panel);
   --ifm-navbar-background-color: var(--panel);
   --ifm-footer-background-color: var(--panel);
   --ifm-card-background-color: var(--panel);
-  --ifm-color-primary: #8cc736;
-  --ifm-color-primary-dark: #7bb82f;
-  --ifm-color-primary-darker: #6fa52a;
-  --ifm-color-primary-light: #98d44f;
-  --ifm-color-primary-lighter: #a3da62;
+  --ifm-color-primary: #9a82ff;
+  --ifm-color-primary-dark: #866aef;
+  --ifm-color-primary-darker: #795de8;
+  --ifm-color-primary-light: #ad98ff;
+  --ifm-color-primary-lighter: #b9a6ff;
   --ifm-font-color-base: var(--text);
   --ifm-color-content-secondary: var(--muted);
   --ifm-color-emphasis-100: rgba(255, 255, 255, 0.04);
@@ -123,6 +220,9 @@
 body {
   background: transparent;
   color: var(--text);
+  font-weight: var(--weight-body);
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
 }
 
 body::before {
@@ -131,8 +231,9 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: radial-gradient(circle at top, rgba(140, 199, 54, 0.14), transparent 45%),
-    radial-gradient(circle at 20% 20%, rgba(244, 153, 0, 0.12), transparent 45%),
+  background: radial-gradient(circle at top, rgba(154, 130, 255, 0.12), transparent 45%),
+    radial-gradient(circle at 20% 20%, rgba(80, 168, 255, 0.075), transparent 42%),
+    radial-gradient(circle at 82% 36%, rgba(244, 153, 0, 0.045), transparent 28%),
     linear-gradient(180deg, var(--bg), var(--bg-deep));
 }
 
@@ -255,5 +356,301 @@ a {
     z-index: 2200;
     height: 100%;
     max-height: none;
+  }
+}
+
+/* Calm editorial finish for the current Docusaurus surface. */
+html {
+  font-synthesis: none;
+  scroll-behavior: smooth;
+}
+
+.navbar__title,
+.theme-doc-markdown > h1:first-child,
+.theme-doc-markdown header h1,
+.theme-doc-markdown.markdown > h1:first-child {
+  font-family: var(--font-display);
+  font-weight: var(--weight-display-semibold);
+  font-variation-settings: "wdth" 96;
+  letter-spacing: -0.015em;
+}
+
+.theme-doc-markdown h1,
+.theme-doc-markdown > h1,
+.theme-doc-markdown header h1,
+.theme-doc-markdown.markdown h1,
+.markdown:not(.theme-blog-markdown) h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.08;
+}
+
+.theme-doc-markdown h2,
+.theme-doc-markdown.markdown h2,
+.markdown:not(.theme-blog-markdown) h2 {
+  margin-top: 2.4rem;
+  font-family: var(--font-ui);
+  font-size: clamp(1.45rem, 2.1vw, 1.85rem);
+  font-weight: var(--weight-ui-semibold);
+  letter-spacing: -0.012em;
+}
+
+.theme-doc-markdown h3,
+.theme-doc-markdown.markdown h3,
+.markdown:not(.theme-blog-markdown) h3 {
+  margin-top: 1.8rem;
+  font-family: var(--font-ui);
+  font-size: 1.2rem;
+  font-weight: var(--weight-ui-semibold);
+  letter-spacing: -0.006em;
+}
+
+.theme-doc-markdown h4,
+.theme-doc-markdown.markdown h4,
+.markdown:not(.theme-blog-markdown) h4 {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  font-weight: var(--weight-ui-semibold);
+}
+
+.theme-doc-markdown p,
+.theme-doc-markdown li {
+  line-height: 1.72;
+}
+
+code,
+pre,
+kbd,
+samp,
+.theme-code-block,
+.prism-code,
+.token {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+code {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.12em 0.32em;
+  font-size: 0.88em;
+  font-weight: var(--weight-mono-medium);
+}
+
+pre code {
+  border: 0;
+  padding: 0;
+  font-weight: var(--weight-mono-regular);
+}
+
+.theme-code-block,
+pre {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  background: color-mix(in srgb, var(--panel-strong) 90%, transparent);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.15);
+}
+
+.navbar__title {
+  font-size: 0.98rem;
+}
+
+.navbar__link,
+.menu__link,
+.table-of-contents__link,
+.breadcrumbs__link,
+.pagination-nav__link,
+.tabs__item {
+  font-family: var(--font-ui);
+  font-weight: var(--weight-ui-medium);
+}
+
+.navbar__link {
+  letter-spacing: 0.025em;
+}
+
+.theme-doc-sidebar-container {
+  border-right-color: var(--border);
+  background: color-mix(in srgb, var(--panel) 82%, transparent);
+}
+
+.menu__link {
+  border-radius: 8px;
+  line-height: 1.35;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  box-shadow: inset 2px 0 0 var(--accent);
+}
+
+.table-of-contents {
+  border-left-color: var(--border);
+}
+
+.table-of-contents__link {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link,
+.breadcrumbs__link:hover,
+.table-of-contents__link--active {
+  color: var(--text);
+}
+
+.breadcrumbs__link {
+  border-radius: 7px;
+  font-size: 0.78rem;
+}
+
+.pagination-nav__link {
+  border-color: var(--border);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--panel) 88%, transparent);
+  transition: border-color 150ms ease, transform 150ms ease, background-color 150ms ease;
+}
+
+.pagination-nav__link:hover,
+.pagination-nav__link:focus-visible {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+  background: color-mix(in srgb, var(--accent) 7%, var(--panel));
+  transform: translateY(-1px);
+}
+
+.tabs {
+  border-bottom: 1px solid var(--border);
+  gap: 0.25rem;
+}
+
+.tabs__item {
+  border-radius: 8px 8px 0 0;
+  letter-spacing: 0.02em;
+}
+
+.tabs__item--active {
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
+}
+
+.theme-admonition,
+.alert {
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--panel) 90%, transparent);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+}
+
+.theme-admonition-heading,
+.alert__heading {
+  font-family: var(--font-ui);
+  font-weight: var(--weight-ui-semibold);
+  letter-spacing: 0.01em;
+}
+
+.theme-doc-markdown table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  font-variant-numeric: tabular-nums;
+}
+
+.theme-doc-markdown thead {
+  background: color-mix(in srgb, var(--accent) 8%, var(--panel-strong));
+}
+
+.theme-doc-markdown th {
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: var(--weight-mono-semibold);
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.theme-doc-markdown th,
+.theme-doc-markdown td {
+  border-color: var(--border);
+  padding: 0.72rem 0.8rem;
+  vertical-align: top;
+}
+
+.theme-doc-markdown tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--panel) 72%, transparent);
+}
+
+.navbar__search-input,
+.DocSearch-Button,
+.aa-DetachedSearchButton {
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background-color: color-mix(in srgb, var(--panel-strong) 90%, transparent);
+  font-family: var(--font-ui);
+}
+
+.footer {
+  background: color-mix(in srgb, var(--bg-deep) 96%, #000);
+  font-family: var(--font-ui);
+}
+
+:is(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent-alt);
+  outline-offset: 3px;
+}
+
+* {
+  scrollbar-color: color-mix(in srgb, var(--muted) 48%, transparent) transparent;
+  scrollbar-width: thin;
+}
+
+@media (max-width: 996px) {
+  .theme-doc-markdown > h1:first-child,
+  .theme-doc-markdown header h1 {
+    font-variation-settings: "wdth" 92;
+  }
+
+  .theme-doc-markdown table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+}
+
+@media (max-width: 576px) {
+  .theme-doc-markdown h1,
+  .theme-doc-markdown > h1,
+  .theme-doc-markdown header h1,
+  .theme-doc-markdown.markdown h1,
+  .markdown:not(.theme-blog-markdown) h1 {
+    font-size: clamp(1.75rem, 8vw, 2.3rem);
+  }
+
+  .theme-doc-markdown h2,
+  .theme-doc-markdown.markdown h2,
+  .markdown:not(.theme-blog-markdown) h2 {
+    font-size: 1.35rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

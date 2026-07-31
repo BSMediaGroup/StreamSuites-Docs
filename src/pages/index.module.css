@@ -1,6 +1,6 @@
 .page {
   position: relative;
-  max-width: 1120px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 56px 24px 88px;
   z-index: 1;
@@ -11,8 +11,8 @@
   inset: 0;
   background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
-  background-size: 42px 42px;
-  opacity: 0.16;
+  background-size: 56px 56px;
+  opacity: 0.11;
   pointer-events: none;
   z-index: -1;
 }
@@ -34,7 +34,7 @@
   background: var(--panel);
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(12px);
 }
 
 .quicklinksInner {
@@ -52,16 +52,21 @@
   color: var(--muted);
   text-decoration: none;
   font-size: 0.92rem;
-  letter-spacing: 0.02em;
+  font-family: var(--font-ui);
+  font-weight: var(--weight-ui-medium);
+  letter-spacing: 0.025em;
   transition: color 0.2s ease, opacity 0.2s ease;
   white-space: nowrap;
 }
 
-.quicklinkIcon {
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-  opacity: 0.85;
+.quicklink::before {
+  width: 6px;
+  height: 6px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--accent-alt);
+  box-shadow: 0 0 14px color-mix(in srgb, var(--accent-alt) 48%, transparent);
+  content: "";
 }
 
 .quicklink:hover,
@@ -76,7 +81,7 @@
   background: var(--panel);
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(12px);
   position: relative;
   overflow: hidden;
 }
@@ -85,25 +90,30 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at top right, rgba(140, 199, 54, 0.16), transparent 55%),
-    radial-gradient(circle at 20% 10%, rgba(244, 153, 0, 0.12), transparent 50%);
+  background: radial-gradient(circle at top right, rgba(154, 130, 255, 0.15), transparent 55%),
+    radial-gradient(circle at 20% 10%, rgba(80, 168, 255, 0.08), transparent 50%);
   opacity: 0.7;
   pointer-events: none;
 }
 
 .eyebrow {
   text-transform: uppercase;
-  letter-spacing: 0.32em;
+  font-family: var(--font-mono);
+  font-weight: var(--weight-mono-medium);
+  letter-spacing: 0.1em;
   font-size: 0.72rem;
   color: var(--muted);
   margin-bottom: 12px;
 }
 
 .title {
-  font-family: var(--ifm-heading-font-family);
-  font-size: clamp(1.9rem, 3.35vw, 2.9rem);
+  max-width: 18ch;
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 4.5vw, 4rem);
+  font-weight: var(--weight-display-semibold);
+  font-variation-settings: "wdth" 96;
   line-height: 1.05;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.02em;
   margin-bottom: 16px;
   position: relative;
   z-index: 1;
@@ -147,7 +157,9 @@
   border: 1px solid var(--border);
   color: var(--muted);
   font-size: 0.78rem;
-  letter-spacing: 0.04em;
+  font-family: var(--font-mono);
+  font-weight: var(--weight-mono-medium);
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -164,7 +176,7 @@
   background: var(--panel);
   border: 1px solid var(--border);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(10px);
   display: grid;
   gap: 14px;
   color: inherit;
@@ -179,7 +191,7 @@
   inset: 0;
   border-radius: inherit;
   border: 1px solid transparent;
-  background: linear-gradient(135deg, rgba(140, 199, 54, 0.2), rgba(244, 153, 0, 0.1)) border-box;
+  background: linear-gradient(135deg, rgba(154, 130, 255, 0.24), rgba(80, 168, 255, 0.1)) border-box;
   mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
   pointer-events: none;
@@ -190,7 +202,7 @@
 .card:hover,
 .card:focus-visible {
   transform: translateY(-4px);
-  border-color: rgba(140, 199, 54, 0.55);
+  border-color: color-mix(in srgb, var(--accent) 58%, var(--border));
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.38);
 }
 
@@ -207,16 +219,18 @@
 }
 
 .cardHeader h2 {
-  font-family: var(--ifm-heading-font-family);
+  font-family: var(--font-ui);
   font-size: 1.19rem;
-  letter-spacing: 0.03em;
+  font-weight: var(--weight-ui-semibold);
+  letter-spacing: -0.008em;
   margin: 0;
 }
 
 .cardIndex {
-  font-family: var(--ifm-heading-font-family);
+  font-family: var(--font-mono);
+  font-weight: var(--weight-mono-semibold);
   font-size: 0.85rem;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.08em;
   color: var(--accent-warm);
   text-transform: uppercase;
 }
@@ -228,8 +242,10 @@
 }
 
 .cardLink {
+  font-family: var(--font-mono);
   font-size: 0.8rem;
-  letter-spacing: 0.22em;
+  font-weight: var(--weight-mono-medium);
+  letter-spacing: 0.055em;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -307,6 +323,7 @@
 @media (max-width: 600px) {
   .title {
     font-size: clamp(1.6rem, 6.4vw, 2.1rem);
+    font-variation-settings: "wdth" 92;
   }
 
   .heroCard {

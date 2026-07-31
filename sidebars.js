@@ -4,6 +4,11 @@ module.exports = {
     'index',
     {
       type: 'category',
+      label: 'Product family',
+      items: ['product-family', 'architecture/product-boundaries'],
+    },
+    {
+      type: 'category',
       label: 'Changelog',
       items: ['changelog/index', 'changelog/v0-5-4-alpha', 'changelog/v0-5-0-alpha', 'changelog/v0-4-2-alpha', 'changelog/v0-4-0-alpha', 'changelog/v0.3'],
     },
@@ -37,9 +42,13 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Runtime',
+      label: 'Runtime / Auth',
       items: [
-        'reference/runtime-overview',
+        'runtime/runtime-overview',
+        'runtime/api-authentication',
+        'runtime/api-keys',
+        'runtime/automation-states',
+        'runtime/exports-and-versioning',
       ],
     },
     {

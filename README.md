@@ -26,6 +26,7 @@ Documentation site source for StreamSuites user guides, references, and support 
 ## Studio-first documentation system
 
 - `src/css/custom.css` owns the calm editorial shell, navigation, sidebars, search, breadcrumbs, tables, code blocks, admonitions, tabs, pagination, focus, mobile containment, and reduced-motion treatment. `src/pages/index.jsx` and `src/pages/index.module.css` provide the product-family landing page.
+- `static/assets/logos/docsnew.webp` is the shared Docs navbar and landing-hero mark. The existing `favicon.ico` remains the site favicon and is intentionally independent.
 - Tektur is selective display typography, Geist Sans is the documentation and UI face, and IBM Plex Mono is used for code, commands, API paths, schema/version values, and technical metadata. Deployment-safe files live in `static/assets/fonts/`: `Tektur-VariableFont_wdth,wght.ttf`, `Geist-{Light,Regular,Medium,SemiBold,Bold,ExtraBold}.ttf`, and `mono/IBMPlexMono-{Light,Regular,Medium,SemiBold,Bold}.ttf`.
 - All copied font hashes match the approved read-only Public source. Genuine licenses are stored at `static/assets/fonts/GEISTMONOOFL.txt` and `static/assets/fonts/mono/IBMPLEXMONOOFL.txt`; the missing genuine Tektur license file remains a publication blocker.
 - `docs/product-family.md` and `docs/architecture/product-boundaries.md` document current Alpha roles, Runtime/Auth authority, and the separate Browser Studio, StudioApp, and OBS media paths without promoting planned work to shipped behavior. Existing slugs, anchors, Docusaurus versioning, local search, and Cloudflare/GitHub Pages paths remain intact.
@@ -64,6 +65,8 @@ StreamSuites-Docs/
       GEISTMONOOFL.txt
       mono/IBMPlexMono-{Light,Regular,Medium,SemiBold,Bold}.ttf
       mono/IBMPLEXMONOOFL.txt
+    assets/logos/
+      docsnew.webp
   support/
   versioned_docs/
   versioned_sidebars/

@@ -65,8 +65,8 @@ module.exports = {
       title: 'StreamSuites™',
       logo: {
         alt: 'StreamSuites',
-        src: 'assets/logos/logoshield-whitex.webp',
-        srcDark: 'assets/logos/logoshield-whitex.webp',
+        src: 'assets/logos/docsnew.webp',
+        srcDark: 'assets/logos/docsnew.webp',
       },
       items: [
         {

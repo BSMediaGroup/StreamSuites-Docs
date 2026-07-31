@@ -67,7 +67,7 @@ const quicklinks = [
 ];
 
 export default function Home() {
-  const logoSrc = useBaseUrl('assets/logos/logoshield-whitex.webp');
+  const logoSrc = useBaseUrl('assets/logos/docsnew.webp');
 
   return (
     <Layout

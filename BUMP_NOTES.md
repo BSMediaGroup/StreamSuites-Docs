@@ -6,6 +6,18 @@ Packaged / released and no longer the active pending bucket. Preserve new notes 
 
 ## CURRENT VER= 0.5.4-alpha / PENDING VER= 0.5.5-alpha
 
+### 2026-08-01 - Docs shell and hero logo
+
+#### Technical notes
+
+- Replaced the Docusaurus navbar logo for both light and dark modes with the supplied `/assets/logos/docsnew.webp` mark, updating the shared header across all generated Docs pages.
+- Replaced the landing hero title icon with the same Docs mark while leaving `favicon.ico` and favicon configuration unchanged.
+- Added the supplied binary to the Docusaurus `static/assets/logos/` publish root so the production build emits the requested URL. No documentation routes, content, search behavior, theme palette, or authority guidance changed, and no files were removed.
+
+#### Human-readable summary
+
+The Docs header and landing hero now use the requested new silver StreamSuites logo, while the existing browser-tab favicon stays exactly as it was.
+
 ### 2026-07-31 - Studio-first documentation system
 
 #### Technical notes

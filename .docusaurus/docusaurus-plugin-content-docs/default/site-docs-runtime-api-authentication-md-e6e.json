@@ -13,5 +13,14 @@
   "frontMatter": {
     "title": "Runtime API authentication",
     "sidebar_label": "API authentication"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Runtime overview",
+    "permalink": "/docs/runtime/runtime-overview"
+  },
+  "next": {
+    "title": "API keys",
+    "permalink": "/docs/runtime/api-keys"
   }
 }

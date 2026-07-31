@@ -16,8 +16,8 @@
   },
   "sidebar": "docs",
   "previous": {
-    "title": "Runtime overview",
-    "permalink": "/docs/reference/runtime-overview"
+    "title": "Exports and versioning",
+    "permalink": "/docs/runtime/exports-and-versioning"
   },
   "next": {
     "title": "Rumble",

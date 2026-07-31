@@ -1,0 +1,27 @@
+{
+  "id": "product-family",
+  "title": "StreamSuites product family",
+  "description": "Current roles, media ownership, and Alpha posture across StreamSuites production products and connected surfaces.",
+  "source": "@site/docs/product-family.md",
+  "sourceDirName": ".",
+  "slug": "/product-family",
+  "permalink": "/docs/product-family",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "StreamSuites product family",
+    "description": "Current roles, media ownership, and Alpha posture across StreamSuites production products and connected surfaces.",
+    "slug": "/product-family"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "StreamSuites™ Documentation",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Authority and media boundaries",
+    "permalink": "/docs/architecture/product-boundaries"
+  }
+}

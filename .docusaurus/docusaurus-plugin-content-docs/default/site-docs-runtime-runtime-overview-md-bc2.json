@@ -13,5 +13,14 @@
   "frontMatter": {
     "title": "Runtime overview",
     "sidebar_label": "Runtime overview"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Advanced CSS",
+    "permalink": "/docs/find-me-here/advanced-css"
+  },
+  "next": {
+    "title": "API authentication",
+    "permalink": "/docs/runtime/api-authentication"
   }
 }

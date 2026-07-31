@@ -22,6 +22,7 @@ export default {
   "62dc4c53": [() => import(/* webpackChunkName: "62dc4c53" */ "@site/docs/changelog/v0-5-0-alpha.md"), "@site/docs/changelog/v0-5-0-alpha.md", require.resolveWeak("@site/docs/changelog/v0-5-0-alpha.md")],
   "67992901": [() => import(/* webpackChunkName: "67992901" */ "@site/docs/support/faq.md"), "@site/docs/support/faq.md", require.resolveWeak("@site/docs/support/faq.md")],
   "67eeb009": [() => import(/* webpackChunkName: "67eeb009" */ "@site/docs/changelog/v0.3.md"), "@site/docs/changelog/v0.3.md", require.resolveWeak("@site/docs/changelog/v0.3.md")],
+  "69949d91": [() => import(/* webpackChunkName: "69949d91" */ "@site/docs/product-family.md"), "@site/docs/product-family.md", require.resolveWeak("@site/docs/product-family.md")],
   "6dbb1403": [() => import(/* webpackChunkName: "6dbb1403" */ "@site/docs/creator-guide/clips-scoreboards.md"), "@site/docs/creator-guide/clips-scoreboards.md", require.resolveWeak("@site/docs/creator-guide/clips-scoreboards.md")],
   "7a094ce2": [() => import(/* webpackChunkName: "7a094ce2" */ "@site/docs/legal/license.md"), "@site/docs/legal/license.md", require.resolveWeak("@site/docs/legal/license.md")],
   "7fda2918": [() => import(/* webpackChunkName: "7fda2918" */ "@site/docs/changelog/index.md"), "@site/docs/changelog/index.md", require.resolveWeak("@site/docs/changelog/index.md")],
@@ -42,6 +43,7 @@ export default {
   "d6ddaf29": [() => import(/* webpackChunkName: "d6ddaf29" */ "@site/docs/reference/runtime-overview.md"), "@site/docs/reference/runtime-overview.md", require.resolveWeak("@site/docs/reference/runtime-overview.md")],
   "dd0d6871": [() => import(/* webpackChunkName: "dd0d6871" */ "@site/docs/guides/creator-workspace.md"), "@site/docs/guides/creator-workspace.md", require.resolveWeak("@site/docs/guides/creator-workspace.md")],
   "e02bedbf": [() => import(/* webpackChunkName: "e02bedbf" */ "@site/docs/creator-guide/creator-dashboard.md"), "@site/docs/creator-guide/creator-dashboard.md", require.resolveWeak("@site/docs/creator-guide/creator-dashboard.md")],
+  "e5b5c1c3": [() => import(/* webpackChunkName: "e5b5c1c3" */ "@site/docs/architecture/product-boundaries.md"), "@site/docs/architecture/product-boundaries.md", require.resolveWeak("@site/docs/architecture/product-boundaries.md")],
   "e6eb1d2c": [() => import(/* webpackChunkName: "e6eb1d2c" */ "@site/docs/runtime/api-authentication.md"), "@site/docs/runtime/api-authentication.md", require.resolveWeak("@site/docs/runtime/api-authentication.md")],
   "f3ba8611": [() => import(/* webpackChunkName: "f3ba8611" */ "@site/docs/legal/eula.md"), "@site/docs/legal/eula.md", require.resolveWeak("@site/docs/legal/eula.md")],
   "f83a4939": [() => import(/* webpackChunkName: "f83a4939" */ "@site/docs/getting-started/account-types.md"), "@site/docs/getting-started/account-types.md", require.resolveWeak("@site/docs/getting-started/account-types.md")],};

@@ -13,5 +13,14 @@
   "frontMatter": {
     "title": "Runtime automation states",
     "sidebar_label": "Automation states"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "API keys",
+    "permalink": "/docs/runtime/api-keys"
+  },
+  "next": {
+    "title": "Exports and versioning",
+    "permalink": "/docs/runtime/exports-and-versioning"
   }
 }

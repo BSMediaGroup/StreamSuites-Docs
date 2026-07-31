@@ -1,7 +1,7 @@
 {
   "id": "index",
   "title": "StreamSuites™ Documentation",
-  "description": "Documentation hub",
+  "description": "Studio-first documentation hub",
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",
@@ -16,7 +16,7 @@
   },
   "sidebar": "docs",
   "next": {
-    "title": "Changelog",
-    "permalink": "/docs/changelog"
+    "title": "StreamSuites product family",
+    "permalink": "/docs/product-family"
   }
 }

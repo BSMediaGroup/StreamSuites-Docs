@@ -9,19 +9,25 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '63e'),
+    component: ComponentCreator('/docs', '5bc'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b58'),
+        component: ComponentCreator('/docs', 'd7d'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'e8c'),
+            component: ComponentCreator('/docs', '7a0'),
             routes: [
               {
                 path: '/docs',
                 component: ComponentCreator('/docs', 'd78'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
+                path: '/docs/architecture/product-boundaries',
+                component: ComponentCreator('/docs/architecture/product-boundaries', 'c5f'),
                 exact: true,
                 sidebar: "docs"
               },
@@ -174,6 +180,12 @@ export default [
                 sidebar: "docs"
               },
               {
+                path: '/docs/product-family',
+                component: ComponentCreator('/docs/product-family', '67c'),
+                exact: true,
+                sidebar: "docs"
+              },
+              {
                 path: '/docs/reference/runtime-overview',
                 component: ComponentCreator('/docs/reference/runtime-overview', '05f'),
                 exact: true,
@@ -181,28 +193,33 @@ export default [
               },
               {
                 path: '/docs/runtime/api-authentication',
-                component: ComponentCreator('/docs/runtime/api-authentication', '04d'),
-                exact: true
+                component: ComponentCreator('/docs/runtime/api-authentication', 'c75'),
+                exact: true,
+                sidebar: "docs"
               },
               {
                 path: '/docs/runtime/api-keys',
-                component: ComponentCreator('/docs/runtime/api-keys', '479'),
-                exact: true
+                component: ComponentCreator('/docs/runtime/api-keys', '7c6'),
+                exact: true,
+                sidebar: "docs"
               },
               {
                 path: '/docs/runtime/automation-states',
-                component: ComponentCreator('/docs/runtime/automation-states', '2ee'),
-                exact: true
+                component: ComponentCreator('/docs/runtime/automation-states', 'bcc'),
+                exact: true,
+                sidebar: "docs"
               },
               {
                 path: '/docs/runtime/exports-and-versioning',
-                component: ComponentCreator('/docs/runtime/exports-and-versioning', 'f68'),
-                exact: true
+                component: ComponentCreator('/docs/runtime/exports-and-versioning', '782'),
+                exact: true,
+                sidebar: "docs"
               },
               {
                 path: '/docs/runtime/runtime-overview',
-                component: ComponentCreator('/docs/runtime/runtime-overview', '1b5'),
-                exact: true
+                component: ComponentCreator('/docs/runtime/runtime-overview', '4d9'),
+                exact: true,
+                sidebar: "docs"
               },
               {
                 path: '/docs/support/faq',

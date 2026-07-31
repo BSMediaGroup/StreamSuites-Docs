@@ -13,5 +13,14 @@
   "frontMatter": {
     "title": "Runtime exports and versioning",
     "sidebar_label": "Exports and versioning"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Automation states",
+    "permalink": "/docs/runtime/automation-states"
+  },
+  "next": {
+    "title": "YouTube",
+    "permalink": "/docs/integrations/youtube"
   }
 }

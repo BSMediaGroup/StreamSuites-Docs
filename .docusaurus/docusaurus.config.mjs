@@ -5,7 +5,7 @@
  */
 export default {
   "title": "StreamSuites™",
-  "tagline": "Documentation hub for StreamSuites.",
+  "tagline": "Current documentation for the StreamSuites Studio product family and Runtime/Auth authority.",
   "url": "https://docs.streamsuites.app",
   "baseUrl": "/",
   "onBrokenLinks": "warn",
@@ -89,10 +89,16 @@ export default {
       "title": "StreamSuites™",
       "logo": {
         "alt": "StreamSuites",
-        "src": "assets/logos/logoshield-whitex.webp",
-        "srcDark": "assets/logos/logoshield-whitex.webp"
+        "src": "assets/logos/docsnew.webp",
+        "srcDark": "assets/logos/docsnew.webp"
       },
       "items": [
+        {
+          "type": "doc",
+          "docId": "product-family",
+          "label": "Products",
+          "position": "left"
+        },
         {
           "type": "doc",
           "docId": "getting-started/installation",
@@ -107,8 +113,8 @@ export default {
         },
         {
           "type": "doc",
-          "docId": "reference/runtime-overview",
-          "label": "Runtime",
+          "docId": "runtime/runtime-overview",
+          "label": "Runtime / Auth",
           "position": "left"
         },
         {
@@ -143,7 +149,42 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [],
+      "links": [
+        {
+          "title": "Production products",
+          "items": [
+            {
+              "label": "Browser Studio",
+              "href": "https://studio.streamsuites.app"
+            },
+            {
+              "label": "StudioApp",
+              "href": "https://streamsuites.app/downloads/studioapp/"
+            },
+            {
+              "label": "Studio for OBS",
+              "href": "https://streamsuites.app/downloads/obs-plugin/"
+            }
+          ]
+        },
+        {
+          "title": "Documentation",
+          "items": [
+            {
+              "label": "Product family",
+              "to": "/docs/product-family"
+            },
+            {
+              "label": "Authority boundaries",
+              "to": "/docs/architecture/product-boundaries"
+            },
+            {
+              "label": "Support",
+              "to": "/docs/support/faq"
+            }
+          ]
+        }
+      ],
       "copyright": "StreamSuites™ Documentation Hub"
     },
     "blog": {
@@ -300,12 +341,19 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "storage": {
+    "type": "localStorage",
+    "namespace": false
+  },
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": false,
-      "useCssCascadeLayers": false
+      "useCssCascadeLayers": false,
+      "siteStorageNamespacing": false,
+      "fasterByDefault": false,
+      "mdx1CompatDisabledByDefault": false
     },
-    "experimental_faster": {
+    "faster": {
       "swcJsLoader": false,
       "swcJsMinimizer": false,
       "swcHtmlMinimizer": false,
@@ -313,12 +361,10 @@ export default {
       "mdxCrossCompilerCache": false,
       "rspackBundler": false,
       "rspackPersistentCache": false,
-      "ssgWorkerThreads": false
+      "ssgWorkerThreads": false,
+      "gitEagerVcs": false
     },
-    "experimental_storage": {
-      "type": "localStorage",
-      "namespace": false
-    },
+    "experimental_vcs": {},
     "experimental_router": "browser"
   },
   "onBrokenAnchors": "warn",
